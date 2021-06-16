@@ -1,0 +1,72 @@
+```ad-example
+title: TODO List
+任务列表, 列出已解决、未解决的事情.
+```
+
+- [x] #htext/orange  ==重新设计排版与配色==
+	- [x] 先学习配色原理与版式排版后再来做此事
+- [ ] 解决双向链接hover时不直接显示预览的问题
+- [x] 调整默认高亮样式，tags样式
+- [x] 改变左侧文件管理器 文件夹 选中颜色
+- [x] 编辑模式下的样式与预览模式下样式保持一致
+- [x] 行间距为字号的1.5-2倍，段落间距为字号的1.5-2倍。文字左右对齐，末行左对齐，字间距0，标点符号避头围。标题颜色为rgba(0,0,0,1) 正文内容为rgba(0,0,0,.85)
+	- [x] white-space 属性设置如何处理元素内的空白, pre-wrap保留空白符序列，但是正常地进行换行。
+	- [x] word-break 属性规定自动换行的处理方法。break-all	允许在单词内换行。
+	- [x] word-spacing 属性增加或减少单词间的空白（即字间隔）。
+	- [x] word-wrap 属性允许长单词或 URL 地址换行到下一行。
+	- [x] p{ text-indent:2em; }  段落首行缩进
+	- [x] line-height:1.5em; 行高
+	- [x] -参考notion Craft   iA Writer
+	- [x] 图谱hover时添加飞书一样的动画效果
+	- [x] 设置文字间隔或者字母间隔就可以使用 letter-spacing，这个样式使用在英文单词时，是设置字母与字母之间的间距。
+	- [x] 英文单词之间的间距 word-spacing
+	- [x] 中文字间距(letter-spacing)、字母间距(word-spacing)
+	- [x] 标题与首段正文间距用p margin-top 设置，段落间距也用p margin-bottom设置，图片添加上下margin，
+- [ ] 构建笔记系统 [[构建笔记系统]]
+- [x] 图片并列显示
+	- [x] [[更改obsidian图片布局]]
+- [x] 将obsidian修改成 “飞书” 
+	- [x] [[自定义主题 ]]
+- [x] a链接后面的icon太丑
+- [x] 编辑模式下文字排版调整
+- [x] 确定自己的写作风格，封装笔记模板
+	- [x] 可参考 飞书模板
+- [x] 大纲不添加emoji时会将首字母后添加空格，且右侧大纲列表层级不明显
+- [x] 大纲不添加emoji时会将首字母后添加空格，会导致双向链接预览时显示空内容
+- [ ] 设置obsidian快捷键，如 高亮 等
+- [x] 正文字体用阿里巴巴普惠体 harmony os sans
+- [ ] 自动fetch 网页url 标题
+	- [ ] [ability-for-links-to-be-pasted-with-pages-title](https://forum.obsidian.md/t/ability-for-links-to-be-pasted-with-pages-title/1543/9)
+- [ ] 将多个css snippets 通过gulp这样的工具合并为一个css文件
+- [ ] 完善github 项目 readme文档，添加如何使用高亮块的说明
+- [x] list 列表同级 li 之间添加竖线链接
+	- [x] [obsidian-indent-lines](https://github.com/Arch-Storm/obsidian-indent-lines)
+	- [x] [todolist](https://github.com/delashum/obsidian-checklist-plugin)
+- [x] a链接中两个单词之间的字距太大了，出现了多余的空格
+- [ ] tag样式与颜色设计
+- [x] h1-h(n)的标题改变字体与颜色
+- [x] 更改line hight
+- [x] 修改引用的背景色
+- [x]  修改 li 圆点颜色,同级 li 添加竖线链接
+- [x]  图谱改变颜色
+- [x]  todolist 任务完成时颜色改变为 绿色.
+- [x] 区分图片链接且在其前面添加图片icon
+- [ ]  a链接
+	- [ ]  a链接缩短文字,  https://forum.obsidian.md/t/hide-or-truncate-urls-in-editor-using-css/359   | https://forum.obsidian.md/t/external-link-hover-view-url/2876/5
+	- [x]  hover时出现tooltips,可修改链接名 ,  https://github.com/Vinzent03/obsidian-advanced-uri | https://github.com/kepano/obsidian-advanced-appearance #htext/orange  ==通过浏览器插件实现而非obsidian==
+- [x]  输入标题自动修改文件名
+	- [x]  [use-the-first-line-of-each-file-as-its-filename](https://forum.obsidian.md/t/use-the-first-line-of-each-file-as-its-filename/1161) 
+- [x]  文字高亮不要背景色
+- [x]  根据不同文件夹名称添加不同的icon
+- [x] emoji表情和文字间隔
+	- [x] 右侧大纲emoji与文字间隔问题已解决
+	- [x] 标题与emoji之间的文字间隔问题已解决.
+- [x] 标题添加emoji表情
+- [x] 添加高亮块功能
+- [x] 点击大纲时的颜色
+- [x] 在h1~h6标题前面添加小字号的颜色为`#dddddd`的h1~h6字样.
+	- [x] 已添加h2,剩余的还没添加;
+	- [x] 考虑是否将其添加到标题末尾，待尝试后再做结论
+- [x] 浏览器中复制的url粘贴到obsidian自动转换为markdown格式
+	- [x] 推荐使用浏览器插件做这些事而不是obsidian来处理url转为markdown，浏览器插件名： Copy as Markdown、Copy Selection as Markdown
+

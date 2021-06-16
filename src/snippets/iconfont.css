@@ -1,0 +1,48 @@
+/* 需安装 iconfont.ttf */
+/* 根据不同文件夹名称添加icon */
+.nav-folder.mod-root>.nav-folder-children>.nav-folder>.nav-folder-title[data-path^="images"] .nav-folder-title-content::before {
+  content: "\e6ef";
+  font-family: "iconfont";
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.nav-folder.mod-root>.nav-folder-children>.nav-folder>.nav-folder-title[data-path^="archive"] .nav-folder-title-content::before {
+  content: "\e6e8";
+  font-family: "iconfont";
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.nav-folder.mod-root>.nav-folder-children>.nav-folder>.nav-folder-title[data-path^="moc-index"] .nav-folder-title-content::before {
+  content: "\e6e7";
+  font-family: "iconfont";
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.nav-folder.mod-root>.nav-folder-children>.nav-folder>.nav-folder-title[data-path^="inbox"] .nav-folder-title-content::before {
+  content: "\e6f3";
+  font-family: "iconfont";
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.nav-folder.mod-root>.nav-folder-children>.nav-folder>.nav-folder-title[data-path^="private"] .nav-folder-title-content::before {
+  content: "\e6f6";
+  font-family: "iconfont";
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+/* 设置默认新建的文件夹和文档的icon */
+.nav-folder-children .nav-file-title-content:first-child::before {
+content: "\e6e3";
+font-family: "iconfont";
+margin-right: 5px;
+vertical-align: middle;
+}
+.nav-folder-children .nav-folder-title-content::before {
+content: "\e6ee";
+font-family: "iconfont";
+margin-right: 5px;
+vertical-align: middle;
+}
+
+

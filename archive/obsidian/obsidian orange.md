@@ -1,0 +1,1 @@
+因为我最爱的水果就是 #htext/orange ==橙子==，所以就将主题命名为： #htext/orange ==Obsidian Orange==。
