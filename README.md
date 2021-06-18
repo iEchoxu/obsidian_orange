@@ -3,7 +3,7 @@
 - [obsidian-admonition](https://github.com/valentine195/obsidian-admonition)
 ## How To Use ?
 - download obsidian_orange
-- install iconfont.ttf £¬then restart your computer
+- install iconfont.ttf  then restart your computer
 ## Screenshots
 ![obsidian_orange_newhome](https://github.com/iEchoxu/obsidian_orange/blob/main/screenshots/obsidian-home.png)
 
