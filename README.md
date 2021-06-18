@@ -11,6 +11,4 @@
 
 ![obsidian_orange_obsidian-Release_Notes](https://github.com/iEchoxu/obsidian_orange/blob/main/screenshots/obsidian-Release_Notes.png)
 
-![obsidian_orange_home](https://github.com/iEchoxu/obsidian_orange/blob/main/screenshots/obsidian_orange_home.png)
-
-![obsidian_orange_startHere](https://github.com/iEchoxu/obsidian_orange/blob/main/screenshots/obsidian_orange_startHere.png)
+![inbox](https://github.com/iEchoxu/obsidian_orange/blob/main/screenshots/inbox.png)
