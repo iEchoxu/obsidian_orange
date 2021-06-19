@@ -1,4 +1,5 @@
-# obsidian_orange, minimal and beautiful theme for Obsidian
+# obsidian_orange
+- minimal and beautiful theme for Obsidian
 ## Recommended plugins
 - [obsidian-admonition](https://github.com/valentine195/obsidian-admonition)
 - [obsidian-auto-link-title](https://github.com/zolrath/obsidian-auto-link-title)
