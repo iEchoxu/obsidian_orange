@@ -1,6 +1,8 @@
 # obsidian_orange, minimal and beautiful theme for Obsidian
 ## Recommended plugins
 - [obsidian-admonition](https://github.com/valentine195/obsidian-admonition)
+- [obsidian-auto-link-title](https://github.com/zolrath/obsidian-auto-link-title)
+- [obsidian-folder-note-plugin](https://github.com/xpgo/obsidian-folder-note-plugin)
 ## How To Use ?
 - download obsidian_orange
 - install iconfont.ttf  then restart your computer
