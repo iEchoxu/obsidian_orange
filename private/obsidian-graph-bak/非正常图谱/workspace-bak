@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8e7b512b5a71b184",
+        "id": "aae41403d3633230",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "inbox/inbox.md",
+            "file": "StartHere.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#WiP",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "inbox/inbox.md"
+                "file": "StartHere.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inbox/inbox.md",
+                "file": "StartHere.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,9 +107,9 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "inbox/inbox.md",
+                "file": "StartHere.md",
                 "options": {
-                  "collapse-filter": false,
+                  "collapse-filter": true,
                   "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
@@ -124,21 +124,21 @@
                       "query": "path:archive",
                       "color": {
                         "a": 1,
-                        "rgb": 3189583
+                        "rgb": 5355651
                       }
                     }
                   ],
-                  "collapse-display": true,
+                  "collapse-display": false,
                   "showArrow": true,
-                  "textFadeMultiplier": -0.3,
-                  "nodeSizeMultiplier": 1.13444444444444,
-                  "lineSizeMultiplier": 0.894548611111111,
-                  "collapse-forces": true,
-                  "centerStrength": 0.304255319148936,
-                  "repelStrength": 3.61702127659575,
-                  "linkStrength": 0.482978723404255,
-                  "linkDistance": 167,
-                  "scale": 0.6554983534946924,
+                  "textFadeMultiplier": -2.9,
+                  "nodeSizeMultiplier": 2.31044444444444,
+                  "lineSizeMultiplier": 1.374,
+                  "collapse-forces": false,
+                  "centerStrength": 0.131041666666667,
+                  "repelStrength": 17.5555555555556,
+                  "linkStrength": 0.464375,
+                  "linkDistance": 192,
+                  "scale": 0.12102024442731933,
                   "close": true
                 }
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inbox/inbox.md",
+                "file": "StartHere.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -167,17 +167,17 @@
     "direction": "horizontal",
     "width": 259
   },
-  "active": "8e7b512b5a71b184",
+  "active": "aae41403d3633230",
   "lastOpenFiles": [
-    "inbox/inbox.md",
-    "Home.md",
     "StartHere.md",
-    "inbox/CSS code snippets.md",
-    "inbox/Release Notes.md",
-    "inbox/自动填充 url 链接的标题.md",
-    "inbox/ToDo.md",
-    "inbox/插件推荐.md",
+    "Home.md",
     "inbox/常见问题列表.md",
-    "README.md"
+    "inbox/插件推荐.md",
+    "inbox/inbox.md",
+    "inbox/自动填充 url 链接的标题.md",
+    "inbox/CSS code snippets.md",
+    "inbox/更改obsidian图片布局.md",
+    "inbox/构建笔记系统.md",
+    "inbox/确定写作风格，封装笔记模板.md"
   ]
 }

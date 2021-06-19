@@ -43,5 +43,9 @@ cssclass: img-grid
 1: 在images里创建一个 image-MOC,用来对图片进行汇总，将所有的图片链接全部添加到这个文件中，在图片比较多时可考虑将image-MOC这个文件拆分，如：IT-image-MOC、Design-image-MOC等。
 
 2：在笔记里通过  `[[image-MOC#^25bdbb|这里是要显示的别名内容]]` 方式引用图片。
+-   ["How to achieve" CSS code snippets](https://forum.obsidian.md/t/how-to-achieve-css-code-snippets/8474/101)
+-   [Side-by-Side Images](https://forum.obsidian.md/t/side-by-side-images/9210)
+-   [Resize images vertically](https://forum.obsidian.md/t/resize-images-vertically/16225)
+-   [Display side by side image grid \[deprecated\]](https://forum.obsidian.md/t/display-side-by-side-image-grid-deprecated/9359)
 
 

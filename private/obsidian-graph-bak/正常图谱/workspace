@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "inbox/inbox.md",
+            "file": "Home.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "inbox/inbox.md"
+                "file": "Home.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inbox/inbox.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "inbox/inbox.md",
+                "file": "Home.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inbox/inbox.md",
+                "file": "Home.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,15 +169,15 @@
   },
   "active": "8e7b512b5a71b184",
   "lastOpenFiles": [
-    "inbox/inbox.md",
     "Home.md",
+    "README.md",
     "StartHere.md",
-    "inbox/CSS code snippets.md",
+    "inbox/inbox.md",
     "inbox/Release Notes.md",
-    "inbox/自动填充 url 链接的标题.md",
-    "inbox/ToDo.md",
-    "inbox/插件推荐.md",
-    "inbox/常见问题列表.md",
-    "README.md"
+    "inbox/CSS code snippets.md",
+    "inbox/Admonition如何使用.md",
+    "moc-index/image-Flags-MOC.md",
+    "archive/obsidian/Snippet Documentation and Examples/Grid Display Testing.md",
+    "inbox/让图片排版更加美观.md"
   ]
 }

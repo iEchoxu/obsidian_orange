@@ -9,6 +9,7 @@
   --line-height:1.65;
 }
 
+/* 添加本地字体 */
 @font-face {
   font-family: 'HarmonyOS Sans Light';
   src: local('HarmonyOS_Sans_Light') format('truetype');
@@ -75,7 +76,7 @@ html[lang=cn] body {
 }
 
 
-/* 更改默认的高亮、粗体、斜体颜色 实现 在标题右上角添加 上标的功能*/
+/* 更改默认的高亮、粗体、斜体颜色 实现“在标题右上角添加”上标的功能*/
 .markdown-preview-view mark {
     /* #ffe6e6 */
   background-color: #c00;
@@ -141,10 +142,11 @@ html[lang=cn] body {
 }
 
 
-/* 编辑和预览模式下文字间距 */
+/* 编辑和预览模式下文字间距与文字对齐 */
 .markdown-preview-view {
   letter-spacing: .02em;
   text-align: justify;
+  hyphens: auto;
 }
 .cm-s-obsidian .CodeMirror-line * {
   letter-spacing: .02em;
@@ -174,7 +176,7 @@ a, .markdown-preview-view .internal-link {
 .markdown-preview-view .internal-link:hover {
   text-decoration: none;
   background-color: rgba(51,112,255,.1);
-  /* padding: 2px 0; */
+  padding: 2px 0;
 }
 .external-link {
   text-decoration: none;
@@ -197,14 +199,10 @@ a, .markdown-preview-view .internal-link {
 
 /* 引用文件时，文件名前面会出现 “文档” icon */
 a, .markdown-preview-view .internal-link::before {
-  content: "\e617";
+  content: "\e6fa";
   font-family: "iconfont";
   margin-right: 3px;
   margin-left: 2px;
-}
-/* ccard预览时让标题前面不显示icon */
-a, .markdown-preview-view .internal-link[href^="inbox/"]::before {
-  content: "";
 }
 
 
@@ -225,13 +223,54 @@ a, .markdown-preview-view .internal-link {
 }
 
 
-/* ur list 前面的icon颜色 */
+/* ur li 前面的icon颜色 */
 .markdown-preview-view ul > li:not(.task-list-item)::before {
   color: rgba(0, 0, 0, .7);
 }
-/* 二级list 前面icon的颜色 */
+/* 二级li 前面添加空白圆圈 */
 .markdown-preview-view ul > li:not(.task-list-item) .collapse-indicator + ul > li::before {
-  color: rgba(0, 0, 0, .5);
+  content: "\e702";
+  font-family: "iconfont";
+  font-size: 8px;
+
+}
+/* 三级li 前面添加黑色正方形 */
+.markdown-preview-view ul > li:not(.task-list-item) .collapse-indicator + ul > li .collapse-indicator + ul > li::before {
+  content: "\ea6f";
+  font-family: "iconfont";
+  font-size: 4px;
+}
+
+/* ur li 同级之间用竖线连接 */
+.cm-hmd-list-indent .cm-tab,
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  position: relative;
+}
+.cm-hmd-list-indent .cm-tab::before,
+ul ul::before,
+ol ul::before,
+ul ol::before,
+ol ol::before {
+  content:'';
+  border-left: 1px solid #dee0e3;
+  position: absolute;
+}
+.cm-hmd-list-indent .cm-tab::before { left: 0; top: -5px; bottom: -4px; }
+
+ul ul::before,
+ol ol::before {
+  left: -14px;
+  top: 0;
+  bottom: 0;
+}
+ol ul::before,
+ul ol::before {
+  left: -30px;
+  top: 0;
+  bottom: 0;
 }
 
 
@@ -300,18 +339,14 @@ a, .markdown-preview-view .internal-link {
 .tree-item-inner:hover {
   color: #0A59F7;
 }
-/* .outline .tree-item-inner:only-child::before {
-  content: '▪';
-  margin-right: 5px;
-  color: #0A59F7;
-} */
 
-/* 编辑模式下点击右侧大纲时调整至标题时的颜色 */
+
+/* 编辑模式下点击右侧大纲时跳转至标题时的颜色 */
 .cm-s-obsidian span.obsidian-search-match-highlight {
   background-color: rgba(10,89,247,.2);
   color: #000;
 }
-/* 预览模式下点击右侧大纲时调整至标题时的颜色 */
+/* 预览模式下点击右侧大纲时跳转至标题时的颜色 */
 .markdown-preview-view .is-flashing {
   background-color: rgba(10,89,247,.2);
   box-shadow: 0 0 0 0;
@@ -382,12 +417,6 @@ a, .markdown-preview-view .internal-link {
 
 
 /* 标题中emoji与文字之间的间隔 */
-/* a[href^="#h/block"] + mark::first-letter {
-  margin-right: 5px;
-} */
-/* .markdown-preview-view h2::first-letter {
-  margin-right: 5px;
-} */
 .markdown-preview-view h2 {
   white-space: pre;
 
@@ -412,6 +441,7 @@ a, .markdown-preview-view .internal-link {
 }
 .graph-view.color-arrow {
   color: #ecaa03;
+  /* color: rgba(0,0,0); */
 }
 .graph-view.color-fill-unresolved {
   color: rgba(10,89,247,.9);
@@ -886,7 +916,11 @@ a, .markdown-preview-view .internal-link[href^="image-MOC"]::before {
 
 
 /* ccard样式 */
-/* imagePrefix: 'images/inbox-bg/' */
+/* ccard预览时让标题前面不显示icon */
+a, .markdown-preview-view .internal-link[href^="inbox/"]::before {
+  content: "";
+}
+
 h1[data-heading="inbox Overview"] {
   display: none;
 }
@@ -945,4 +979,7 @@ h1[data-heading="inbox Overview"] {
   background-position: center center;
   border-radius: 10px 10px 0px 0px;
 }
+
+
+
 
