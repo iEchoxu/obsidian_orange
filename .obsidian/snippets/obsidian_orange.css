@@ -91,7 +91,7 @@ html[lang=cn] body {
   vertical-align: top;
   border-radius: 3px;
   padding: 1px 6px;
-  font-size: 10px;
+  font-size: 12px;
   height: 14px;
   line-height: 14px;
   /* font-weight: bold; */
@@ -454,9 +454,9 @@ ul ol::before {
 
 /* 预览模式下 引用 颜色 */
 .markdown-preview-view blockquote {
-  /* background-color: #EDECFF; */
   border-left: 3px solid #443DF6;
-  box-shadow: 0px 0px 24px 12px #f7f7f7;
+  box-shadow: 0px 0px 24px 0 #f7f7f7;
+  margin: 0 0;
 }
 
 
@@ -969,7 +969,7 @@ h1[data-heading="inbox Overview"] {
 }
 .cute-card-band .cute-card-view span {
   color: rgba(220, 221, 222, .5);
-  margin: 30px 0;
+  margin: 20px 0;
 }
 .cute-card-band .cute-card-view .thumb {
   display: none;
@@ -981,5 +981,7 @@ h1[data-heading="inbox Overview"] {
 }
 
 
-
-
+/* 分割线 */
+.markdown-preview-view hr {
+  border-color: #F1F3F5;
+}

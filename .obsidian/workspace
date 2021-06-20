@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "inbox/inbox.md",
+            "file": "StartHere.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "inbox/inbox.md"
+                "file": "StartHere.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inbox/inbox.md",
+                "file": "StartHere.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "inbox/inbox.md",
+                "file": "StartHere.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inbox/inbox.md",
+                "file": "StartHere.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,15 +169,15 @@
   },
   "active": "8e7b512b5a71b184",
   "lastOpenFiles": [
-    "inbox/inbox.md",
-    "Home.md",
     "StartHere.md",
-    "inbox/CSS code snippets.md",
-    "inbox/Release Notes.md",
-    "inbox/自动填充 url 链接的标题.md",
-    "inbox/ToDo.md",
-    "inbox/插件推荐.md",
+    "Home.md",
+    "inbox/设计规范.md",
+    "inbox/让图片排版更加美观.md",
+    "inbox/确定写作风格，封装笔记模板.md",
+    "inbox/更改obsidian图片布局.md",
+    "inbox/构建笔记系统.md",
     "inbox/常见问题列表.md",
-    "README.md"
+    "archive/obsidian/插件推荐.md",
+    "archive/obsidian/文本高亮与高亮块.md"
   ]
 }
