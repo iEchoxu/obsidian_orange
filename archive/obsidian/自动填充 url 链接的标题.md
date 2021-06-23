@@ -19,4 +19,4 @@ title:手动实现
 	- 插件名：Copy Selection as Markdown
 ```
 
-#hblock/purple    ==Next：如何写出排版漂亮的笔记？[[确定写作风格，封装笔记模板]]==
+Next：如何写出排版漂亮的笔记？[[确定写作风格，封装笔记模板]]

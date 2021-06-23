@@ -78,8 +78,11 @@ title:此处使用的是 ad-quote 类型
 ![[re-admontion.png]]
 ![[w-admontion.png]]
 ![[r-admontion.png]]
+### 用 admonition 实现高亮块
+分别添加 5 个自定义 Admonition：
+- ad-orange、ad-blue、ad-red、ad-green、ad-purple
+- 图标和颜色随便选，反正也不会让其显示
+- 注册
 ## Links
 - [How To Use Admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
 - [obsidian-admonition插件](https://github.com/valentine195/obsidian-admonition)
-
-#hblock/blue   ==Next：如何写出排版漂亮的笔记？[[确定写作风格，封装笔记模板]]==

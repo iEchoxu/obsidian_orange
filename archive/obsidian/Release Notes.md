@@ -10,7 +10,9 @@ title: 已实现的功能  *stable*
 - 以卡片形式显示 inbox 中待整理的笔记
 ```
 ## ✍ 个性化修改
-#hblock/purple    ==下面的需求已全部实现并添加进主题中，详见：obsidian_range.css==
+```ad-purple
+下面的需求已全部实现并添加进主题中，详见：obsidian_range.css
+```
 - 根据文件夹名称添加不同 icon
 - 更改菜单图标
 - 文件与大纲 hover 效果
@@ -26,5 +28,5 @@ title: 已实现的功能  *stable*
 - 修改菜单hover时的tooltip颜色为主题色
 - 图片放大缩小
 
-#hblock/purple   ==Next：中文排版与配色调整 [[设计规范]]==
+Next：中文排版与配色调整 [[设计规范]]
 

@@ -78,12 +78,9 @@ html[lang=cn] body {
 
 /* 更改默认的高亮、粗体、斜体颜色 实现“在标题右上角添加”上标的功能*/
 .markdown-preview-view mark {
-    /* #ffe6e6 */
-  background-color: #c00;
-  color: #fff;
-  vertical-align: top;
-  border-radius: 3px;
-  padding: 1px 6px;
+  background-color: transparent !important;
+  color: #000 !important;
+  font-weight: 600;
 }
 .markdown-preview-view strong {
   background-color: #e7c000;
@@ -109,16 +106,11 @@ html[lang=cn] body {
   line-height: 14px;
   /* font-weight: bold; */
 }
-.cm-s-obsidian span.cm-highlight {
-  background-color: #c00;
-  color: #fff;
-  vertical-align: top;
-  border-radius: 3px;
-  padding: 1px 6px;
-  font-size: 14px;
-  height: 18px;
-  line-height: 18px;
-}
+/* .cm-s-obsidian span.cm-highlight {
+  background-color: transparent !important;
+  color: #000 !important;
+  font-weight: 600;
+} */
 .cm-s-obsidian span.cm-strong {
   background-color: #e7c000;
   color: #fff;
@@ -455,7 +447,7 @@ ul ol::before {
 /* 预览模式下 引用 颜色 */
 .markdown-preview-view blockquote {
   border-left: 3px solid #443DF6;
-  box-shadow: 0px 0px 24px 0 #f7f7f7;
+  /* box-shadow: 0px 0px 24px 0 #f7f7f7; */
   margin: 0 0;
 }
 
@@ -985,3 +977,112 @@ h1[data-heading="inbox Overview"] {
 .markdown-preview-view hr {
   border-color: #F1F3F5;
 }
+
+
+/* 图片上下添加margin */
+.view-content .markdown-preview-view img {
+  margin: 1.6em auto;
+}
+
+
+
+/* 用admontion实现高亮块功能 orange */
+.admonition.admonition-orange .admonition-title  {
+  display: none;
+}
+.admonition.admonition-orange .admonition-title-content {
+  display: none;
+}
+.admonition.admonition-orange .admonition-title-icon {
+  display: none;
+}
+.admonition.admonition-orange {
+  background-color: rgb(254, 234, 210) !important;
+  border: 1px solid rgb(254, 212, 164);
+  color: rgb(222, 120, 2) !important;
+  border-radius: 5px;
+}
+.markdown-preview-view .admonition.admonition-orange  ul > li:not(.task-list-item)::before {
+  color: rgb(222, 120, 2) !important;
+}
+
+
+.admonition.admonition-blue .admonition-title  {
+  display: none;
+}
+.admonition.admonition-blue .admonition-title-content {
+  display: none;
+}
+.admonition.admonition-blue .admonition-title-icon {
+  display: none;
+}
+.admonition.admonition-blue {
+  border: 1px solid rgb(130, 167, 252);
+  background-color: rgb(225, 234, 255) !important;
+	color: rgb(36, 91, 219) !important;
+  border-radius: 5px;
+}
+.markdown-preview-view .admonition.admonition-blue  ul > li:not(.task-list-item)::before {
+  color: rgb(36, 91, 219) !important;
+}
+
+
+.admonition.admonition-red .admonition-title  {
+  display: none;
+}
+.admonition.admonition-red .admonition-title-content {
+  display: none;
+}
+.admonition.admonition-red .admonition-title-icon {
+  display: none;
+}
+.admonition.admonition-red {
+  background-color: rgb(253, 226, 226) !important;
+	color: rgb(216, 57, 49) !important;
+  border: 1px solid rgb(249, 142, 139);
+  border-radius: 5px;
+}
+.markdown-preview-view .admonition.admonition-red  ul > li:not(.task-list-item)::before {
+  color: rgb(216, 57, 49) !important;
+}
+
+
+.admonition.admonition-green .admonition-title  {
+  display: none;
+}
+.admonition.admonition-green .admonition-title-content {
+  display: none;
+}
+.admonition.admonition-green .admonition-title-icon {
+  display: none;
+}
+.admonition.admonition-green {
+  background-color: rgb(217, 245, 214) !important;
+	color: rgb(46, 161, 33) !important;
+  border: 1px solid rgb(142, 224, 133);
+  border-radius: 5px;
+}
+.markdown-preview-view .admonition.admonition-green  ul > li:not(.task-list-item)::before {
+  color: rgb(46, 161, 33) !important;
+}
+
+
+.admonition.admonition-purple .admonition-title  {
+  display: none;
+}
+.admonition.admonition-purple .admonition-title-content {
+  display: none;
+}
+.admonition.admonition-purple .admonition-title-icon {
+  display: none;
+}
+.admonition.admonition-purple {
+  background-color: rgb(236, 226, 254) !important;
+	color: rgb(100, 37, 208) !important;
+  border: 1px solid rgb(173, 130, 247);
+  border-radius: 5px;
+}
+.markdown-preview-view .admonition.admonition-purple  ul > li:not(.task-list-item)::before {
+  color: rgb(100, 37, 208) !important;
+}
+
