@@ -449,6 +449,7 @@ ul ol::before {
   border-left: 3px solid #443DF6;
   /* box-shadow: 0px 0px 24px 0 #f7f7f7; */
   margin: 0 0;
+  margin-block-start: 1.2em;
 }
 
 
@@ -1086,3 +1087,15 @@ h1[data-heading="inbox Overview"] {
   color: rgb(100, 37, 208) !important;
 }
 
+
+/* admonition 图标与文本样式 */
+.admonition-title-markdown {
+  font-weight: 500;
+}
+.admonition-title-markdown {
+  margin-bottom: 2px;
+}
+
+.markdown-preview-view h2 {
+  font-size: 18px;
+}

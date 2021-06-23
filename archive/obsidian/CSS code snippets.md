@@ -134,6 +134,67 @@ a.external-link:hover:before {
 ul ul::before { left: -14px; top: 0; bottom: 0; 
 }
 ```
+
+## 更改 h1~h(n) 字体大小
+```css
+/* 标题设置 */
+.view-header-title {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.65;
+  letter-spacing: .02em;
+  word-wrap: break-word;
+  word-break: break-word;
+    
+}
+
+
+.markdown-preview-view h2 {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.65;
+  word-wrap: break-word;
+  word-break: break-word;
+  letter-spacing: .02em;
+  margin-block-start: 1.5em;
+  /* margin-block-end: 1em; */
+}
+
+
+.markdown-preview-view h3 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.65;
+  word-wrap: break-word;
+  word-break: break-word;
+  letter-spacing: .02em;
+  margin-block-start: 1.5em;
+  /* margin-block-end: 1.2em; */
+}
+
+
+.markdown-preview-view h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.65;
+  word-wrap: break-word;
+  word-break: break-word;
+  letter-spacing: .02em;
+  margin-block-start: 1.5em;
+  /* margin-block-end: 1.2em; */
+}
+
+.markdown-preview-view h5,h6 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.65;
+  word-wrap: break-word;
+  word-break: break-word;
+  letter-spacing: .02em;
+  margin-block-start: 1.5em;
+  /* margin-block-end: 1.2em; */
+}
+```
 ## links
 
 ^1f784e
