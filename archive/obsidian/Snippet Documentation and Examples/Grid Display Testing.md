@@ -7,7 +7,7 @@ With the change of images from Div to Span the traditional image-grid CSS broke.
 
 After some discussion, the consensus was that it wasn't fixable. 
 
-**Challenge Accepted: **
+==Challenge Accepted:==
 
 ---
 

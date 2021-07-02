@@ -133,6 +133,19 @@ html[lang=cn] body {
   line-height: 18px;
 }
 
+/* .markdown-preview-view del {
+  background-color: #42b983;
+  color: #fff;
+  font-style:normal;
+  vertical-align: top;
+  border-radius: 3px;
+  padding: 1px 6px;
+  font-size: 12px;
+  height: 14px;
+  line-height: 14px;
+  text-decoration:none;
+} */
+
 
 /* 编辑和预览模式下文字间距与文字对齐 */
 .markdown-preview-view {
@@ -269,7 +282,34 @@ ul ol::before {
 /* todo list 颜色 */
 .checklist-plugin-main .group .compact > .toggle .checked, .is-flashing input[type=checkbox]:checked, input[type=checkbox]:checked {
   background-color: rgb(46, 161, 33) !important;
+ 
 }
+
+/* .markdown-preview-view .task-list-item-checkbox{
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  border: 1px solid #2b2f36;
+  border-radius: 2px;
+  position: relative;
+  width: 1.3em;
+  height: 1.3em;
+  margin: 0;
+  outline: none;
+  margin-right: 4px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  vertical-align: baseline;
+  background-color: #fff !important;
+}
+
+.markdown-preview-view .task-list-item-checkbox:checked {
+  background-color: #68d0688f;
+  color: rgb(143, 149, 158);
+} */
+/* .markdown-preview-view ul > li.task-list-item.is-checked {
+  text-decoration: line-through;
+  color: #646a73;
+} */
 /* todo list黑色圆点与文字对齐 */
 .markdown-preview-view ul > li:not(.task-list-item)::before {
   margin-top: 15px;
@@ -402,6 +442,18 @@ ul ol::before {
 }
 
 
+/* h2 字体大小 */
+.markdown-preview-view h2 {
+  font-size: 18px;
+}
+
+
+/* 标题上下marin */
+.markdown-preview-view h1, .markdown-preview-view h2, .markdown-preview-view h3, .markdown-preview-view h4, .markdown-preview-view h5, .markdown-preview-view h6 {
+  margin: 30px 0 20px 0;
+}
+
+
 /* 自定义的高亮块 block 里面的双向链接文字颜色 */
 .markdown-preview-view mark .internal-link {
   color: #3370ff;
@@ -456,6 +508,14 @@ ul ol::before {
 /* admonition的背景颜色---白色 */
 .admonition {
   background-color: var(--background-primary) !important;
+}
+
+/* admonition 图标与文本样式 */
+.admonition-title-markdown {
+  font-weight: 500;
+}
+.admonition-title-markdown {
+  margin-bottom: 2px;
 }
 
 
@@ -900,6 +960,24 @@ ul ol::before {
 }
 
 
+/* 图片并列显示时设置图片之间的间隔 */
+.view-content .markdown-preview-view img  {
+  padding: 20px 20px;
+}
+
+
+/* 图片上下添加margin */
+.view-content .markdown-preview-view img {
+  margin: 1.6em auto;
+}
+
+
+/* 代码块添加上下margin */
+.theme-light pre[class*="language-"] {
+  margin: 1.5em 0;
+}
+
+
 /* 当双向链接的类型是图片时在其前面添加 图片icon */
 a, .markdown-preview-view .internal-link[href^="image-MOC"]::before {
   content: "\e6ef";
@@ -978,13 +1056,6 @@ h1[data-heading="inbox Overview"] {
 .markdown-preview-view hr {
   border-color: #F1F3F5;
 }
-
-
-/* 图片上下添加margin */
-.view-content .markdown-preview-view img {
-  margin: 1.6em auto;
-}
-
 
 
 /* 用admontion实现高亮块功能 orange */
@@ -1088,14 +1159,7 @@ h1[data-heading="inbox Overview"] {
 }
 
 
-/* admonition 图标与文本样式 */
-.admonition-title-markdown {
-  font-weight: 500;
-}
-.admonition-title-markdown {
-  margin-bottom: 2px;
-}
 
-.markdown-preview-view h2 {
-  font-size: 18px;
-}
+
+
+

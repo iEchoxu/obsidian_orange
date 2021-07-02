@@ -2,7 +2,7 @@
 cssclass: grid
 ---
 
-> *last updated: 12/25/2020*
+>last updated: 12/25/2020
 # Overview: 
 This document showcases the basic functionality of the "Pub-Image Flags.CSS" snippet. This snippet allows the user to specify how any image is displayed without impacting any other images.
 
