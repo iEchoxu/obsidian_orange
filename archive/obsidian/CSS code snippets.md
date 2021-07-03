@@ -68,7 +68,7 @@
 /* Control text color for both ul and ol, not including list symbol (only level 1) */ 
 .HyperMD-list-line.HyperMD-list-line-1.CodeMirror-line { color: red !important; }
 ```
-## 当url链接太长时自动截取并隐藏多余内容
+## 当 url 链接太长时自动截取并隐藏多余内容
 ```css
 /* 当url链接太长时自动截取并隐藏多余内容 */
 div:not(.CodeMirror-activeline) > .CodeMirror-line .cm-string.cm-url:not(.cm-formatting) {
@@ -86,7 +86,7 @@ div:not(.CodeMirror-activeline) > .CodeMirror-line .cm-string.cm-url:not(.cm-for
   display:none;
 }
 ```
-## 当鼠标hover a链接时在底部显示“原文链接”
+## 当鼠标 hover a 链接时在底部显示“原文链接”
 ```css
 /* 当鼠标hover a链接时在底部显示 原文链接 */
 a.external-link {
@@ -369,7 +369,7 @@ text {
 
 
 ```
-## links
+## Links
 
 ^1f784e
 

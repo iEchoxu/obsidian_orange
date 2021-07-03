@@ -12,5 +12,3 @@
 - [Image Flags](https://forum.obsidian.md/t/how-to-achieve-css-code-snippets/8474/93)
 - [Image Flags Documentation and Examples ](https://github.com/Lithou/Sandbox/tree/main/Snippet%20Documentation%20and%20Examples)
 - [Image Flags CSS](https://github.com/Lithou/Sandbox/blob/main/.obsidian/snippets/pub-Image%20Flags.css)
-
-Next: [[Admonition如何使用]]

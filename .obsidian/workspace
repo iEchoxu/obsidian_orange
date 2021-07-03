@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "archive/obsidian/文本高亮与高亮块.md",
+            "file": "Home.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#WiP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "archive/obsidian/文本高亮与高亮块.md"
+                "file": "Home.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "archive/obsidian/文本高亮与高亮块.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "archive/obsidian/文本高亮与高亮块.md",
+                "file": "Home.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "archive/obsidian/文本高亮与高亮块.md",
+                "file": "Home.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,15 +169,15 @@
   },
   "active": "8e7b512b5a71b184",
   "lastOpenFiles": [
-    "archive/obsidian/文本高亮与高亮块.md",
-    "StartHere.md",
-    "inbox/设置快捷键.md",
-    "inbox/设计规范.md",
-    "inbox/确定写作风格，封装笔记模板.md",
-    "inbox/构建笔记系统.md",
-    "inbox/常见问题列表.md",
-    "archive/obsidian/ToDo List案例演示.md",
+    "Home.md",
+    "Start Here.md",
     "archive/obsidian/Release Notes.md",
-    "Home.md"
+    "archive/obsidian/ToDo List 案例演示.md",
+    "inbox/确定写作风格，封装笔记模板.md",
+    "archive/obsidian/让图片排版更加美观.md",
+    "archive/obsidian/使用图片内嵌 or 图片并列显示.md",
+    "archive/obsidian/并列显示多个图片.md",
+    "archive/obsidian/Admonition 如何使用.md",
+    "archive/obsidian/文本高亮与高亮块.md"
   ]
 }

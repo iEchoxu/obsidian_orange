@@ -5,7 +5,7 @@
 ```ad-example
 title:内嵌图片
 1. 在 images 文件夹里创建一个 "image-MOC" 文件,用来对图片进行汇总；
-2. 将所有的图片链接全部添加到这个文件中，在图片比较多时可考虑将image-MOC这个文件拆分，如：IT-image-MOC、Design-image-MOC 等。
+2. 将所有的图片链接全部添加到这个文件中，在图片比较多时可考虑将 image-MOC 这个文件拆分，如：IT-image-MOC、Design-image-MOC 等。
 3. 在笔记里通过 `[[image-MOC#^25bdbb|这里是要显示的别名]]` 方式引用图片。
 ```
 

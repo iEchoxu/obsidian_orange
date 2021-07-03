@@ -159,7 +159,9 @@ html[lang=cn] body {
 
 /* 编辑模式下 标题上下添加距离*/
 .cm-s-obsidian pre.HyperMD-header {
-  padding: 16px 0;
+  /* padding: 2em 0; */
+  padding-block-start: 2em;
+  padding-block-end: 1em;
 }
 .CodeMirror-gutter-elt {
   top: 16px;
@@ -471,6 +473,7 @@ ul ol::before {
 /* 标题上下marin */
 .markdown-preview-view h1, .markdown-preview-view h2, .markdown-preview-view h3, .markdown-preview-view h4, .markdown-preview-view h5, .markdown-preview-view h6 {
   margin: 30px 0 20px 0;
+  margin-block-start: 2em;
 }
 
 
