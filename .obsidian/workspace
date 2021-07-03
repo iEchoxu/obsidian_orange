@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "StartHere.md",
+            "file": "archive/obsidian/ToDo List案例演示.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "StartHere.md"
+                "file": "archive/obsidian/ToDo List案例演示.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "StartHere.md",
+                "file": "archive/obsidian/ToDo List案例演示.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "StartHere.md",
+                "file": "archive/obsidian/ToDo List案例演示.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "StartHere.md",
+                "file": "archive/obsidian/ToDo List案例演示.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,10 +169,10 @@
   },
   "active": "8e7b512b5a71b184",
   "lastOpenFiles": [
-    "StartHere.md",
-    "archive/obsidian/Release Notes.md",
     "archive/obsidian/ToDo List案例演示.md",
+    "archive/obsidian/Release Notes.md",
     "Home.md",
+    "StartHere.md",
     "inbox/确定写作风格，封装笔记模板.md",
     "archive/obsidian/插件推荐.md",
     "inbox/构建笔记系统.md",

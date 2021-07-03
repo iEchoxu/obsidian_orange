@@ -319,6 +319,10 @@ ul ol::before {
   margin: 10px 0;
 }
 
+.markdown-preview-view ul > li.task-list-item {
+  margin: 10px 0;
+}
+
 .markdown-preview-view .contains-task-list .contains-task-list {
   text-decoration: unset;
 }
