@@ -119,23 +119,8 @@ a.external-link:hover:before {
   white-space: nowrap;
 }
 ```
-## ur li 同级之间用竖线连接
-```css
-/* ur li 同级之间用竖线连接 */
-/* 已有最优解，这里只是将原来的代码作为备注 */
-.cm-hmd-list-indent .cm-tab, ul ul { position: relative; }
-.cm-hmd-list-indent .cm-tab::before, ul ul::before  {
- content:'';
- border-left: 1px solid #dee0e3;
- position: absolute;
-}
-.cm-hmd-list-indent .cm-tab::before { left: 0; top: -5px; bottom: -4px; 
-}
-ul ul::before { left: -14px; top: 0; bottom: 0; 
-}
-```
 
-## 更改 h1~h(n) 字体大小
+## 排版
 ```css
 /* 标题设置 */
 .view-header-title {
@@ -194,6 +179,195 @@ ul ul::before { left: -14px; top: 0; bottom: 0;
   margin-block-start: 1.5em;
   /* margin-block-end: 1.2em; */
 }
+
+h1 {
+    font-family: Chinese Quote,Segoe UI,Roboto,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji;
+    font-size: 36px;
+    line-height: 1.389;
+    font-weight: 700;
+    color: #262626;
+    display: inline;
+    margin-right: 20px;
+	word-break: break-word;
+	margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+h2 {
+    font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+    color: #262626;
+	line-height: 32px;
+}
+
+
+text {
+      line-height: 1.74;
+    letter-spacing: 0.05em;
+    color: #262626;
+    font-size: 14px;
+	    white-space: pre-wrap;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+
+/*空行*/
+p {
+  min-height: 24px;
+
+}
+
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 28px;
+  margin: 7px 0;
+
+}
+
+/**
+ * 排版设置共享内容
+ */
+ne-table-hole {
+  margin: 4px 0 16px 0;
+  -webkit-margin-after: 0px;
+}
+ne-table-hole[data-no-spacing] {
+  margin: -12px 0 0 0;
+  -webkit-margin-after: -16px;
+}
+/*
+ * 本文件提供默认紧凑排版的基础样式设置，此处需要和各插件配合，使得 js 中获取的值和 css 中定义的值处于一致状态
+ */
+.ne-typography-traditional {
+  line-height: 1.74;
+  letter-spacing: 0.05em;
+  color: #262626;
+  font-size: 14px;
+}
+.ne-typography-traditional ne-table-box {
+  line-height: 1.74;
+}
+.ne-typography-traditional ne-code ne-text {
+  font-size: 14px;
+}
+.ne-typography-traditional ne-text[ne-sub],
+.ne-typography-traditional ne-text[ne-sup] {
+  font-size: 10.5px;
+}
+.ne-typography-traditional ne-h1 {
+  font-size: 28px;
+  line-height: 36px;
+  margin: 7px 0;
+}
+.ne-typography-traditional ne-h1:first-child {
+  margin-top: 0;
+}
+.ne-typography-traditional ne-h1 ne-text {
+  font-size: 28px;
+}
+.ne-typography-traditional ne-h2 {
+  font-size: 24px;
+  line-height: 32px;
+  margin: 7px 0;
+}
+.ne-typography-traditional ne-h2:first-child {
+  margin-top: 0;
+}
+.ne-typography-traditional ne-h2 ne-text {
+  font-size: 24px;
+}
+.ne-typography-traditional ne-h3 {
+  font-size: 20px;
+  line-height: 28px;
+  margin: 7px 0;
+}
+.ne-typography-traditional ne-h3:first-child {
+  margin-top: 0;
+}
+.ne-typography-traditional ne-h3 ne-text {
+  font-size: 20px;
+}
+.ne-typography-traditional ne-h4 {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 7px 0;
+}
+.ne-typography-traditional ne-h4:first-child {
+  margin-top: 0;
+}
+.ne-typography-traditional ne-h4 ne-text {
+  font-size: 16px;
+}
+.ne-typography-traditional ne-h5 {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 7px 0;
+}
+.ne-typography-traditional ne-h5:first-child {
+  margin-top: 0;
+}
+.ne-typography-traditional ne-h5 ne-text {
+  font-size: 14px;
+}
+.ne-typography-traditional ne-h6 {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 7px 0;
+}
+.ne-typography-traditional ne-h6:first-child {
+  margin-top: 0;
+}
+.ne-typography-traditional ne-h6 ne-text {
+  font-size: 14px;
+}
+.ne-typography-traditional ne-tli ne-tli-i.ant-checkbox {
+  padding-top: 1px;
+}
+
+h1,h2,h3,h4,h5,h6,h7 {
+	font-weight: 600;
+	letter-spacing: .02em;
+	line-height: 1.65;
+	word-wrap: break-word;
+    word-break: break-word;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-bottom: 18px;
+
+}
+
+h2 {
+	font-size: 22px;
+    margin-bottom: 8px;
+
+}
+h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+
+h5,h6 {
+	    font-size: 16px;
+
+}
+
+text {
+	font-size: 16px;
+    line-height: 1.65;
+    color: #1f2329;
+}
+
+
 ```
 ## links
 

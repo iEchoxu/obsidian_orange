@@ -279,40 +279,56 @@ ul ol::before {
 }
 
 
-/* todo list 颜色 */
-.checklist-plugin-main .group .compact > .toggle .checked, .is-flashing input[type=checkbox]:checked, input[type=checkbox]:checked {
-  background-color: rgb(46, 161, 33) !important;
- 
+/* ur li 黑色圆点与文字对齐 */
+.markdown-preview-view ul > li:not(.task-list-item)::before {
+  margin-top: 15px;
 }
 
-/* .markdown-preview-view .task-list-item-checkbox{
+
+/* todo list 颜色 */
+.checklist-plugin-main .group .compact > .toggle .checked, .is-flashing input[type=checkbox]:checked, input[type=checkbox]:checked {
+  background-color: unset !important;
+  border: 1px solid #2b2f36;
+  background-image: url("data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='20' height='20' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='48' height='48' fill='white' fill-opacity='0.01'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 24L9 19L19 29L39 9L44 14L19 39L4 24Z' fill='%230A59F7' stroke='%230A59F7' stroke-width='1' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.markdown-preview-view .task-list-item-checkbox{
   -webkit-appearance: none;
   box-sizing: border-box;
   border: 1px solid #2b2f36;
   border-radius: 2px;
   position: relative;
-  width: 1.3em;
-  height: 1.3em;
+  width: 1em;
+  height: 1em;
   margin: 0;
   outline: none;
-  margin-right: 4px;
-  margin-bottom: 2px;
+  margin-right: 6px;
+  margin-bottom: 3px;
   cursor: pointer;
   vertical-align: baseline;
   background-color: #fff !important;
 }
 
-.markdown-preview-view .task-list-item-checkbox:checked {
-  background-color: #68d0688f;
-  color: rgb(143, 149, 158);
-} */
-/* .markdown-preview-view ul > li.task-list-item.is-checked {
+.markdown-preview-view ul > li.task-list-item:hover {
+  background-color: rgba(149,157,165,.1);
+}
+
+.markdown-preview-view ul > li.task-list-item.is-checked {
   text-decoration: line-through;
-  color: #646a73;
-} */
-/* todo list黑色圆点与文字对齐 */
-.markdown-preview-view ul > li:not(.task-list-item)::before {
-  margin-top: 15px;
+  color: rgb(143, 149, 158);
+  margin: 10px 0;
+}
+
+.markdown-preview-view .contains-task-list .contains-task-list {
+  text-decoration: unset;
+}
+
+.markdown-preview-view .task-list-item p {
+  margin: 10px 0;
+}
+
+.markdown-preview-view .contains-task-list .contains-task-list::before {
+  left: 8px;
 }
 
 
