@@ -8,6 +8,7 @@
 - download obsidian_orange
 - install `iconfont.ttf`  then restart your computer
 ## Screenshots
+- [ ] 测试
 ![obsidian_orange_home](https://github.com/iEchoxu/obsidian_orange/blob/main/screenshots/obsidian_home.png)
 
 ![obsidian_orange_startHere](https://github.com/iEchoxu/obsidian_orange/blob/main/screenshots/obsidian_startHere.png)
