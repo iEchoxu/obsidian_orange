@@ -13,7 +13,7 @@ title:通过 obsidian 插件实现 *推荐*
 title:手动实现
 - 选中文字时可按住 `ctrl`不放再按 `k` 再按` v`就可以将从浏览器中复制的 url 粘贴到此处。*默认方式*
 
-- 通过浏览器插件实现：**内容剪裁**
+- 通过浏览器插件实现：~~内容剪裁~~
 	- [markdownload](https://forum.obsidian.md/t/markdownload-markdown-web-clipper/173/10)
 	- [copy-as-markdown](https://github.com/notlmn/copy-as-markdown)
 	- 插件名：Copy Selection as Markdown

@@ -82,7 +82,8 @@ html[lang=cn] body {
   color: #000 !important;
   font-weight: 600;
 }
-.markdown-preview-view strong {
+
+.markdown-preview-view del {
   background-color: #e7c000;
   color: #fff;
   vertical-align: top;
@@ -91,7 +92,9 @@ html[lang=cn] body {
   font-size: 12px;
   height: 14px;
   line-height: 14px;
-  /* font-weight: bold; */
+  text-decoration:none;
+  /* font-weight: 600; */
+  letter-spacing: .1em;
 }
 .markdown-preview-view em {
 
@@ -105,22 +108,9 @@ html[lang=cn] body {
   height: 14px;
   line-height: 14px;
   /* font-weight: bold; */
+  letter-spacing: .1em;
 }
-/* .cm-s-obsidian span.cm-highlight {
-  background-color: transparent !important;
-  color: #000 !important;
-  font-weight: 600;
-} */
-.cm-s-obsidian span.cm-strong {
-  background-color: #e7c000;
-  color: #fff;
-  vertical-align: top;
-  border-radius: 3px;
-  padding: 1px 6px;
-  font-size: 14px;
-  height: 18px;
-  line-height: 18px;
-}
+
 .cm-s-obsidian span.cm-em {
   background-color: #42b983;
   color: #fff;
@@ -132,19 +122,17 @@ html[lang=cn] body {
   height: 18px;
   line-height: 18px;
 }
-
-/* .markdown-preview-view del {
-  background-color: #42b983;
+.cm-s-obsidian span.cm-strikethrough {
+  background-color: #e7c000;
   color: #fff;
-  font-style:normal;
   vertical-align: top;
   border-radius: 3px;
   padding: 1px 6px;
-  font-size: 12px;
-  height: 14px;
-  line-height: 14px;
+  font-size: 14px;
+  height: 18px;
+  line-height: 18px;
   text-decoration:none;
-} */
+}
 
 
 /* 编辑和预览模式下文字间距与文字对齐 */
