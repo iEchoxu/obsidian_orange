@@ -7,7 +7,7 @@ title:通过 obsidian 插件实现 *推荐*
 - 下载[obsidian-auto-link-title](https://forum.obsidian.md/t/ability-for-links-to-be-pasted-with-pages-title/1543/9)并启用，然后从浏览器中复制 url 地址，插件自会抓取标题并转为 markdown 格式。
 ```
 
----
+</br>
 
 ```ad-example
 title:手动实现

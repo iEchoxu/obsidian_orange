@@ -72,16 +72,19 @@ title:此处使用的是 ad-quote 类型
 - 正文内容
 ```
 
----
+</br>
+
 ## 自定义 Admonition
 ![[add-new-admontion.png|150]] ![[admontion-type.png|150]] ![[re-admontion.png|150]] ![[w-admontion.png|150]] ![[r-admontion.png|150]]
 
----
+</br>
 
 ```ad-mypurple
 title:自定义的 type
 这是自定义的 type
 ```
+
+</br>
 
 ### 用 admonition 实现高亮块
 分别添加 5 个自定义 Admonition：

@@ -1,5 +1,7 @@
 > 在 `obsidian_orange.css` 中可找到修改菜单 icon 的代码，下面的只是示例代码。
+
 ---
+
 ```ad-note
 title:修改菜单操作步骤
 - 去 [iconpark](https://iconpark.oceanengine.com/official) 找到自己喜欢的图标,然后“复制为 svg 代码”
@@ -7,8 +9,6 @@ title:修改菜单操作步骤
 - 通过开发者工具找到菜单对应的 css 类名
 - 给菜单对应的 css 类名添加如下代码并将上面复制的 DataURI 代码作为 `background-image` 的值
 ```
-
----
 
 示例代码:
 
