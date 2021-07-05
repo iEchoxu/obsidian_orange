@@ -369,6 +369,74 @@ text {
 
 
 ```
+
+## tag 颜色
+```css
+.tag[href="#important"] { color : red; }
+
+.tag {
+  background-color: var(--text-accent);
+  border: none;
+  color: white;
+  font-size: 11px;
+  padding: 1px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 0px;
+  cursor: pointer;
+  border-radius: 14px;
+}
+.tag:hover {
+color: white;
+background-color: var(--text-accent-hover);
+}
+.tag[href^="#obsidian"] {
+  background-color: #4d3ca6;
+}
+.tag[href^="#important"] {
+  background-color: red;
+}
+.tag[href^="#complete"] {
+  background-color: green;
+}
+.tag[href^="#inprogress"] {
+  background-color: orange;
+}
+
+
+/* ====== Tag Pills ======== */
+.tag:not(.token) {
+	background-color: var(--text-accent);
+	border: none;
+	color: white;
+	font-size: 11px;
+	padding: 1px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0px 0px;
+	cursor: pointer;
+	border-radius: 14px;
+}
+.tag:not(.token):hover {
+	color: white;
+	background-color: var(--text-accent-hover);
+}
+.tag[href^="#obsidian"] {
+	background-color: #4d3ca6;
+}
+.tag[href^="#important"] {
+	background-color: red;
+}
+.tag[href^="#complete"] {
+	background-color: green;
+}
+.tag[href^="#inprogress"] {
+	background-color: orange;
+}
+
+```
 ## Links
 
 ^1f784e

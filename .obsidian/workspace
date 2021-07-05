@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "archive/obsidian/ToDo List 案例演示.md",
+            "file": "Start Here.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "archive/obsidian/ToDo List 案例演示.md"
+                "file": "Start Here.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "archive/obsidian/ToDo List 案例演示.md",
+                "file": "Start Here.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "archive/obsidian/ToDo List 案例演示.md",
+                "file": "Start Here.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "archive/obsidian/ToDo List 案例演示.md",
+                "file": "Start Here.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,15 +169,15 @@
   },
   "active": "8e7b512b5a71b184",
   "lastOpenFiles": [
-    "archive/obsidian/ToDo List 案例演示.md",
     "Start Here.md",
+    "archive/obsidian/设置快捷键.md",
+    "archive/obsidian/Release Notes.md",
     "Home.md",
     "inbox/inbox.md",
-    "inbox/测试表格.md",
-    "inbox/202107042000.md",
-    "inbox/每日学习计划.md",
-    "archive/obsidian/Release Notes.md",
-    "archive/obsidian/常见问题列表.md",
-    "archive/obsidian/插件推荐.md"
+    "inbox/构建笔记系统.md",
+    "inbox/确定写作风格，封装笔记模板.md",
+    "archive/obsidian/自动填充 url 链接的标题.md",
+    "archive/obsidian/ToDo List 案例演示.md",
+    "archive/obsidian/直观显示待整理的笔记.md"
   ]
 }
