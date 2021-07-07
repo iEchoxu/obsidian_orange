@@ -18,42 +18,48 @@
 /* -- orange --  */
 .cm-tag-htextorange ~ span.cm-highlight {
 	color: rgb(222, 120, 2) !important;
-	background-color: #ffffff !important;
+	background-color: transparent !important;
+	font-weight: 500;
 }
 
 
-/* -- black --  */
-.cm-tag-htextblack ~ span.cm-highlight {
-	color: #000 !important;
-	background-color: #ffffff !important;
+/* -- gray --  */
+.cm-tag-htextgray ~ span.cm-highlight {
+	color: rgb(143, 149, 158) !important;
+	background-color: transparent !important;
+	font-weight: 500;
 }
 
 
 /* -- red --  */
 .cm-tag-htextred ~ span.cm-highlight {
 	color: rgb(216, 57, 49) !important;
-	background-color: #ffffff !important;
+	background-color: transparent !important;
+	font-weight: 500;
 }
 
 
 /* -- green --  */
 .cm-tag-htextgreen ~ span.cm-highlight {
 	color: rgb(46, 161, 33) !important;
-	background-color: #ffffff !important;
+	background-color: transparent !important;
+	font-weight: 500;
 }
 
 
 /* -- purple --  */
 .cm-tag-htextpurple ~ span.cm-highlight {
 	color: rgb(100, 37, 208) !important;
-	background-color: #ffffff !important;
+	background-color: transparent !important;
+	font-weight: 500;
 }
 
 
 /* -- blue --  */
 .cm-tag-htextblue ~ span.cm-highlight {
 	color: rgb(36, 91, 219) !important;
-	background-color: #ffffff !important;
+	background-color: transparent !important;
+	font-weight: 500;
 }
 
 
@@ -63,7 +69,7 @@
 
 /* -- orange --  */
 .cm-tag-hbgtextorange ~ span.cm-highlight {
-	background-color: rgba(254, 212, 164) !important;
+	background-color: rgba(254, 212, 164, 0.8) !important;
 	color: rgb(222, 120, 2) !important;
 }
 
@@ -84,8 +90,22 @@
 
 /* -- blue --  */
 .cm-tag-hbgtextblue ~ span.cm-highlight {
-	background-color: #cce5ff !important;
-	color: #175393 !important;
+	background-color: rgba(186, 206, 253, 0.7) !important;
+	color: rgb(36, 91, 219) !important;
+}
+
+
+/* -- red --  */
+.cm-tag-hbgtextred ~ span.cm-highlight {
+	background-color: rgb(251, 191, 188) !important;
+	color: rgb(216, 57, 49) !important;
+}
+
+
+/* -- green --  */
+.cm-tag-hbgtextgreen ~ span.cm-highlight {
+	background-color: rgba(183, 237, 177, 0.8) !important;
+	color: rgb(46, 161, 33) !important;
 }
 
 
@@ -98,7 +118,7 @@
 
 /* -- purple --  */
 .cm-tag-hbgtextpurple ~ span.cm-highlight {
-	background-color: rgb(236, 226, 254) !important;
+	background-color: rgba(205, 178, 250, 0.7) !important;
 	color: rgb(100, 37, 208) !important;
 }
 
@@ -107,6 +127,13 @@
 .cm-tag-hbgtexthjblue ~ span.cm-highlight {
 	background-color: #d1ecf1 !important;
 	color: #35737d !important;
+}
+
+
+/* -- gray --  */
+.cm-tag-hbgtextgray ~ span.cm-highlight {
+	background-color: rgba(222, 224, 227, 0.8) !important;
+	color: rgb(143, 149, 158) !important;
 }
 
 
@@ -177,7 +204,7 @@ a[href^="#hbgtext/"] + mark {
 	border-radius: 5px;
 	padding-left: 5px;
 	padding-right: 5px;
-	font-weight: bold;
+	font-weight: 500;
 }
 
 
@@ -200,43 +227,49 @@ a[href^="#hblock/"] + mark {
 
 /* -- orange --  */
 a[href^="#htext/orange"] + mark {
-	background-color: #ffffff;
+	background-color: transparent !important;
 	color: rgb(222, 120, 2) !important;
+	font-weight: 500;
 }
 
 
-/* -- black --  */
-a[href^="#htext/black"] + mark {
-	background-color: #ffffff;
-	color: #000 !important;
+/* -- gray --  */
+a[href^="#htext/gray"] + mark {
+	background-color: transparent !important;
+	color: rgb(143, 149, 158) !important;
+	font-weight: 500;
 }
 
 
 /* -- blue --  */
 a[href^="#htext/blue"] + mark {
-	background-color: #ffffff;
+	background-color: transparent !important;
 	color: rgb(36, 91, 219) !important;
+	font-weight: 500;
 }
 
 
 /* -- red --  */
 a[href^="#htext/red"] + mark {
-	background-color: #ffffff;
+	background-color: transparent !important;
 	color: rgb(216, 57, 49) !important;
+	font-weight: 500;
 }
 
 
 /* -- green --  */
 a[href^="#htext/green"] + mark {
-	background-color: #ffffff;
+	background-color: transparent !important;
 	color: rgb(46, 161, 33) !important;
+	font-weight: 500;
 }
 
 
 /* -- purple --  */
 a[href^="#htext/purple"] + mark {
-	background-color: #ffffff;
+	background-color: transparent !important;
 	color: rgb(100, 37, 208) !important;
+	font-weight: 500;
 }
 
 
@@ -246,7 +279,7 @@ a[href^="#htext/purple"] + mark {
 
 /* -- orange --  */
 a[href^="#hbgtext/orange"] + mark {
-	background-color: rgba(254, 212, 164) !important;
+	background-color: rgba(254, 212, 164, 0.8) !important;
 	color: rgb(222, 120, 2) !important;
 }
 
@@ -255,6 +288,19 @@ a[href^="#hbgtext/orange"] + mark {
 a[href^="#hbgtext/yellow"] + mark {
 	background-color: #fff3cd !important;
 	color: #856404 !important;
+}
+
+
+/* -- red --  */
+a[href^="#hbgtext/red"] + mark {
+	background-color: rgb(251, 191, 188) !important;
+	color: rgb(216, 57, 49) !important;
+}
+
+/* -- green --  */
+a[href^="#hbgtext/green"] + mark {
+	background-color: rgba(183, 237, 177, 0.8) !important;
+	color: rgb(46, 161, 33) !important;
 }
 
 
@@ -267,8 +313,8 @@ a[href^="#hbgtext/pink"] + mark {
 
 /* -- blue --  */
 a[href^="#hbgtext/blue"] + mark {
-	background-color: #cce5ff !important;
-	color: #175393 !important;
+	background-color: rgba(186, 206, 253, 0.7) !important;
+	color: rgb(36, 91, 219) !important;
 }
 
 
@@ -288,11 +334,16 @@ a[href^="#hbgtext/hjblue"] + mark {
 
 /* -- purple --  */
 a[href^="#hbgtext/purple"] + mark {
-	background-color: rgb(236, 226, 254) !important;
+	background-color: rgba(205, 178, 250, 0.7) !important;
 	color: rgb(100, 37, 208) !important;
 }
 
 
+/* -- gray --  */
+a[href^="#hbgtext/gray"] + mark {
+	background-color: rgba(222, 224, 227, 0.8) !important;
+	color: rgb(143, 149, 158) !important;
+}
 
 
 /* ----------------------------------------- 预览模式下 高亮块 ----------------------------------------------  */

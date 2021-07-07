@@ -1069,7 +1069,7 @@ h1[data-heading="inbox Overview"] {
 }
 
 
-/* 用admontion实现高亮块功能 orange */
+/* 用admontion实现高亮块功能  */
 .admonition.admonition-orange .admonition-title  {
   display: none;
 }
@@ -1086,6 +1086,26 @@ h1[data-heading="inbox Overview"] {
   border-radius: 5px;
 }
 .markdown-preview-view .admonition.admonition-orange  ul > li:not(.task-list-item)::before {
+  color: rgb(222, 120, 2) !important;
+}
+
+
+.admonition.admonition-light-orange .admonition-title  {
+  display: none;
+}
+.admonition.admonition-light-orange .admonition-title-content {
+  display: none;
+}
+.admonition.admonition-light-orange .admonition-title-icon {
+  display: none;
+}
+.admonition.admonition-light-orange {
+  background-color: rgb(255, 245, 235) !important;
+  border: 1px solid rgb(254, 212, 164);
+  color: rgb(222, 120, 2) !important;
+  border-radius: 5px;
+}
+.markdown-preview-view .admonition.admonition-light-orange  ul > li:not(.task-list-item)::before {
   color: rgb(222, 120, 2) !important;
 }
 
@@ -1107,6 +1127,46 @@ h1[data-heading="inbox Overview"] {
 }
 .markdown-preview-view .admonition.admonition-blue  ul > li:not(.task-list-item)::before {
   color: rgb(36, 91, 219) !important;
+}
+
+
+.admonition.admonition-light-blue .admonition-title  {
+  display: none;
+}
+.admonition.admonition-light-blue .admonition-title-content {
+  display: none;
+}
+.admonition.admonition-light-blue .admonition-title-icon {
+  display: none;
+}
+.admonition.admonition-light-blue {
+  background-color: rgb(240, 244, 255) !important;
+  border: 1px solid rgb(186, 206, 253);
+  color: rgb(36, 91, 219) !important;
+  border-radius: 5px;
+}
+.markdown-preview-view .admonition.admonition-light-blue  ul > li:not(.task-list-item)::before {
+  color: rgb(36, 91, 219) !important;
+}
+
+
+.admonition.admonition-Light-red .admonition-title  {
+  display: none;
+}
+.admonition.admonition-Light-red .admonition-title-content {
+  display: none;
+}
+.admonition.admonition-Light-red .admonition-title-icon {
+  display: none;
+}
+.admonition.admonition-Light-red {
+  background-color: rgb(254, 241, 241) !important; 
+  border: 1px solid rgb(251, 191, 188);
+  color: rgb(216, 57, 49) !important;
+  border-radius: 5px;
+}
+.markdown-preview-view .admonition.admonition-Light-red  ul > li:not(.task-list-item)::before {
+  color: rgb(216, 57, 49) !important;
 }
 
 
@@ -1150,6 +1210,26 @@ h1[data-heading="inbox Overview"] {
 }
 
 
+.admonition.admonition-light-green .admonition-title  {
+  display: none;
+}
+.admonition.admonition-light-green .admonition-title-content {
+  display: none;
+}
+.admonition.admonition-light-green .admonition-title-icon {
+  display: none;
+}
+.admonition.admonition-light-green {
+  background-color: rgb(240, 251, 239) !important;
+	color: rgb(46, 161, 33) !important;
+  border: 1px solid rgb(183, 237, 177);
+  border-radius: 5px;
+}
+.markdown-preview-view .admonition.admonition-light-green  ul > li:not(.task-list-item)::before {
+  color: rgb(46, 161, 33) !important;
+}
+
+
 .admonition.admonition-purple .admonition-title  {
   display: none;
 }
@@ -1167,6 +1247,71 @@ h1[data-heading="inbox Overview"] {
 }
 .markdown-preview-view .admonition.admonition-purple  ul > li:not(.task-list-item)::before {
   color: rgb(100, 37, 208) !important;
+}
+
+
+.admonition.admonition-light-purple .admonition-title  {
+  display: none;
+}
+.admonition.admonition-light-purple .admonition-title-content {
+  display: none;
+}
+.admonition.admonition-light-purple .admonition-title-icon {
+  display: none;
+}
+.admonition.admonition-light-purple {
+  background-color: rgb(246, 241, 254) !important;
+  border: 1px solid rgb(205, 178, 250);
+  color: rgb(100, 37, 208) !important;
+  border-radius: 5px;
+}
+.markdown-preview-view .admonition.admonition-light-purple  ul > li:not(.task-list-item)::before {
+  color: rgb(100, 37, 208) !important;
+}
+
+
+.admonition.admonition-gray .admonition-title  {
+  display: none;
+}
+.admonition.admonition-gray .admonition-title-content {
+  display: none;
+}
+.admonition.admonition-gray .admonition-title-icon {
+  display: none;
+}
+.admonition.admonition-gray {
+  background-color: rgb(245, 246, 247) !important;
+  border: 1px solid rgb(187, 191, 196) !important;
+  color: rgb(143, 149, 158) !important;
+  border-radius: 5px;
+}
+.markdown-preview-view .admonition.admonition-gray  ul > li:not(.task-list-item)::before {
+  color: rgb(143, 149, 158) !important;
+}
+
+
+.admonition.admonition-light-gray .admonition-title  {
+  display: none;
+}
+.admonition.admonition-light-gray .admonition-title-content {
+  display: none;
+}
+.admonition.admonition-light-gray .admonition-title-icon {
+  display: none;
+}
+.admonition.admonition-light-gray {
+  background-color: rgb(248, 249, 250) !important;
+  border: 1px solid rgb(222, 224, 227);
+  color: rgb(143, 149, 158) !important;
+  border-radius: 5px;
+}
+.markdown-preview-view .admonition.admonition-light-gray  ul > li:not(.task-list-item)::before {
+  color: rgb(143, 149, 158) !important;
+}
+
+
+.admonition code {
+  background-color: transparent !important;
 }
 
 
