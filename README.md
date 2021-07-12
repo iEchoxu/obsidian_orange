@@ -21,16 +21,26 @@
 
 ## :framed_picture: 效果预览
 
-![obsidian_orange_home](https://github.com/iEchoxu/obsidian_orange/blob/main/screenshots/obsidian_home.png)
+![obsidian_orange_home](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-home.png)
 
-![obsidian_orange_startHere](https://github.com/iEchoxu/obsidian_orange/blob/main/screenshots/obsidian_startHere.png)
+![obsidian_orange_startHere](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-starthere.png)
 
-![obsidian_orange-Release_Notes](https://github.com/iEchoxu/obsidian_orange/blob/main/screenshots/obsidian_release_notes.png)
+![obsidian_orange-Release_Notes](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-release.png)
 
-![inbox](https://github.com/iEchoxu/obsidian_orange/blob/main/screenshots/obsidian_inbox.png)
+![obsidian_release1](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-release1.png)
 
-![plugins](https://github.com/iEchoxu/obsidian_orange/blob/main/screenshots/obsidian_plugins.png)
+![obsidian_inbox](https://github.com/iEchoxu/obsidian_orange/blob/main/images/inbox.png)
 
-![fetch url title](https://github.com/iEchoxu/obsidian_orange/blob/main/screenshots/obsidian_url.png)
+![obsidian_badge](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-badge.png)
 
-![obsidian_settings](https://github.com/iEchoxu/obsidian_orange/blob/main/screenshots/obsidian_settings.png)
+![obsidian_hbgtext](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-hbgtext.png)
+
+![obsidian_hblock](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-hblock.png)
+
+![obsidian_img](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-img.png)
+
+![obsidian_img1](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-img1.png)
+
+![obsidian_table](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-table.png)
+
+![obsidian_todo](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-todo.png)
