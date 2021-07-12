@@ -1,0 +1,10 @@
+{
+  "foldHeading": true,
+  "defaultViewMode": "preview",
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "strictLineBreaks": true,
+  "fileSortOrder": "alphabetical",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "inbox"
+}

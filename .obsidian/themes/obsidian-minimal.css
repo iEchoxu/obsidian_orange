@@ -537,7 +537,9 @@ body.plugin-sliding-panes .mod-root .graph-controls {
 
 .view-content .markdown-preview-view img {
   max-width:100%;
-  cursor:zoom-in;}
+  cursor:zoom-in;
+}
+
 
 .view-content .markdown-preview-view img[referrerpolicy='no-referrer']:active,
 .view-content .image-embed:active {
@@ -548,7 +550,7 @@ body.plugin-sliding-panes .mod-root .graph-controls {
   max-height:calc(100% + 1px);
   max-width:calc(100% - 20px);
   height:calc(100% + 1px);
-  width:100%;
+  width:100%; 
   object-fit:contain;
   margin:-0.5px auto 0;
   text-align:center;
@@ -578,6 +580,7 @@ body.plugin-sliding-panes .mod-root .graph-controls {
   filter: invert(1) hue-rotate(180deg);
   mix-blend-mode: screen;
 }
+
 
 /* --------------- */
 /* Calendar Plugin */

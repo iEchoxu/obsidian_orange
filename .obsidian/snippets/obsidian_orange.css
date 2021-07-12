@@ -193,28 +193,27 @@ a, .markdown-preview-view .internal-link {
 
 
 /* 引用文件时，文件名前面会出现 “文档” icon */
-a, .markdown-preview-view .internal-link::before {
-  content: "\e6fa";
-  font-family: "iconfont";
-  margin-right: 3px;
+.markdown-preview-view a.internal-link::before {
+  /* content: "\e6fa";
+  font-family: "iconfont"; */
+  margin-right: 4px;
   margin-left: 2px;
+
+  content: '';
+  background-image: url("data:image/svg+xml,%3Csvg t='1626093724345' class='icon' viewBox='0 0 1024 1024' version='1.1' xmlns='http://www.w3.org/2000/svg' p-id='3856' width='200' height='200'%3E%3Cpath d='M896.5 328.5h-256c-13.3 0-24-10.7-24-24v-256c0-13.3 10.7-24 24-24s24 10.7 24 24v232h232c13.3 0 24 10.7 24 24s-10.7 24-24 24z' fill='%230A59F7' p-id='3857'%3E%3C/path%3E%3Cpath d='M896.5 1000.5h-768c-13.3 0-24-10.7-24-24v-928c0-13.3 10.7-24 24-24h512c6.4 0 12.5 2.5 17 7l256 256c4.5 4.5 7 10.6 7 17v672c0 13.3-10.7 24-24 24z m-744-48h720V314.4L630.6 72.5H152.5v880z' fill='%230A59F7' p-id='3858'%3E%3C/path%3E%3Cpath d='M704.5 792.5h-384c-13.3 0-24-10.7-24-24s10.7-24 24-24h384c13.3 0 24 10.7 24 24s-10.7 24-24 24zM704.5 632.5h-384c-13.3 0-24-10.7-24-24s10.7-24 24-24h384c13.3 0 24 10.7 24 24s-10.7 24-24 24zM704.5 472.5h-384c-13.3 0-24-10.7-24-24s10.7-24 24-24h384c13.3 0 24 10.7 24 24s-10.7 24-24 24zM448.5 312.5h-128c-13.3 0-24-10.7-24-24s10.7-24 24-24h128c13.3 0 24 10.7 24 24s-10.7 24-24 24z' fill='%230A59F7' p-id='3859'%3E%3C/path%3E%3C/svg%3E");
+  background-size: 16px 16px;
+  transform: translate(0, 3px);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 16.8px;
+  width: 16.33px;
 }
 
 
-/* a链接后面的icon */
+/* 去掉 a 链接后面的 icon */
 .external-link {
   background-image: none;
-}
-
-
-/* 预览模式下a 链接 词距 */
-.external-link {
-  word-spacing: -12px;
   padding-right: 0;
-}
-/* 解决文件名有空格时双向链接中单词之间间距过大的问题*/
-a, .markdown-preview-view .internal-link {
-  word-spacing: -10px;
 }
 
 
@@ -222,18 +221,23 @@ a, .markdown-preview-view .internal-link {
 .markdown-preview-view ul > li:not(.task-list-item)::before {
   color: rgba(0, 0, 0, .7);
 }
-/* 二级li 前面添加空白圆圈 */
+/* 二级li 前面添加三角形*/
 .markdown-preview-view ul > li:not(.task-list-item) .collapse-indicator + ul > li::before {
-  content: "\e702";
+  /* content: "\e702";
   font-family: "iconfont";
-  font-size: 8px;
+  font-size: 8px; */
 
+  content: '\2023';
+  transform: rotate(-90deg);
 }
-/* 三级li 前面添加黑色正方形 */
+/* 三级li 前面添加黑色小圆形 */
 .markdown-preview-view ul > li:not(.task-list-item) .collapse-indicator + ul > li .collapse-indicator + ul > li::before {
-  content: "\ea6f";
+  /* content: "\ea6f";
   font-family: "iconfont";
-  font-size: 4px;
+  font-size: 4px; */
+
+  content: '\2024';
+  transform: translate(-2px, -8px);
 }
 
 /* ur li 同级之间用竖线连接 */
@@ -510,7 +514,7 @@ ul ol::before {
 /* 预览模式下 引用 颜色 */
 .markdown-preview-view blockquote {
   border-left: 3px solid #443DF6;
-  /* box-shadow: 0px 0px 24px 0 #f7f7f7; */
+  /* margin: 0 0 0 6px; */
   margin: 0 0;
   margin-block-start: 1.2em;
 }
@@ -519,6 +523,8 @@ ul ol::before {
 /* admonition的背景颜色---白色 */
 .admonition {
   background-color: var(--background-primary) !important;
+  /* margin-block-end: 3em !important; */
+  /* margin-block-start: 2em !important; */
 }
 
 /* admonition 图标与文本样式 */
@@ -945,41 +951,14 @@ ul ol::before {
 }
 
 
-/* 图片放大缩小 */
-.markdown-preview-view img {
-	cursor:zoom-in;
-}
-.markdown-preview-view img:active {
-	cursor:zoom-out;
-	display:block;
-	z-index:100;
-	position:fixed;
-  max-height:100%;
-  max-width:100%;
-  height:100%;
-  width:100%;
-  object-fit: contain;
-  margin:0 auto;
-  text-align:center;
-  top: 50%;
-  transform: translateY(-50%);
-  padding:0;
-  left:0;
-  right:0;
-  bottom:0;
-  background:var(--background-primary);
-}
-
-
 /* 图片并列显示时设置图片之间的间隔 */
-.view-content .markdown-preview-view img  {
-  padding: 20px 20px;
-}
-
-
-/* 图片上下添加margin */
 .view-content .markdown-preview-view img {
   margin: 1.6em auto;
+  padding-right: 30px;
+}
+/* 最后一个图片去除padding */
+.view-content .markdown-preview-view  p > .image-embed:nth-last-child(1) img{
+  padding-right: 0;
 }
 
 
@@ -990,17 +969,31 @@ ul ol::before {
 
 
 /* 当双向链接的类型是图片时在其前面添加 图片icon */
-a, .markdown-preview-view .internal-link[href^="image-MOC"]::before {
-  content: "\e6ef";
-  font-family: "iconfont";
+.markdown-preview-view  a.internal-link[href^="image-MOC"]::before {
+  /* content: "\e6ef";
+  font-family: "iconfont"; */
+
+  content: '';
+  background-image: url("data:image/svg+xml,%3Csvg t='1626092464076' class='icon' viewBox='0 0 1024 1024' version='1.1' xmlns='http://www.w3.org/2000/svg' p-id='3121' width='200' height='200'%3E%3Cpath d='M266.42944 804.352l123.3408-136.82688a37.93408 37.93408 0 0 1 53.39136-2.90304l81.6896 72.83712a37.92384 37.92384 0 0 0 56.43776-6.76864l99.92704-145.04448a37.91872 37.91872 0 0 1 58.15808-5.12l86.33856 87.31136 66.64704 72.65792-13.9264 60.18048-67.30752 25.46176-529.20832 11.5712z' fill='%23F4CA1C' p-id='3122'%3E%3C/path%3E%3Cpath d='M814.76096 148.48H209.23904A153.26208 153.26208 0 0 0 56.32 301.74208v415.40096A153.26208 153.26208 0 0 0 209.23904 870.4h605.52192A153.26208 153.26208 0 0 0 967.68 717.13792V301.74208A153.26208 153.26208 0 0 0 814.76096 148.48z m83.456 568.65792a83.62496 83.62496 0 0 1-83.456 83.62496H209.23904a83.62496 83.62496 0 0 1-83.456-83.62496V301.74208a83.62496 83.62496 0 0 1 83.456-83.63008h605.52192a83.62496 83.62496 0 0 1 83.456 83.61984v415.40096z m-137.728-298.55744a72.42752 72.42752 0 0 0-111.4112 9.87648l-99.712 145.46432a2.8672 2.8672 0 0 1-2.14528 1.29536 2.81088 2.81088 0 0 1-2.38592-0.75264L463.28832 501.41696a72.52992 72.52992 0 0 0-102.272 5.59104l-123.0848 137.216a34.77504 34.77504 0 1 0 51.67104 46.55616l123.0848-137.216a3.03104 3.03104 0 0 1 4.28544-0.2304l81.51552 73.04192a72.41728 72.41728 0 0 0 108.1088-13.02528l99.71712-145.4592a3.03104 3.03104 0 0 1 4.66432-0.41472l86.15936 87.552a34.78016 34.78016 0 1 0 49.47456-48.896z m-316.2368-33.32608a47.00672 47.00672 0 1 0-46.90432-47.00672 46.95552 46.95552 0 0 0 46.90432 47.00672z' fill='%23595BB3' p-id='3123'%3E%3C/path%3E%3C/svg%3E");
+  background-size: 16px 16px;
+  transform: translate(0, 3px);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 16.8px;
+  width: 16.33px;
   margin-right: 5px;
 }
 
 
 /* ccard样式 */
 /* ccard预览时让标题前面不显示icon */
-a, .markdown-preview-view .internal-link[href^="inbox/"]::before {
-  content: "";
+.markdown-preview-view .cute-card-view a.internal-link[href^="inbox/"]::before {
+  background-image: unset;
+}
+
+/* inbox 里的卡片 hover 时不让其显示背景色 */
+.markdown-preview-view .cute-card-view a.internal-link[href^="inbox/"]:hover {
+  background-color: transparent;
 }
 
 h1[data-heading="inbox Overview"] {
@@ -1312,6 +1305,97 @@ h1[data-heading="inbox Overview"] {
 
 .admonition code {
   background-color: transparent !important;
+}
+
+
+/* 表格样式 */
+.markdown-preview-view table {
+  border: 1px solid #ebeef5;
+  border-radius: 3px;
+  transition: .2s;
+  background-color: #fff;
+  color: #606266;
+  text-indent: 1em;
+  width: 100%;
+}
+
+.markdown-preview-view table thead tr th {
+  padding: 30px 0 15px 0;
+}
+
+.markdown-preview-view th, .markdown-preview-view td {
+  border: unset;
+  border-bottom: 1px solid #ebeef5;
+}
+
+.markdown-preview-view table tbody tr td {
+  padding: 10px 0;
+}
+
+.markdown-preview-view table tbody tr td mark {
+  padding: 0;
+}
+
+.markdown-preview-view table tbody tr:nth-child(2n) {
+  background: #fafafa;
+}
+
+.markdown-preview-view table tbody tr:hover {
+  background: #f2f6fc;
+}
+
+
+/* 类 github 风格的 badge 样式设置 */
+a[href*="obsidian://search"] {
+  background-image: unset
+}
+.admonition .admonition-content img {
+  margin: 5px 8px;
+  padding: unset;
+  cursor: pointer;
+}
+
+
+/* badge 图片样式 */
+.view-content .markdown-preview-view a  img {
+  margin: 0 6px 0 0 !important;
+  padding: 0 0;
+  cursor: pointer;
+}
+.view-content .markdown-preview-view img[referrerpolicy='no-referrer']:active {
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  left: 0;
+  right:0;
+  width: auto;
+  height: 20px;
+  display: inline-block;
+  padding: 0;
+  
+}
+
+
+/* 标签样式 */
+.frontmatter-container .tag, .tag {
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
+  white-space: nowrap;
+  max-width: 100%;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1rem;
+  margin-top: 2px;
+}
+
+
+/* 在设置 img-grid 时 admonition-title-content 标题与图片排版混乱问题 */
+.img-grid p.admonition-title-content {
+  display: flex;
 }
 
 

@@ -371,6 +371,9 @@ text {
 ```
 
 ## tag 颜色
+
+^26a1b7
+
 ```css
 .tag[href="#important"] { color : red; }
 
@@ -437,9 +440,161 @@ background-color: var(--text-accent-hover);
 }
 
 ```
+
+## 图片放大缩小 
+```css
+<!DOCTYPE html>
+
+<html lang="en">
+
+  
+
+<head>
+
+ <meta charset="UTF-8">
+
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <title>Document</title>
+
+ <style>
+
+ .img-grid .image-embed {
+
+ display: table-cell;
+
+ }
+
+  
+
+ .img-grid .image-embed img {
+
+ width: 85%;
+
+ padding: 20px;
+
+ cursor: zoom-in;
+
+ max-width: 100%;
+
+ }
+
+  
+
+ .img-grid img[alt*="."]:hover {
+
+ transform: scale(1.1);
+
+ }
+
+  
+
+ .img-grid img[alt*="."]:active {
+
+ cursor: zoom-out;
+
+ display: block;
+
+ z-index: 100;
+
+ position: fixed;
+
+ max-height: calc(100% + 1px);
+
+ max-width: calc(100% - 20px);
+
+ height: calc(100% + 1px);
+
+ width: 100%;
+
+ object-fit: contain;
+
+ margin: -0.5px auto 0;
+
+ text-align: center;
+
+ padding: 0;
+
+ /* top: 10px; */
+
+ left: 0;
+
+ right: 0;
+
+ bottom: 0;
+
+ background: rgba(255, 255, 255, 0.85);
+
+ }
+
+  
+
+ .img-grid .image-embed:active img {
+
+ top: 50%;
+
+ transform: translateY(-50%);
+
+ padding: 0;
+
+ margin: 0 auto;
+
+ width: auto;
+
+ max-height: 95vh;
+
+ left: 0;
+
+ right: 0;
+
+ bottom: 0;
+
+ position: absolute;
+
+ opacity: 1;
+
+ }
+
+ </style>
+
+</head>
+
+  
+
+<body>
+
+ <div class="img-grid">
+
+ <span alt="home.png" src="home.png" class="internal-embed image-embed is-loaded">
+
+ <img alt="home.png" src="./Home.png">
+
+ </span>
+
+ <span alt="home.png" src="home.png" class="internal-embed image-embed is-loaded">
+
+ <img alt="home.png" src="./Home.png">
+
+ </span>
+
+ <span alt="home.png" src="home.png" class="internal-embed image-embed is-loaded">
+
+ <img alt="home.png" src="./Home.png">
+
+ </span>
+
+ <span alt="home.png" src="home.png" class="internal-embed image-embed is-loaded">
+ <img alt="home.png" src="./Home.png">
+ </span>
+ </div>
+</body>
+</html>
+```
 ## Links
 
 ^1f784e
 
-- [awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian#css-tweaks) | [Obsidian CSS 代码段 (on GitHub)](https://github.com/Dmitriy-Shulha/obsidian-css-snippets/tree/master/Snippets)
--  [Obsidian CSS Themes All](https://forum.obsidian.md/t/meta-post-css-themes/76) | [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian) | [Meta Post - Common CSS Hacks](https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/41)
+- 👉 [awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian#css-tweaks) | [Obsidian CSS 代码段 (on GitHub)](https://github.com/Dmitriy-Shulha/obsidian-css-snippets/tree/master/Snippets)    👈
+- 👉  [Obsidian CSS Themes All](https://forum.obsidian.md/t/meta-post-css-themes/76) | [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian) | [Meta Post - Common CSS Hacks](https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/41) 

@@ -1,0 +1,13 @@
+{
+  "baseFontSize": 28,
+  "cssTheme": "obsidian-minimal",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "mysetting",
+    "highlight colors",
+    "iconfont",
+    "obsidian_orange",
+    "image-grid"
+  ],
+  "translucency": false
+}
