@@ -21,7 +21,7 @@
 
 ## :framed_picture: 效果预览
 
-![obsidian_orange_home](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-home.png)
+![obsidian_orange_home](https://raw.githubusercontent.com/iEchoxu/obsidian_orange/main/images/obsidian-home.png)
 
 ![obsidian_orange_startHere](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-starthere.png)
 
