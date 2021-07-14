@@ -1,4 +1,4 @@
-# :tada: obsidian_orange 是什么？
+﻿# :tada: obsidian_orange 是什么？
 - obsidian_orange 是一款基于 `minimal theme ` 定制的主题。
 
 ## :sparkles: obsidian_orange 实现了什么功能？
@@ -21,26 +21,26 @@
 
 ## :framed_picture: 效果预览
 
-![obsidian_orange_home](https://raw.githubusercontent.com/iEchoxu/obsidian_orange/main/images/obsidian-home.png)
+![obsidian_orange_home](https://image.echoxu.cn/obsidian-home.png)
 
-![obsidian_orange_startHere](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-starthere.png)
+![obsidian_orange_startHere](https://image.echoxu.cn/obsidian-starthere.png)
 
-![obsidian_orange-Release_Notes](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-release.png)
+![obsidian_orange-Release_Notes](https://image.echoxu.cn/obsidian-release.png)
 
-![obsidian_release1](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-release1.png)
+![obsidian_release1](https://image.echoxu.cn/obsidian-release1.png)
 
-![obsidian_inbox](https://github.com/iEchoxu/obsidian_orange/blob/main/images/inbox.png)
+![obsidian_inbox](https://image.echoxu.cn/inbox.png)
 
-![obsidian_badge](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-badge.png)
+![obsidian_badge](https://image.echoxu.cn/obsidian-badge.png)
 
-![obsidian_hbgtext](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-hbgtext.png)
+![obsidian_hbgtext](https://image.echoxu.cn/obsidian-hbgtext.png)
 
-![obsidian_hblock](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-hblock.png)
+![obsidian_hblock](https://image.echoxu.cn/obsidian-hblock.png)
 
-![obsidian_img](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-img.png)
+![obsidian_img](https://image.echoxu.cn/obsidian-img.png)
 
-![obsidian_img1](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-img1.png)
+![obsidian_img1](https://image.echoxu.cn/obsidian-img1.png)
 
-![obsidian_table](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-table.png)
+![obsidian_table](https://image.echoxu.cn/obsidian-table.png)
 
-![obsidian_todo](https://github.com/iEchoxu/obsidian_orange/blob/main/images/obsidian-todo.png)
+![obsidian_todo](https://image.echoxu.cn/obsidian-todo.png)

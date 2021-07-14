@@ -1,4 +1,4 @@
-文章内容裁剪：将网页所有内容转为 markdown。
+>文章内容裁剪：将网页所有内容转为 markdown。
 
 目前 obsidian 已支持将浏览器中复制的网页内容转为 markdown 格式，如果不想转换可在 obsidian 里粘贴时右键选择 `Paste as text`。
 
@@ -6,7 +6,7 @@
 
 ```ad-mypurple
 title:通过 obsidian 插件实现 *推荐*
-- 下载[obsidian-auto-link-title](https://forum.obsidian.md/t/ability-for-links-to-be-pasted-with-pages-title/1543/9)并启用，然后从浏览器中复制 url 地址，插件自会抓取标题并转为 markdown 格式。
+- 下载 [obsidian-auto-link-title](https://forum.obsidian.md/t/ability-for-links-to-be-pasted-with-pages-title/1543/9) 并启用，然后从浏览器中复制 url 地址，插件自会抓取标题并转为 markdown 格式。
 ```
 
 ```ad-example

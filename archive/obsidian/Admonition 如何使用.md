@@ -87,12 +87,12 @@ title:自定义的 type
 </br>
 
 ### 用 admonition 实现高亮块
-分别添加 5 个自定义 Admonition：
-- ad-orange、ad-blue、ad-red、ad-green、ad-purple
+分别添加 12 个自定义 Admonition：
+- ad-orange、ad-light-orange、ad-light-blue、ad-blue、ad-red、ad-Light-red、ad-green、ad-light-green、ad-purple、ad-light-purple、ad-gray、ad-light-gray
 - 图标和颜色随便选，反正也不会让其显示
 - 注册
 
 ---
 ## Links
 - [How To Use Admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
-- [obsidian-admonition插件](https://github.com/valentine195/obsidian-admonition)
+- [obsidian-admonition 插件](https://github.com/valentine195/obsidian-admonition)

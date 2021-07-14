@@ -1,4 +1,4 @@
-未发布的新功能与需求，了解更多详情请查阅:  [[CSS code snippets]]  ~~beta~~
+未发布的功能与需求，了解更多详情请查阅:  [[CSS code snippets]]  ~~beta~~
 ## 👏 新增功能
 ```ad-example
 title: 已实现的功能  *stable*
