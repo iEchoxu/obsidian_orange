@@ -273,6 +273,12 @@ ul ol::before {
 }
 
 
+/* li 之间设置距离 */
+.markdown-preview-view ul > li {
+  margin-bottom: 2px;
+}
+
+
 /* ur li 黑色圆点与文字对齐 */
 .markdown-preview-view ul > li:not(.task-list-item)::before {
   margin-top: 15px;
@@ -469,8 +475,10 @@ ul ol::before {
 
 
 .markdown-preview-view h1 {
-  font-size: 30px;
-  line-height: 38px;
+  /* font-size: 30px;
+  line-height: 38px; */
+  font-size: 26px;
+  line-height: 1.65;
   font-weight: 600;
   margin-block-start: 1em;
 }
@@ -478,42 +486,68 @@ ul ol::before {
 
 /* h2 字体大小 */
 .markdown-preview-view h2 {
-  font-size: 24px;
+  /* font-size: 24px;
   line-height: 32px;
-  font-weight: 500;
-  margin-block-start: 40px;
+  font-weight: 500; 
+  margin-block-start: 40px; */
+
+  font-size: 22px;
+  line-height: 1.65;
+  font-weight: 600;
+  margin-block-start: 1em;
 }
 
 
 .markdown-preview-view h3 {
-  font-size: 20px;
+  /* font-size: 20px;
   line-height: 28px;
   font-weight: 500;
-  margin-block-start: 32px;
+  margin-block-start: 32px; */
+ 
+  font-size: 20px;
+  line-height: 1.65;
+  font-weight: 600;
+  margin-block-start: 1em;
 }
 
 
 .markdown-preview-view h4 {
-  font-size: 18px;
+  /* font-size: 18px;
   line-height: 26px;
-  font-weight: 500;
-  margin-block-start: 24px;
+  font-weight: 500; 
+  margin-block-start: 24px; */
+ 
+  font-size: 18px;
+  line-height: 1.65;
+  font-weight: 600;
+  margin-block-start: 1em;
 
 }
 
 .markdown-preview-view h5 {
-  font-size: 16px;
+  /* font-size: 16px;
   line-height: 24px;
-  font-weight: 500;
-  margin-block-start: 16px;
+  font-weight: 500; 
+  margin-block-start: 16px; */
+ 
+  font-size: 16px;
+  line-height: 1.65;
+  font-weight: 600;
+  margin-block-start: 1em;
 }
 
 
 .markdown-preview-view h6 {
-  font-size: 16px;
+  /* font-size: 16px;
   line-height: 24px;
   font-weight: 500;
-  margin-block-start: 16px;
+  margin-block-start: 16px; */
+ 
+  font-size: 16px;
+  line-height: 1.65;
+  font-weight: 600;
+  margin-block-start: 1em;
+  color: var(--text-normal);
 }
 
 
