@@ -399,8 +399,20 @@ ul ol::before {
 }
 
 
+.markdown-preview-view h1:hover .heading-collapse-indicator.collapse-indicator:before  {
+  content: 'H 1';
+  color: #999999;
+  font-size: 8px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.markdown-preview-view .heading-collapse-indicator.collapse-indicator {
+  margin-left: -45px;
+}
+
+
 /* 标题前面添加 h2 这样的小提示 */
-.markdown-preview-view h2 .heading-collapse-indicator.collapse-indicator::before  {
+.markdown-preview-view h2:hover .heading-collapse-indicator.collapse-indicator:before  {
   content: 'H2';
   color: #999999;
   font-size: 8px;
@@ -411,7 +423,7 @@ ul ol::before {
   margin-left: -45px;
 }
 /* 标题前面添加 h3 这样的小提示 */
-.markdown-preview-view h3 .heading-collapse-indicator.collapse-indicator::before  {
+.markdown-preview-view h3:hover .heading-collapse-indicator.collapse-indicator::before  {
   content: 'H3';
   color: #999999;
   font-size: 8px;
@@ -422,7 +434,7 @@ ul ol::before {
   margin-left: -45px;
 }
 /* 标题前面添加 h4 这样的小提示 */
-.markdown-preview-view h4 .heading-collapse-indicator.collapse-indicator::before  {
+.markdown-preview-view h4:hover .heading-collapse-indicator.collapse-indicator::before  {
   content: 'H4';
   color: #999999;
   font-size: 8px;
@@ -433,7 +445,7 @@ ul ol::before {
   margin-left: -45px;
 }
 /* 标题前面添加 h5 这样的小提示 */
-.markdown-preview-view h5 .heading-collapse-indicator.collapse-indicator::before  {
+.markdown-preview-view h5:hover .heading-collapse-indicator.collapse-indicator::before  {
   content: 'H5';
   color: #999999;
   font-size: 8px;
@@ -444,7 +456,7 @@ ul ol::before {
   margin-left: -45px;
 }
 /* 标题前面添加 h6 这样的小提示 */
-.markdown-preview-view h6 .heading-collapse-indicator.collapse-indicator::before  {
+.markdown-preview-view h6:hover .heading-collapse-indicator.collapse-indicator::before  {
   content: 'H6';
   color: #999999;
   font-size: 8px;
@@ -456,17 +468,66 @@ ul ol::before {
 }
 
 
+.markdown-preview-view h1 {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 600;
+  margin-block-start: 1em;
+}
+
+
 /* h2 字体大小 */
 .markdown-preview-view h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-block-start: 40px;
+}
+
+
+.markdown-preview-view h3 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-block-start: 32px;
+}
+
+
+.markdown-preview-view h4 {
   font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  margin-block-start: 24px;
+
+}
+
+.markdown-preview-view h5 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-block-start: 16px;
+}
+
+
+.markdown-preview-view h6 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-block-start: 16px;
 }
 
 
 /* 标题上下marin */
-.markdown-preview-view h1, .markdown-preview-view h2, .markdown-preview-view h3, .markdown-preview-view h4, .markdown-preview-view h5, .markdown-preview-view h6 {
+/* 原来的标题字体与间隔设计 */
+/* .markdown-preview-view h1, .markdown-preview-view h2, .markdown-preview-view h3, .markdown-preview-view h4, .markdown-preview-view h5, .markdown-preview-view h6 {
   margin: 30px 0 20px 0;
   margin-block-start: 2em;
 }
+.markdown-preview-view h2 {
+  font-size: 18px;
+}
+
+*/
 
 
 /* 自定义的高亮块 block 里面的双向链接文字颜色 */
