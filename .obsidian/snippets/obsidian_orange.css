@@ -583,6 +583,7 @@ ul ol::before {
 .theme-light .graph-view.color-fill-tag,
 .theme-dark .graph-view.color-fill-attachment,
 .theme-light .graph-view.color-fill-attachment,
+.graph-view.color-fill-focused,
 .graph-view.color-circle {
   color: rgba(10,89,247);
 }
