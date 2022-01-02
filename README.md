@@ -8,6 +8,7 @@
 - 徽章（Badge）：在标题或文本的右上角添加状态信息
 - 自动 fetch url 标题并填充为 markdown 格式
 - 以卡片形式显示 inbox 中待整理的笔记
+- 笔记两栏、三栏布局
 
 ## :triangular_flag_on_post: 推荐安装的插件
 - [obsidian-admonition](https://github.com/valentine195/obsidian-admonition)
@@ -21,26 +22,32 @@
 
 ## :framed_picture: 效果预览
 
-![obsidian_orange_home](https://image.echoxu.cn/obsidian-home.png)
+![obsidian_orange_home](./images/obsidian-home.png)
 
-![obsidian_orange_startHere](https://image.echoxu.cn/obsidian-starthere.png)
+![obsidian_orange_startHere](./images/obsidian_starthere.png)
 
-![obsidian_orange-Release_Notes](https://image.echoxu.cn/obsidian-release.png)
+![obsidian_orange-Release_Notes](./images/obsidian-release.png)
 
-![obsidian_release1](https://image.echoxu.cn/obsidian-release1.png)
+![obsidian_release1](./images/obsidian-release1.png)
 
-![obsidian_inbox](https://image.echoxu.cn/inbox.png)
+![obsidian_inbox](./images/inbox.png)
 
-![obsidian_badge](https://image.echoxu.cn/obsidian-badge.png)
+![obsidian_badge](./images/obsidian-badge.png)
 
-![obsidian_hbgtext](https://image.echoxu.cn/obsidian-hbgtext.png)
+![obsidian_hbgtext](./images/obsidian-hbgtext.png)
 
-![obsidian_hblock](https://image.echoxu.cn/obsidian-hblock.png)
+![obsidian_hblock](./images/obsidian-hblock.png)
 
-![obsidian_img](https://image.echoxu.cn/obsidian-img.png)
+![obsidian_img](./images/obsidian-img.png)
 
-![obsidian_img1](https://image.echoxu.cn/obsidian-img1.png)
+![obsidian_img1](./images/obsidian-img1.png)
 
-![obsidian_table](https://image.echoxu.cn/obsidian-table.png)
+![obsidian_table](./images/obsidian-table.png)
 
-![obsidian_todo](https://image.echoxu.cn/obsidian-todo.png)
+![obsidian_todo](./images/obsidian-todo.png)
+
+![obsidian_coloumn](./images/obsidian_coloumn.png)
+
+![obsidian_coloumn1](./images/obsidian_coloumn1.png)
+
+![obsidian_coloumn2](./images/obsidian_coloumn2.png)

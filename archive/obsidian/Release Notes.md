@@ -8,6 +8,7 @@ title: 已实现的功能  *stable*
 - 徽章（Badge）：在标题或文本的右上角添加状态信息
 - 自动 fetch url 标题并填充为 markdown 格式
 - 以卡片形式显示 inbox 中待整理的笔记
+- 笔记分栏布局
 ```
 ## ✍ 个性化修改
 ```ad-purple

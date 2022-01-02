@@ -1,0 +1,109 @@
+/* 分两栏 */
+.ad-column .admonition-col2 {
+    width: 47%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.ad-column .admonition-col2 > .admonition-content {
+    padding-right: 0;
+}
+
+
+/* 分三栏 */
+.ad-column .admonition-col3 {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.ad-column .admonition-col3 > .admonition-content {
+    padding-right: 0;
+}
+
+
+/* 带边框的内容分栏 */
+.ad-column .admonition-columns .admonition-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-right: 15px;
+    margin: 0 0 0 15px;
+}
+.ad-column .admonition-columns .admonition-content > * {
+    flex:1;
+    margin-right: 50px;
+}
+
+.ad-column .admonition-columns .admonition-content > p:last-child {
+    margin-right: 0;
+
+}
+
+.ad-column .admonition-columns .admonition-content ul {
+    display: flex;
+    margin-right: 0;
+}
+
+.ad-column .admonition-columns .admonition-content ul li {
+    margin-right: 50px;
+    flex: 1;
+}
+
+.ad-column .admonition-columns .admonition-content ul li:last-child {
+    margin-right: 0;
+}
+
+
+/* 不带边框的内容分栏 */
+
+.ad-column .admonition-columnsnoborder .admonition-title {
+    display: none;
+}
+
+.ad-column .admonition-columnsnoborder {
+    border-left:none;
+    border-radius:none;
+    box-shadow:none;
+    margin: 0 0;
+}
+
+.ad-column .admonition-columnsnoborder .admonition-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 0;
+}
+
+.ad-column .admonition-columnsnoborder .admonition-content > *{
+    flex:1;
+    margin: 0 0 20px 0;
+}
+
+.ad-column .admonition-columnsnoborder .admonition-content ul {
+    display: flex;
+    padding-left: 20px;
+    margin: 0 0 ;
+}
+
+.ad-column .admonition-columnsnoborder .admonition-content ul li {
+    flex:1;
+}
+
+.ad-column .admonition-columnsnoborder .admonition-content ul li p {
+    margin: 0 0 ;
+}
+
+.ad-column .admonition-columnsnoborder .admonition-content ul li::before{
+    transform: translate(0px, 16px);
+}
+
+
+/* 取消这些元素的浮动效果 */
+.ad-column p,h1,h2,h3,h4,h5,h6,hr,ul,ol{
+    clear: both;
+}
+
+

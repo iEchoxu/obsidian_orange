@@ -77,6 +77,30 @@
       "color": "#7d7d7d",
       "icon": "ad",
       "command": true
+    },
+    "col2": {
+      "type": "col2",
+      "color": "68, 61, 246",
+      "icon": "list-ul",
+      "command": true
+    },
+    "col3": {
+      "type": "col3",
+      "color": "68, 61, 246",
+      "icon": "list-ol",
+      "command": true
+    },
+    "columns": {
+      "type": "columns",
+      "color": "68, 61, 246",
+      "icon": "list-ol",
+      "command": true
+    },
+    "columnsnoborder": {
+      "type": "columnsnoborder",
+      "color": "#7d7d7d",
+      "icon": "list",
+      "command": true
     }
   },
   "syntaxHighlight": false,

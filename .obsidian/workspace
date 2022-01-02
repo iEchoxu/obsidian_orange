@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "inbox/inbox.md",
+            "file": "inbox/实现笔记分栏.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "inbox/inbox.md"
+                "file": "inbox/实现笔记分栏.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inbox/inbox.md",
+                "file": "inbox/实现笔记分栏.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "inbox/inbox.md",
+                "file": "inbox/实现笔记分栏.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inbox/inbox.md",
+                "file": "inbox/实现笔记分栏.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,15 +169,15 @@
   },
   "active": "71dd6910d9a47bff",
   "lastOpenFiles": [
-    "inbox/inbox.md",
+    "inbox/实现笔记分栏.md",
     "Start Here.md",
+    "archive/obsidian/Release Notes.md",
+    "README.md",
     "Home.md",
+    "inbox/inbox.md",
     "archive/obsidian/Admonition 如何使用.md",
     "archive/obsidian/文本高亮与高亮块.md",
-    "archive/obsidian/Release Notes.md",
     "archive/obsidian/自动填充 url 链接的标题.md",
-    "images/startHere.png",
-    "images/Home.png",
-    "inbox/ToDo.md"
+    "images/startHere.png"
   ]
 }

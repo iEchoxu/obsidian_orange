@@ -4,7 +4,7 @@
   --text-editor: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --font-monospace:Menlo,SFMono-Regular,Consolas,"Roboto Mono",monospace;
   --font-ui: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  --line-width:50rem;    /* Maximum characters per line 内容区宽度*/
+  --line-width:70rem;    /* Maximum characters per line 内容区宽度*/
   --font-normal:16px;
   --line-height:1.65;
 }
