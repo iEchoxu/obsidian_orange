@@ -84,6 +84,30 @@ title:自定义的 type
 这是自定义的 type
 ```
 
+`````ad-mypurple
+title:自定义的 type
+collapse:false
+这是自定义的 type
+
+````ad-example
+title:此处使用的是 ad-example 类型
+collapse: false
+- 正文内容
+- 正文内容
+
+```ad-note
+title:此处使用的是 ad-example 类型
+collapse: false
+- 正文内容
+- 正文内容
+```
+
+````
+
+`````
+
+
+
 </br>
 
 ### 用 admonition 实现高亮块

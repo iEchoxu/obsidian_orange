@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "inbox/实现笔记分栏.md",
-            "mode": "preview"
+            "file": "archive/obsidian/Admonition 如何使用.md",
+            "mode": "source"
           }
         }
       }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "inbox/实现笔记分栏.md"
+                "file": "archive/obsidian/Admonition 如何使用.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inbox/实现笔记分栏.md",
+                "file": "archive/obsidian/Admonition 如何使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "inbox/实现笔记分栏.md",
+                "file": "archive/obsidian/Admonition 如何使用.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inbox/实现笔记分栏.md",
+                "file": "archive/obsidian/Admonition 如何使用.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,13 +169,13 @@
   },
   "active": "71dd6910d9a47bff",
   "lastOpenFiles": [
-    "inbox/实现笔记分栏.md",
+    "archive/obsidian/Admonition 如何使用.md",
     "Start Here.md",
+    "inbox/实现笔记分栏.md",
     "archive/obsidian/Release Notes.md",
     "README.md",
     "Home.md",
     "inbox/inbox.md",
-    "archive/obsidian/Admonition 如何使用.md",
     "archive/obsidian/文本高亮与高亮块.md",
     "archive/obsidian/自动填充 url 链接的标题.md",
     "images/startHere.png"
