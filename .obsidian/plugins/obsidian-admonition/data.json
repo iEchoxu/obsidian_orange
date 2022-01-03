@@ -101,6 +101,30 @@
       "color": "#7d7d7d",
       "icon": "list",
       "command": true
+    },
+    "col2_left_large": {
+      "type": "col2_left_large",
+      "color": "#7d7d7d",
+      "icon": "list",
+      "command": true
+    },
+    "col2_right_small": {
+      "type": "col2_right_small",
+      "color": "#7d7d7d",
+      "icon": "list",
+      "command": true
+    },
+    "col2_left_small": {
+      "type": "col2_left_small",
+      "color": "#7d7d7d",
+      "icon": "list",
+      "command": true
+    },
+    "col2_right_large": {
+      "type": "col2_right_large",
+      "color": "#7d7d7d",
+      "icon": "list",
+      "command": true
     }
   },
   "syntaxHighlight": false,
