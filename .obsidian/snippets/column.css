@@ -23,11 +23,11 @@
     padding-right: 0;
 }
 
+
 /* 左右对齐的分栏，其中一个占内容区的 2/3，另一个占内容区的 1/3 */
 .ad-column  .admonition-col2_left_large {
     width: 60%;
     float: left;
-    margin-right: 30px;
 }
 
 .ad-column .admonition-col2_right_small {
@@ -38,7 +38,6 @@
 .ad-column .admonition-col2_left_small {
     width: 30%;
     float: left;
-    margin-right: 30px;
 }
 
 .ad-column .admonition-col2_right_large {
