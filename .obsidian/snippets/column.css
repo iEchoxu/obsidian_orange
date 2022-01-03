@@ -33,11 +33,21 @@
 .ad-column .admonition-col2_right_small {
     width: 30%;
     float: right;
+    min-height: 100px;
+}
+
+.ad-column .admonition-col2_right_small .admonition-title-content {
+    display: none;
 }
 
 .ad-column .admonition-col2_left_small {
     width: 30%;
     float: left;
+    min-height: 100px;
+}
+
+.ad-column .admonition-col2_left_small .admonition-title-content{
+    display: none;
 }
 
 .ad-column .admonition-col2_right_large {
