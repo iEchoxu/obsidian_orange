@@ -1,4 +1,4 @@
-﻿# :tada: obsidian_orange 是什么？
+﻿﻿# :tada: obsidian_orange 是什么？
 - obsidian_orange 是一款基于 `minimal theme ` 定制的主题。
 
 ## :sparkles: obsidian_orange 实现了什么功能？
@@ -52,4 +52,6 @@
 
 ![obsidian_coloumn2](./images/obsidian_coloumn2.png)
 
-![obsidian_coloumn3](./images/obsidian_coloumns3.png)
+
+
+![obsidian_coloumn4](./images/obsidian_coloumns4.png)
