@@ -128,9 +128,12 @@
     }
   },
   "syntaxHighlight": false,
-  "copyButton": false,
-  "version": "",
+  "copyButton": true,
+  "version": "6.7.2",
   "autoCollapse": false,
   "defaultCollapseType": "open",
-  "syncLinks": true
+  "syncLinks": true,
+  "enableMarkdownProcessor": false,
+  "injectColor": true,
+  "parseTitles": true
 }
