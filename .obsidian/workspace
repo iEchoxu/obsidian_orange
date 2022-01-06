@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Start Here.md",
+            "file": "archive/obsidian/跨终端查看 Obsidian 笔记.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Start Here.md"
+                "file": "archive/obsidian/跨终端查看 Obsidian 笔记.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Start Here.md",
+                "file": "archive/obsidian/跨终端查看 Obsidian 笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Start Here.md",
+                "file": "archive/obsidian/跨终端查看 Obsidian 笔记.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Start Here.md",
+                "file": "archive/obsidian/跨终端查看 Obsidian 笔记.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,15 +169,15 @@
   },
   "active": "34ffdb6a041bb450",
   "lastOpenFiles": [
+    "archive/obsidian/跨终端查看 Obsidian 笔记.md",
+    "archive/obsidian/Obsidian To HTML.md",
+    "archive/obsidian/Obsidian 同步方案.md",
     "Start Here.md",
-    "archive/obsidian/实现笔记分栏.md",
     "README.md",
+    "archive/obsidian/实现笔记分栏.md",
     "inbox/实现笔记分栏.md",
     "archive/obsidian/Admonition 如何使用.md",
     "archive/obsidian/Release Notes.md",
-    "Home.md",
-    "inbox/inbox.md",
-    "archive/obsidian/文本高亮与高亮块.md",
-    "archive/obsidian/自动填充 url 链接的标题.md"
+    "Home.md"
   ]
 }
