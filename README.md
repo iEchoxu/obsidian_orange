@@ -19,6 +19,7 @@
 - 下载本项目
 - 用 obsidian 打开 obsidian_orange
 - 仔细阅读 `Start Here` 文件，想查看具体语法如何使用可打开 `编辑模式`，这样就可查看完整的语法使用技巧。
+- 关闭 obsidian 0.13.14 所见即所得：选中 **设置---> 编辑器---> use legecy editor**
 
 ## :framed_picture: 效果预览
 
