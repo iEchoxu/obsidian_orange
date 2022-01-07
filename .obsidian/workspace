@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "archive/obsidian/设置快捷键.md",
-            "mode": "preview"
+            "file": "archive/obsidian/Obsidian To HTML.md",
+            "mode": "source"
           }
         }
       }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "archive/obsidian/设置快捷键.md"
+                "file": "archive/obsidian/Obsidian To HTML.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "archive/obsidian/设置快捷键.md",
+                "file": "archive/obsidian/Obsidian To HTML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "archive/obsidian/设置快捷键.md",
+                "file": "archive/obsidian/Obsidian To HTML.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "archive/obsidian/设置快捷键.md",
+                "file": "archive/obsidian/Obsidian To HTML.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,12 +169,12 @@
   },
   "active": "34ffdb6a041bb450",
   "lastOpenFiles": [
-    "archive/obsidian/设置快捷键.md",
-    "README.md",
+    "archive/obsidian/Obsidian To HTML.md",
     "Start Here.md",
     "archive/obsidian/跨终端查看 Obsidian 笔记.md",
-    "archive/obsidian/Obsidian To HTML.md",
     "archive/obsidian/Obsidian 同步方案.md",
+    "README.md",
+    "archive/obsidian/设置快捷键.md",
     "archive/obsidian/实现笔记分栏.md",
     "inbox/实现笔记分栏.md",
     "archive/obsidian/Admonition 如何使用.md",
