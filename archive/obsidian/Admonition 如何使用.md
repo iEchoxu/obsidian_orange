@@ -2,6 +2,7 @@
 ## Admonition Types
 ```ad-example
 title:此处使用的是 ad-example 类型
+collapse: false
 - 正文内容
 - 正文内容
 ```
@@ -81,6 +82,9 @@ title:此处使用的是 ad-quote 类型
 
 ```ad-mypurple
 title:自定义的 type
+collapse:false
+icon: list-ol
+color: 0,158,164
 这是自定义的 type
 ```
 
@@ -105,9 +109,6 @@ collapse: false
 ````
 
 `````
-
-
-
 </br>
 
 ### 用 admonition 实现高亮块

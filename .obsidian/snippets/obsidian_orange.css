@@ -218,27 +218,21 @@ a, .markdown-preview-view .internal-link {
 
 
 /* ur li 前面的icon颜色 */
-.markdown-preview-view ul > li:not(.task-list-item)::before {
+/* .markdown-preview-view ul > li:not(.task-list-item)::before {
   color: rgba(0, 0, 0, .7);
-}
+} */
 /* 二级li 前面添加三角形*/
-.markdown-preview-view ul > li:not(.task-list-item) .collapse-indicator + ul > li::before {
-  /* content: "\e702";
-  font-family: "iconfont";
-  font-size: 8px; */
+/* .markdown-preview-view ul > li:not(.task-list-item) .collapse-indicator + ul > li::before {
 
   content: '\2023';
   transform: rotate(-90deg);
-}
+} */
 /* 三级li 前面添加黑色小圆形 */
-.markdown-preview-view ul > li:not(.task-list-item) .collapse-indicator + ul > li .collapse-indicator + ul > li::before {
-  /* content: "\ea6f";
-  font-family: "iconfont";
-  font-size: 4px; */
+/* .markdown-preview-view ul > li:not(.task-list-item) .collapse-indicator + ul > li .collapse-indicator + ul > li::before {
 
   content: '\2024';
   transform: translate(-2px, -8px);
-}
+} */
 
 /* ur li 同级之间用竖线连接 */
 .cm-hmd-list-indent .cm-tab,
@@ -372,6 +366,12 @@ ul ol::before {
 .workspace-tab-container-inner {
   background: #ffffff;
 }
+/* 左侧收起菜单 */
+.workspace-ribbon.mod-left .workspace-ribbon-collapse-btn {
+  left:0;
+}
+
+
 /* 底部状态栏 */
 .status-bar {
   background-color: #ffffff;

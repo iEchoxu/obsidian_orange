@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "archive/obsidian/Obsidian To HTML.md",
-            "mode": "source"
+            "file": "README.md",
+            "mode": "preview"
           }
         }
       }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "archive/obsidian/Obsidian To HTML.md"
+                "file": "README.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "archive/obsidian/Obsidian To HTML.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "archive/obsidian/Obsidian To HTML.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "archive/obsidian/Obsidian To HTML.md",
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,15 +169,15 @@
   },
   "active": "34ffdb6a041bb450",
   "lastOpenFiles": [
-    "archive/obsidian/Obsidian To HTML.md",
-    "Start Here.md",
-    "archive/obsidian/跨终端查看 Obsidian 笔记.md",
-    "archive/obsidian/Obsidian 同步方案.md",
     "README.md",
-    "archive/obsidian/设置快捷键.md",
-    "archive/obsidian/实现笔记分栏.md",
-    "inbox/实现笔记分栏.md",
+    "Start Here.md",
     "archive/obsidian/Admonition 如何使用.md",
-    "archive/obsidian/Release Notes.md"
+    "inbox/构建笔记系统.md",
+    "archive/obsidian/ToDo List 案例演示.md",
+    "Home.md",
+    "archive/obsidian/并列显示多个图片.md",
+    "archive/obsidian/让图片排版更加美观.md",
+    "archive/obsidian/Obsidian To HTML.md",
+    "archive/obsidian/跨终端查看 Obsidian 笔记.md"
   ]
 }
