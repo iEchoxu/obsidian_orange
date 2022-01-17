@@ -12,7 +12,7 @@ title: 已实现的功能  *stable*
 ```
 ## ✍ 个性化修改
 ```ad-purple
-下面的需求已全部实现并添加进主题中，详见：obsidian_range.css
+下面的需求已全部实现并添加进主题中，详见：obsidian_orange.css
 ```
 
 - 根据文件夹名称添加不同 icon**（非字体图标实现）**

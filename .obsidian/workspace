@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "archive/obsidian/文本高亮与高亮块.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "archive/obsidian/文本高亮与高亮块.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "archive/obsidian/文本高亮与高亮块.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "archive/obsidian/文本高亮与高亮块.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "archive/obsidian/文本高亮与高亮块.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,15 +169,15 @@
   },
   "active": "34ffdb6a041bb450",
   "lastOpenFiles": [
-    "README.md",
+    "archive/obsidian/文本高亮与高亮块.md",
     "Start Here.md",
+    "archive/obsidian/在 Obsidian 中实现分栏.md",
+    "archive/obsidian/文本横排显示.md",
+    "README.md",
     "archive/obsidian/Admonition 如何使用.md",
     "inbox/构建笔记系统.md",
     "archive/obsidian/ToDo List 案例演示.md",
     "Home.md",
-    "archive/obsidian/并列显示多个图片.md",
-    "archive/obsidian/让图片排版更加美观.md",
-    "archive/obsidian/Obsidian To HTML.md",
-    "archive/obsidian/跨终端查看 Obsidian 笔记.md"
+    "archive/obsidian/并列显示多个图片.md"
   ]
 }

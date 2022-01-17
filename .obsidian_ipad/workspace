@@ -1,0 +1,119 @@
+{
+  "main": {
+    "id": "8e0c4103a0b10688",
+    "type": "split",
+    "children": [
+      {
+        "id": "e93ce8c4cfad3ac4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "inbox/在 Obsidian 中实现分栏.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2d512e7367b32e55",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0236a0f456a5bd7a",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "341a3a99a304c826",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "cd65b42c5055b8ce",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "bfd2a128810cde10",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0514fa23f20bbd3a",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "inbox/在 Obsidian 中实现分栏.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "7dd2a8a7416759cd",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "inbox/在 Obsidian 中实现分栏.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "09cd25575466cdef",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "inbox/在 Obsidian 中实现分栏.md"
+          }
+        }
+      }
+    ]
+  },
+  "active": "e93ce8c4cfad3ac4",
+  "lastOpenFiles": [
+    "inbox/在 Obsidian 中实现分栏.md",
+    "inbox/新年 FLAG.md",
+    "inbox/inbox.md",
+    "Home.md",
+    "archive/Go-ENV/搭建开发环境.md",
+    "archive/Go-ENV/使用 Packer 定制 vagrant base box.md",
+    "archive/Go-ENV/安装与配置 Go.md",
+    "archive/Go 语言基础/Go 语言基础.md",
+    "inbox/vagrant 安装与介绍.md",
+    "archive/Go-ENV/Goland 激活与配置.md"
+  ]
+}

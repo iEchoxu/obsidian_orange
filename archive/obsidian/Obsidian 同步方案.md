@@ -24,9 +24,8 @@ cssclass: ad-column
 ## 📲  如何选择同步方案
 > 下面列举出不同设备之间的同步方案，请根据需要进行选择。
 
-```ad-col2
+```ad-col2-left
 title: PC To PC（Windows、Mac、Linux）
-icon: list-ol
 color: 0,162,110
 - 最简单的方法就是复制粘贴。
 - Mac to Windows 可在 Windows 上安装 iCloud 进行同步，Linux 上的 iCloud 只能查看不能进行同步。
@@ -35,7 +34,7 @@ color: 0,162,110
 - 在 Windows 上开启文件共享，然后在 Mac、Linux 安装对应的支持 samba 协议的软件也可进行同步，配置麻烦，对权限控制比较严格。
 ```
 
-```ad-col2
+```ad-col2-right
 title: PC（Windows、Mac、Linux） To Android
 icon: list
 color: 255,130,203
@@ -47,9 +46,8 @@ color: 255,130,203
 
 <p></p>
 
-```ad-col2
+```ad-col2-left
 title: PC（Windows、Mac、Linux） To ios
-icon: list-ol
 color: 255,193,81
 - windows/Mac 与 ios之间同步，可在 Windows/Mac 上安装 iCloud 进行同步，Linux 上的 iCloud 只能查看不能进行同步。
 - Linux 与 ios 之间同步，只能通过 Git 同步，ios 上的 Git 客户端推荐使用：working copy。
@@ -57,9 +55,8 @@ color: 255,193,81
 - Windows 上开启局域网共享，ios 设备上安装 Docements 软件，并使用 webDAV 进行连接
 ```
 
-```ad-col2
+```ad-col2-right
 title: ios To Android
-icon: list
 color: 0,158,164
 - 移动端设备之间进行文件同步需要借助 PC 作为中转。
 - 在 windows/Mac 上安装 iCloud 与 Syncthing，ios 设备通过 iCloud 同步文件到 PC，PC 通过 Syncthing 同步到安卓。
@@ -71,3 +68,4 @@ color: 0,158,164
 - [Obsidian Git 插件](https://github.com/denolehov/obsidian-git/issues/57)
 - [Android 与 Win 同步](https://www.bilibili.com/read/mobile?id=13339751)
 - [ios 与 PC 通过 Git 进行同步笔记](https://blog.csdn.net/weixin_37786060/article/details/119951142)
+-  [icloud 同步问题](https://zhuanlan.zhihu.com/p/447963514)

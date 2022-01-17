@@ -4,7 +4,7 @@
 
 ==最近在思考是否有必要安装此插件，我觉得默认的插入 url 链接的快捷键使起来也挺顺手的。==
 
-```ad-mypurple
+```ad-example
 title:通过 obsidian 插件实现 *推荐*
 - 下载 [obsidian-auto-link-title](https://forum.obsidian.md/t/ability-for-links-to-be-pasted-with-pages-title/1543/9) 并启用，然后从浏览器中复制 url 地址，插件自会抓取标题并转为 markdown 格式。
 ```

@@ -80,7 +80,7 @@ title:此处使用的是 ad-quote 类型
 
 </br>
 
-```ad-mypurple
+```ad-note
 title:自定义的 type
 collapse:false
 icon: list-ol
@@ -88,8 +88,8 @@ color: 0,158,164
 这是自定义的 type
 ```
 
-`````ad-mypurple
-title:自定义的 type
+`````ad-note
+title: admonition 嵌套
 collapse:false
 这是自定义的 type
 

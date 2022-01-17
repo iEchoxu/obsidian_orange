@@ -650,16 +650,7 @@ ul ol::before {
   width: 18px;
   margin: 0 0 0 6px;
 }
-.side-dock-ribbon-action[aria-label="打开快速切换"]:hover {
-  background-image: url("data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='24' height='24' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='48' height='48' fill='white' fill-opacity='0.01'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M23 4V27H43.9933L44 4H23Z' fill='%23ceddfd' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M31.0049 43.9998C24.6752 43.9998 20.5595 43.9998 18.6579 43.9998C16.9557 43.9998 14.9159 43.4318 13.5475 41.6126C12.6229 40.3832 12.0049 38.5826 12.0049 35.9998C12.0049 31.7298 12.0049 28.063 12.0049 24.9995' stroke='%230A59F7' stroke-width='4' stroke-linecap='round'/%3E%3Cpath d='M4 32.9998L12.0046 24.9995L20.0138 32.9998' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M30 19H37' stroke='%230A59F7' stroke-width='4' stroke-linecap='round'/%3E%3Cpath d='M30 12H37' stroke='%230A59F7' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E");
-  background-size: 17px 17px;
-  transform: translate(0px, 5px);
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 18px;
-  width: 18px;
-  margin: 0 0 0 6px;
-}
+
 .side-dock-ribbon-action[aria-label="查看关系图谱"] svg {
   display: none;
 }
@@ -673,16 +664,7 @@ ul ol::before {
   width: 18px;
   margin: 0 0 0 6px;
 }
-.side-dock-ribbon-action[aria-label="查看关系图谱"]:hover {
-  background-image: url("data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='24' height='24' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='48' height='48' fill='white' fill-opacity='0.01'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12Z' fill='none' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10 42C13.3137 42 16 39.3137 16 36C16 32.6863 13.3137 30 10 30C6.68629 30 4 32.6863 4 36C4 39.3137 6.68629 42 10 42Z' fill='none' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M38 44C41.3137 44 44 41.3137 44 38C44 34.6863 41.3137 32 38 32C34.6863 32 32 34.6863 32 38C32 41.3137 34.6863 44 38 44Z' fill='none' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M22 28C26.4183 28 30 24.4183 30 20C30 15.5817 26.4183 12 22 12C17.5817 12 14 15.5817 14 20C14 24.4183 17.5817 28 22 28Z' fill='none' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M34 12C36.2091 12 38 10.2091 38 8C38 5.79086 36.2091 4 34 4C31.7909 4 30 5.79086 30 8C30 10.2091 31.7909 12 34 12Z' fill='none' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M11 11L15 15' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M30 12L28 14' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M34 33.5L28 26' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M14 31L18 27' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  background-size: 17px 17px;
-  transform: translate(0px, 5px);
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 18px;
-  width: 18px;
-  margin: 0 0 0 6px;
-}
+
 .side-dock-ribbon-action[aria-label="打开命令面板"] svg {
   display: none;
 }
@@ -696,16 +678,7 @@ ul ol::before {
   width: 18px;
   margin: 0 0 0 6px;
 }
-.side-dock-ribbon-action[aria-label="打开命令面板"]:hover {
-  background-image: url("data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='24' height='24' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='4' y='8' width='40' height='32' rx='2' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M4 10C4 8.89543 4.89543 8 6 8H42C43.1046 8 44 8.89543 44 10V16H4V10Z' fill='none' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M25 23L23 34' stroke='%230A59F7' stroke-width='4' stroke-linecap='round'/%3E%3Cpath d='M31 23L37 28L31 34' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M17 23L11 28L17 34' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  background-size: 17px 17px;
-  transform: translate(0px, 5px);
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 18px;
-  width: 18px;
-  margin: 0 0 0 6px;
-}
+
 .side-dock-ribbon-action[aria-label="打开 Markdown 格式转换器"] svg {
   display: none;
 }
@@ -719,16 +692,7 @@ ul ol::before {
   width: 18px;
   margin: 0 0 0 6px;
 }
-.side-dock-ribbon-action[aria-label="打开 Markdown 格式转换器"]:hover {
-  background-image: url("data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='24' height='24' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40 23V14L31 4H10C8.89543 4 8 4.89543 8 6V42C8 43.1046 8.89543 44 10 44H22' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M27 33H41' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M27 39H41' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M41 33L36 28' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M32 44L27 39' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M30 4V14H40' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  background-size: 17px 17px;
-  transform: translate(0px, 5px);
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 18px;
-  width: 18px;
-  margin: 0 0 0 6px;
-}
+
 .side-dock-ribbon-action[aria-label="创建新的 ZK 卡片"] svg {
   display: none;
 }
@@ -742,16 +706,7 @@ ul ol::before {
   width: 18px;
   margin: 0 0 0 6px;
 }
-.side-dock-ribbon-action[aria-label="创建新的 ZK 卡片"]:hover {
-  background-image: url("data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='24' height='24' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19 10V7C19 5.89543 19.8954 5 21 5H41C42.1046 5 43 5.89543 43 7V29C43 30.1046 42.1046 31 41 31H37' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Crect x='5' y='18' width='24' height='24' rx='2' fill='none' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M17 25V35' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M12 30H22' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  background-size: 17px 17px;
-  transform: translate(0px, 5px);
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 18px;
-  width: 18px;
-  margin: 0 0 0 6px;
-}
+
 .side-dock-ribbon-action[aria-label="打开其他库"] svg {
   display: none;
 }
@@ -765,16 +720,7 @@ ul ol::before {
   width: 18px;
   margin: 0 0 0 6px;
 }
-.side-dock-ribbon-action[aria-label="打开其他库"]:hover {
-  background-image: url("data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='24' height='24' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='13.7146' cy='13.7143' r='6.85714' fill='none' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='34.2859' cy='34.2857' r='6.85714' fill='none' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M24.001 44.0002C12.9553 44.0002 4.00098 35.0459 4.00098 24.0002L10.6676 27.3335' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M24.001 4.00021C35.0467 4.00021 44.001 12.9545 44.001 24.0002L37.3343 20.6669' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  background-size: 17px 17px;
-  transform: translate(0px, 5px);
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 18px;
-  width: 18px;
-  margin: 0 0 0 6px;
-}
+
 .side-dock-ribbon-action[aria-label="帮助"] svg {
   display: none;
 }
@@ -788,16 +734,7 @@ ul ol::before {
   width: 18px;
   margin: 0 0 0 6px;
 }
-.side-dock-ribbon-action[aria-label="帮助"]:hover {
-  background-image: url("data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='24' height='24' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M39 6H9C7.34315 6 6 7.34315 6 9V39C6 40.6569 7.34315 42 9 42H39C40.6569 42 42 40.6569 42 39V9C42 7.34315 40.6569 6 39 6Z' fill='none' stroke='%230A59F7' stroke-width='4' stroke-linejoin='round'/%3E%3Cpath d='M24 28.6249V24.6249C27.3137 24.6249 30 21.9386 30 18.6249C30 15.3112 27.3137 12.6249 24 12.6249C20.6863 12.6249 18 15.3112 18 18.6249' stroke='%230A59F7' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M24 37.6249C25.3807 37.6249 26.5 36.5056 26.5 35.1249C26.5 33.7442 25.3807 32.6249 24 32.6249C22.6193 32.6249 21.5 33.7442 21.5 35.1249C21.5 36.5056 22.6193 37.6249 24 37.6249Z' fill='%230A59F7'/%3E%3C/svg%3E");
-  background-size: 17px 17px;
-  transform: translate(0px, 5px);
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 18px;
-  width: 18px;
-  margin: 0 0 0 6px;
-}
+
 
 .side-dock-ribbon-action[aria-label="设置"] svg {
   display: none;
@@ -812,16 +749,7 @@ ul ol::before {
   width: 18px;
   margin: 0 0 0 6px;
 }
-.side-dock-ribbon-action[aria-label="设置"]:hover {
-  background-image: url("data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='24' height='24' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='48' height='48' fill='white' fill-opacity='0.01'/%3E%3Cpath d='M36.686 15.171C37.9364 16.9643 38.8163 19.0352 39.2147 21.2727H44V26.7273H39.2147C38.8163 28.9648 37.9364 31.0357 36.686 32.829L40.0706 36.2137L36.2137 40.0706L32.829 36.686C31.0357 37.9364 28.9648 38.8163 26.7273 39.2147V44H21.2727V39.2147C19.0352 38.8163 16.9643 37.9364 15.171 36.686L11.7863 40.0706L7.92939 36.2137L11.314 32.829C10.0636 31.0357 9.18372 28.9648 8.78533 26.7273H4V21.2727H8.78533C9.18372 19.0352 10.0636 16.9643 11.314 15.171L7.92939 11.7863L11.7863 7.92939L15.171 11.314C16.9643 10.0636 19.0352 9.18372 21.2727 8.78533V4H26.7273V8.78533C28.9648 9.18372 31.0357 10.0636 32.829 11.314L36.2137 7.92939L40.0706 11.7863L36.686 15.171Z' fill='none' stroke='%230A59F7' stroke-width='4' stroke-linejoin='round'/%3E%3Cpath d='M24 29C26.7614 29 29 26.7614 29 24C29 21.2386 26.7614 19 24 19C21.2386 19 19 21.2386 19 24C19 26.7614 21.2386 29 24 29Z' fill='none' stroke='%230A59F7' stroke-width='4' stroke-linejoin='round'/%3E%3C/svg%3E");
-  background-size: 17px 17px;
-  transform: translate(0px, 5px);
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 18px;
-  width: 18px;
-  margin: 0 0 0 6px;
-}
+
 .graph-controls-button.mod-open[aria-label="打开图谱设置"] svg {
   display: none;
 }
