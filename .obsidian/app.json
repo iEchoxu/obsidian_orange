@@ -6,5 +6,6 @@
   "strictLineBreaks": true,
   "fileSortOrder": "alphabetical",
   "newFileLocation": "folder",
-  "newFileFolderPath": "inbox"
+  "newFileFolderPath": "inbox",
+  "foldIndent": true
 }
