@@ -1572,5 +1572,12 @@ a[href*="obsidian://search"] {
 
 
 
+/* 暗黑模式下 hr 颜色 */
+.theme-dark .markdown-preview-view hr {
+  border-color:var(--background-modifier-border);
+}
+
+
+
 
 
