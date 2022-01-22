@@ -240,15 +240,42 @@ ul ol,
 ol ol {
   position: relative;
 }
-.cm-hmd-list-indent .cm-tab::before,
-ul ul::before,
-ol ul::before,
-ul ol::before,
-ol ol::before {
+
+
+.markdown-preview-view ul > li blockquote  {
+  border-left: none;
+  margin-block-start: 0;
+  padding-left: 0;
+}
+
+.markdown-preview-view ul li  ul {
+  margin: 0 0 10px 0;
+}
+
+.markdown-preview-view ul li  ul li > ul {
+  margin: 5px 0;
+}
+
+.markdown-preview-view .list-collapse-indicator + ul {
+  margin: 5px 0;
+}
+
+.markdown-preview-view ul li  ul li {
+  margin: 5px 0;
+}
+
+
+.theme-light .cm-hmd-list-indent .cm-tab::before,
+.theme-light ul ul::before,
+.theme-light ol ul::before,
+.theme-light ul ol::before,
+.theme-light ol ol::before {
   content:'';
   border-left: 1px solid #dee0e3;
   position: absolute;
 }
+
+
 .cm-hmd-list-indent .cm-tab::before { left: 0; top: -5px; bottom: -4px; }
 
 ul ul::before,
@@ -1502,5 +1529,16 @@ a[href*="obsidian://search"] {
 /* 暗黑模式下 hr 颜色 */
 .theme-dark .markdown-preview-view hr {
   border-color:var(--background-modifier-border);
+}
+
+
+.theme-dark .cm-hmd-list-indent .cm-tab::before,
+.theme-dark ul ul::before,
+.theme-dark ol ul::before,
+.theme-dark ul ol::before,
+ .theme-dark ol ol::before {
+  content:'';
+  border-left: 1px solid #363636;
+  position: absolute;
 }
 
