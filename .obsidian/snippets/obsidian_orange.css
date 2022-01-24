@@ -235,13 +235,27 @@ a, .markdown-preview-view .internal-link {
 /* ur li 同级之间用竖线连接 */
 .cm-hmd-list-indent .cm-tab,
 ul ul,
+li blockquote,
 ol ul,
 ul ol,
 ol ol {
   position: relative;
 }
 
+.markdown-preview-view ul > li:not(.task-list-item)::marker {
+  font-size: unset;
+  transition: border-color .2s ease-in-out,transform .2s ease-in-out,-webkit-transform .2s ease-in-out;
+    transition-property: border-color, transform, -webkit-transform;
+    transition-duration: 0.2s, 0.2s, 0.2s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s, 0s;
+}
 
+.theme-light ul > li::marker, ol > li::marker {
+  color: rgb(102, 102, 109);
+}
+
+/* 在 > 作为备注的内容前面添加竖线 */
 .markdown-preview-view ul > li blockquote  {
   border-left: none;
   margin-block-start: 0;
@@ -253,23 +267,28 @@ ol ol {
 }
 
 .markdown-preview-view ul li  ul li > ul {
-  margin: 5px 0;
+  margin: 0 0 5px 0;
 }
 
 .markdown-preview-view .list-collapse-indicator + ul {
-  margin: 5px 0;
+  margin: 0 0 5px 0;
 }
 
 .markdown-preview-view ul li  ul li {
-  margin: 5px 0;
+  margin: 0 0 5px 0;
 }
 
+.markdown-preview-view ul li ul li:first-of-type {
+  padding-top: 5px;
+}
 
 .theme-light .cm-hmd-list-indent .cm-tab::before,
 .theme-light ul ul::before,
 .theme-light ol ul::before,
 .theme-light ul ol::before,
-.theme-light ol ol::before {
+.theme-light ol ol::before,
+.theme-light ul > li blockquote::before,
+.theme-light ul > li blockquote::after {
   content:'';
   border-left: 1px solid #dee0e3;
   position: absolute;
@@ -278,17 +297,21 @@ ol ol {
 .cm-hmd-list-indent .cm-tab::before { left: 0; top: -5px; bottom: -4px; }
 
 ul ul::before,
+li blockquote::before,
+li blockquote::after,
 ol ol::before {
   left: -14px;
   top: 0;
   bottom: 0;
 }
+
 ol ul::before,
 ul ol::before {
   left: -30px;
   top: 0;
   bottom: 0;
 }
+
 
 
 /* li 之间设置距离 */
@@ -1177,7 +1200,7 @@ h1[data-heading="inbox Overview"] {
 
 
 /* 分割线 */
-.markdown-preview-view hr {
+.theme-light .markdown-preview-view hr {
   border-color: #F1F3F5;
 }
 
@@ -1559,6 +1582,10 @@ a[href*="obsidian://search"] {
   color: rgba(255, 255, 255, .9) !important;
 }
 
+.theme-dark .markdown-preview-view hr {
+  border-color:var(--background-modifier-border);
+}
+
 
 /* 暗黑模式下表格样式 */
 .theme-dark .markdown-preview-view table {
@@ -1597,7 +1624,6 @@ a[href*="obsidian://search"] {
 }
 
 
-
 /* 暗黑模式下 hr 颜色 */
 .theme-dark .markdown-preview-view hr {
   border-color:var(--background-modifier-border);
@@ -1608,12 +1634,17 @@ a[href*="obsidian://search"] {
 .theme-dark ul ul::before,
 .theme-dark ol ul::before,
 .theme-dark ul ol::before,
- .theme-dark ol ol::before {
+.theme-dark ol ol::before,
+.theme-dark ul > li blockquote::before,
+.theme-dark ul > li blockquote::after  {
   content:'';
   border-left: 1px solid #363636;
   position: absolute;
 }
 
+.theme-dark ul > li::marker, ol > li::marker {
+  color: #e0e0e0;
+}
 
 
 
