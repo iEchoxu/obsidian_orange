@@ -244,11 +244,6 @@ ol ol {
 
 .markdown-preview-view ul > li:not(.task-list-item)::marker {
   font-size: unset;
-  transition: border-color .2s ease-in-out,transform .2s ease-in-out,-webkit-transform .2s ease-in-out;
-    transition-property: border-color, transform, -webkit-transform;
-    transition-duration: 0.2s, 0.2s, 0.2s;
-    transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
-    transition-delay: 0s, 0s, 0s;
 }
 
 .theme-light ul > li::marker, ol > li::marker {
@@ -310,6 +305,20 @@ ul ol::before {
   left: -30px;
   top: 0;
   bottom: 0;
+}
+
+.theme-light li pre[class*="language-"] {
+  margin:10px 0;
+}
+
+/* .theme-light ul  li:not(.image-embed)::marker {
+  content: '';
+} */
+
+
+
+.theme-light ul li .image-embed  img {
+  margin: 10px 0 0 0;
 }
 
 
@@ -1568,5 +1577,9 @@ a[href*="obsidian://search"] {
 
 .theme-dark ul > li::marker, ol > li::marker {
   color: #e0e0e0;
+}
+
+.theme-dark li pre[class*="language-"] {
+  margin:10px 0;
 }
 

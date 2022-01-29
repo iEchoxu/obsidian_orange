@@ -221,12 +221,12 @@ a, .markdown-preview-view .internal-link {
 /* .markdown-preview-view ul > li:not(.task-list-item)::before {
   color: rgba(0, 0, 0, .7);
 }
-.markdown-preview-view ul > li:not(.task-list-item) .collapse-indicator + ul > li::before {
+.markdown-preview-view ul > li:not(.task-list-item) ul > li::marker {
 
   content: '🔹';
 }
 
-.markdown-preview-view ul > li:not(.task-list-item) .collapse-indicator + ul > li .collapse-indicator + ul > li::before {
+.markdown-preview-view ul > li:not(.task-list-item)  ul > li  ul > li::marker {
 
   content: '🔸';
 } */
@@ -244,11 +244,6 @@ ol ol {
 
 .markdown-preview-view ul > li:not(.task-list-item)::marker {
   font-size: unset;
-  transition: border-color .2s ease-in-out,transform .2s ease-in-out,-webkit-transform .2s ease-in-out;
-    transition-property: border-color, transform, -webkit-transform;
-    transition-duration: 0.2s, 0.2s, 0.2s;
-    transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
-    transition-delay: 0s, 0s, 0s;
 }
 
 .theme-light ul > li::marker, ol > li::marker {
@@ -312,7 +307,19 @@ ul ol::before {
   bottom: 0;
 }
 
+.theme-light li pre[class*="language-"] {
+  margin:10px 0;
+}
 
+/* .theme-light ul  li:not(.image-embed)::marker {
+  content: '';
+} */
+
+
+
+.theme-light ul li .image-embed  img {
+  margin: 10px 0 0 0;
+}
 
 /* li 之间设置距离 */
 .markdown-preview-view ul > li {
@@ -1646,5 +1653,6 @@ a[href*="obsidian://search"] {
   color: #e0e0e0;
 }
 
-
-
+.theme-dark li pre[class*="language-"] {
+  margin:10px 0;
+}
