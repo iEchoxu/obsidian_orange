@@ -1656,3 +1656,7 @@ a[href*="obsidian://search"] {
 .theme-dark li pre[class*="language-"] {
   margin:10px 0;
 }
+
+.theme-dark ul li .image-embed  img {
+  margin: 10px 0 0 0;
+}
