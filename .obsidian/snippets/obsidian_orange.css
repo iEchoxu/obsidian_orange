@@ -1495,6 +1495,31 @@ h1[data-heading="inbox Overview"] {
 }
 
 
+/* query 样式 */
+.markdown-preview-view  .search-results-children .search-result:nth-child(2n) {
+  background: #fafafa;
+}
+.markdown-preview-view  .search-results-children .search-result:hover {
+  background: #f2f6fc;
+}
+.search-result-file-matches {
+  border: unset;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.search-result:last-child .search-result-file-matches {
+  border: unset;
+}
+
+.tree-item-inner, .search-result-file-title {
+  padding: 8px;
+}
+.search-result-file-matched-text {
+  background-color: transparent;
+}
+
+
 /* 类 github 风格的 badge 样式设置 */
 a[href*="obsidian://search"] {
   background-image: unset
@@ -1631,6 +1656,29 @@ a[href*="obsidian://search"] {
 }
 
 
+/* dataview 在暗黑模式下的样式 */
+.theme-dark .table-view-table > thead > tr, .table-view-table > tbody > tr {
+  border-bottom: 1px solid rgba(187, 191, 196,.1);
+}
+
+
+/* 暗黑 query 样式 */
+.theme-dark .markdown-preview-view  .search-results-children .search-result:nth-child(2n) {
+  background: unset;
+}
+.theme-dark  .markdown-preview-view .search-results-children .search-result:hover {
+  background: rgba(242,246,252, .2);
+}
+
+.theme-dark  .search-result-file-matches {
+  border-bottom: 1px solid rgba(187, 191, 196,.1);
+}
+
+.theme-dark  .search-result:last-child .search-result-file-matches {
+  border-bottom: unset;
+}
+
+
 /* 暗黑模式下 hr 颜色 */
 .theme-dark .markdown-preview-view hr {
   border-color:var(--background-modifier-border);
@@ -1660,3 +1708,5 @@ a[href*="obsidian://search"] {
 .theme-dark ul li .image-embed  img {
   margin: 10px 0 0 0;
 }
+
+
