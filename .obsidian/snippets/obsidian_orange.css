@@ -1709,4 +1709,113 @@ a[href*="obsidian://search"] {
   margin: 10px 0 0 0;
 }
 
+/* 修改代码样式 */
 
+code {
+  font-size: 15px!important;
+  font-family: 'JetBrains Mono'!important;
+}
+
+code, .HyperMD-codeblock, *[class^=" language"]{
+  background-color: #F6F8FA!important;
+}
+
+.cm-hmd-codeblock.cm-number ,
+.token.number {
+  color: #4A86E8!important;
+}
+
+.cm-hmd-codeblock.cm-atom ,
+.token.atom {
+  color: #9E880D!important;
+}
+
+.cm-hmd-codeblock.cm-def ,
+.token.def,
+.token
+{
+  color: #00f!important;
+}
+
+.cm-hmd-codeblock.cm-variable ,
+.token.variable {
+  color: black!important;
+}
+
+.cm-hmd-codeblock.cm-variable-2 ,
+.token.variable-2 {
+  color: #00627A!important;
+}
+
+.cm-hmd-codeblock.cm-variable-3,
+.cm-hmd-codeblock.cm-type ,
+.token.type {
+  color: #00627A!important;
+}
+
+.cm-hmd-codeblock.cm-property ,
+.token.property {
+  color: black!important;
+}
+
+.cm-hmd-codeblock.cm-keyword ,
+.token.keyword {
+  color: #708!important;
+}
+
+.cm-hmd-codeblock.cm-operator ,
+.token.operator {
+  color: black!important;
+}
+
+.cm-hmd-codeblock.cm-comment ,
+.token.comment {
+  color: #787878!important;
+}
+
+.cm-hmd-codeblock.cm-string ,
+.token.string {
+  color: #008000!important;
+}
+
+.cm-hmd-codeblock.cm-string-2 ,
+.token.string-2 {
+  color: #008000!important;
+}
+
+.cm-hmd-codeblock.cm-qualifier ,
+.token.qualifier {
+  color: black!important;
+}
+
+.cm-hmd-codeblock.cm-error ,
+.token.error {
+  color: red!important;
+}
+
+.cm-hmd-codeblock.cm-attribute ,
+.token.attribute {
+  color: black!important;
+}
+
+.cm-hmd-codeblock.cm-tag ,
+.token.tag {
+  color: black!important;
+}
+
+.cm-hmd-codeblock.cm-link ,
+.token.link {
+  color: #4A86E8!important;
+}
+
+.cm-hmd-codeblock.cm-builtin ,
+.token.builtin {
+  color: black!important;
+}
+
+.cm-hmd-codeblock.cm-bracket ,
+.token.bracket {
+  color: black!important;
+}
+
+/* 代码样式结束 */

@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "archive/obsidian/我是怎样记笔记的.md",
-            "mode": "preview"
+            "file": "Home.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -79,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "archive/obsidian/我是怎样记笔记的.md"
+                "file": "Home.md"
               }
             }
           },
@@ -89,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "archive/obsidian/我是怎样记笔记的.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +108,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "archive/obsidian/我是怎样记笔记的.md",
+                "file": "Home.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "archive/obsidian/我是怎样记笔记的.md",
+                "file": "Home.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,6 +170,7 @@
   },
   "active": "34ffdb6a041bb450",
   "lastOpenFiles": [
+    "Home.md",
     "archive/obsidian/我是怎样记笔记的.md",
     "archive/obsidian/Test Dataview.md",
     "Start Here.md",
@@ -177,7 +179,6 @@
     "archive/obsidian/ToDo List 案例演示.md",
     "archive/obsidian/在 Obsidian 中实现分栏.md",
     "archive/obsidian/修改表格样式.md",
-    "inbox/inbox.md",
-    "inbox/ToDo.md"
+    "inbox/inbox.md"
   ]
 }

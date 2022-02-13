@@ -7,5 +7,7 @@
   "fileSortOrder": "alphabetical",
   "newFileLocation": "folder",
   "newFileFolderPath": "inbox",
-  "foldIndent": true
+  "foldIndent": true,
+  "legacyEditor": false,
+  "livePreview": true
 }
