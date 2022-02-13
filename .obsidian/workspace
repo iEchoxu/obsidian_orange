@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Home.md",
-            "mode": "source",
+            "file": "archive/obsidian/我是怎样记笔记的.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "archive/obsidian/我是怎样记笔记的.md"
               }
             }
           },
@@ -90,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "archive/obsidian/我是怎样记笔记的.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Home.md",
+                "file": "archive/obsidian/我是怎样记笔记的.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "archive/obsidian/我是怎样记笔记的.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -170,12 +170,12 @@
   },
   "active": "34ffdb6a041bb450",
   "lastOpenFiles": [
-    "Home.md",
     "archive/obsidian/我是怎样记笔记的.md",
-    "archive/obsidian/Test Dataview.md",
     "Start Here.md",
-    "archive/obsidian/在大纲笔记中添加代码块.md",
+    "Home.md",
     "README.md",
+    "archive/obsidian/Test Dataview.md",
+    "archive/obsidian/在大纲笔记中添加代码块.md",
     "archive/obsidian/ToDo List 案例演示.md",
     "archive/obsidian/在 Obsidian 中实现分栏.md",
     "archive/obsidian/修改表格样式.md",
