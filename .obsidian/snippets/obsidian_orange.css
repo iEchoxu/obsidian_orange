@@ -1576,7 +1576,7 @@ a[href*="obsidian://search"] {
 
 /* 暗黑模式下样式修改 */
 .theme-dark .workspace-ribbon {
-  background-color: unset;
+  background-color: var(--background-secondary-alt);
 }
 
 .theme-dark .titlebar-inner {
@@ -1593,7 +1593,7 @@ a[href*="obsidian://search"] {
 }
 
 .theme-dark  .workspace-split:not(.mod-right-split) .workspace-tabs {
-  background-color: unset;
+  background-color: var(--background-secondary-alt);
 }
 
 .theme-dark  .workspace-split.mod-left-split .workspace-tabs .workspace-leaf {
@@ -1708,5 +1708,3 @@ a[href*="obsidian://search"] {
 .theme-dark ul li .image-embed  img {
   margin: 10px 0 0 0;
 }
-
-
