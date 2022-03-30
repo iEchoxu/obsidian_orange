@@ -262,6 +262,11 @@ ol ol {
   padding-left: 0;
 }
 
+/* 修复 img-grid 与 li 下的引用 显示错误 */
+.markdown-preview-view ul > li blockquote p  {
+  display: block;
+}
+
 .markdown-preview-view ul li  ul {
   margin: 0 0 10px 0;
 }
