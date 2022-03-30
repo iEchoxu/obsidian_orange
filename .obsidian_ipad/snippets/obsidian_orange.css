@@ -262,6 +262,13 @@ ol ol {
   padding-left: 0;
 }
 
+/* 修复 obsidian 0.14.2 与自定义的 outliner 样式重合问题 */
+.markdown-rendered.show-indentation-guide li > ul::before, .markdown-rendered.show-indentation-guide li > ol::before {
+  content: "";
+  left: -14px;
+  border-right: unset;
+}
+
 /* 修复 img-grid 与 li 下的引用 显示错误 */
 .markdown-preview-view ul > li blockquote p  {
   display: block;
