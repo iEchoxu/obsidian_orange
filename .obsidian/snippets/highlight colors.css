@@ -12,6 +12,60 @@
 }
 
 
+/* 更改默认的 删除线、斜体颜色 实现“在标题右上角添加”上标的功能*/
+.markdown-preview-view del {
+background-color: #e7c000;
+color: #fff;
+vertical-align: top;
+border-radius: 3px;
+padding: 1px 6px;
+font-size: 12px;
+height: 14px;
+line-height: 14px;
+text-decoration:none;
+/* font-weight: 600; */
+letter-spacing: .1em;
+}
+.markdown-preview-view em {
+
+background-color: #42b983;
+color: #fff;
+font-style:normal;
+vertical-align: top;
+border-radius: 3px;
+padding: 1px 6px;
+font-size: 12px;
+height: 14px;
+line-height: 14px;
+/* font-weight: bold; */
+letter-spacing: .1em;
+}
+
+.cm-s-obsidian span.cm-em {
+background-color: #42b983;
+color: #fff;
+font-style:normal;
+vertical-align: top;
+border-radius: 3px;
+padding: 1px 6px;
+font-size: 14px;
+height: 18px;
+line-height: 18px;
+}
+.cm-s-obsidian span.cm-strikethrough {
+background-color: #e7c000;
+color: #fff;
+vertical-align: top;
+border-radius: 3px;
+padding: 1px 6px;
+font-size: 14px;
+height: 18px;
+line-height: 18px;
+text-decoration:none;
+}
+  
+
+
 /* ----------------------------------------- 编辑模式下 文本高亮 ----------------------------------------------  */
 
 /* -- orange --  */
