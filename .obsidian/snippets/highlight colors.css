@@ -14,492 +14,694 @@
 
 /* 更改默认的 删除线、斜体颜色 实现“在标题右上角添加”上标的功能*/
 .markdown-preview-view del {
-background-color: #e7c000;
-color: #fff;
-vertical-align: top;
-border-radius: 3px;
-padding: 1px 6px;
-font-size: 12px;
-height: 14px;
-line-height: 14px;
-text-decoration:none;
-/* font-weight: 600; */
-letter-spacing: .1em;
+	background-color: #e7c000;
+	color: #fff;
+	vertical-align: top;
+	border-radius: 3px;
+	padding: 1px 6px;
+	font-size: 12px;
+	height: 14px;
+	line-height: 14px;
+	text-decoration:none;
+	/* font-weight: 600; */
+	letter-spacing: .1em;
 }
-.markdown-preview-view em {
 
-background-color: #42b983;
-color: #fff;
-font-style:normal;
-vertical-align: top;
-border-radius: 3px;
-padding: 1px 6px;
-font-size: 12px;
-height: 14px;
-line-height: 14px;
-/* font-weight: bold; */
-letter-spacing: .1em;
+.markdown-source-view.mod-cm6 del {
+	background-color: #e7c000;
+	color: #fff;
+	vertical-align: top;
+	border-radius: 3px;
+	padding: 1px 6px;
+	font-size: 12px;
+	height: 14px;
+	line-height: 14px;
+	text-decoration:none;
+	/* font-weight: 600; */
+	letter-spacing: .1em;
+}
+
+.markdown-preview-view em {
+	background-color: #42b983;
+	color: #fff;
+	font-style:normal;
+	vertical-align: top;
+	border-radius: 3px;
+	padding: 1px 6px;
+	font-size: 12px;
+	height: 14px;
+	line-height: 14px;
+	/* font-weight: bold; */
+	letter-spacing: .1em;
 }
 
 .cm-s-obsidian span.cm-em {
-background-color: #42b983;
-color: #fff;
-font-style:normal;
-vertical-align: top;
-border-radius: 3px;
-padding: 1px 6px;
-font-size: 14px;
-height: 18px;
-line-height: 18px;
+	background-color: #42b983;
+	color: #fff;
+	font-style:normal;
+	vertical-align: top;
+	border-radius: 3px;
+	padding: 1px 6px;
+	font-size: 14px;
+	height: 18px;
+	line-height: 18px;
 }
+
+.markdown-source-view.mod-cm6 em {
+	background-color: #42b983;
+	color: #fff;
+	font-style:normal;
+	vertical-align: top;
+	border-radius: 3px;
+	padding: 1px 6px;
+	font-size: 14px;
+	height: 18px;
+	line-height: 18px;
+}
+
 .cm-s-obsidian span.cm-strikethrough {
-background-color: #e7c000;
-color: #fff;
-vertical-align: top;
-border-radius: 3px;
-padding: 1px 6px;
-font-size: 14px;
-height: 18px;
-line-height: 18px;
-text-decoration:none;
+	background-color: #e7c000;
+	color: #fff;
+	vertical-align: top;
+	border-radius: 3px;
+	padding: 1px 6px;
+	font-size: 14px;
+	height: 18px;
+	line-height: 18px;
+	text-decoration:none;
+}
+
+.markdown-source-view.mod-cm6 cm-strikethrough {
+	background-color: #e7c000;
+	color: #fff;
+	vertical-align: top;
+	border-radius: 3px;
+	padding: 1px 6px;
+	font-size: 14px;
+	height: 18px;
+	line-height: 18px;
+	text-decoration:none;
 }
   
 
 
-/* ----------------------------------------- 编辑模式下 文本高亮 ----------------------------------------------  */
 
-/* -- orange --  */
-.theme-light .cm-tag-htextorange ~ span.cm-highlight,
-.theme-dark .cm-tag-htextorange ~ span.cm-highlight {
-	color: rgb(222, 120, 2) !important;
-	background-color: transparent !important;
-	font-weight: 500;
+
+/* 自定义 callout blocks */
+/* 用 callout blocks 实现高亮块功能 */
+
+.callout[data-callout="orange"] {
+    --callout-color: 254, 234, 210;
 }
 
-
-/* -- gray --  */
-.theme-light .cm-tag-htextgray ~ span.cm-highlight,
-.theme-dark .cm-tag-htextgray ~ span.cm-highlight {
-	color: rgb(143, 149, 158) !important;
-	background-color: transparent !important;
-	font-weight: 500;
-}
-
-
-/* -- red --  */
-.theme-light .cm-tag-htextred ~ span.cm-highlight,
-.theme-dark .cm-tag-htextred ~ span.cm-highlight {
-	color: rgb(216, 57, 49) !important;
-	background-color: transparent !important;
-	font-weight: 500;
-}
-
-
-/* -- green --  */
-.theme-light .cm-tag-htextgreen ~ span.cm-highlight,
-.theme-dark .cm-tag-htextgreen ~ span.cm-highlight {
-	color: rgb(46, 161, 33) !important;
-	background-color: transparent !important;
-	font-weight: 500;
-}
-
-
-/* -- purple --  */
-.theme-light .cm-tag-htextpurple ~ span.cm-highlight,
-.theme-dark .cm-tag-htextpurple ~ span.cm-highlight {
-	color: rgb(100, 37, 208) !important;
-	background-color: transparent !important;
-	font-weight: 500;
-}
-
-
-/* -- blue --  */
-.theme-light .cm-tag-htextblue ~ span.cm-highlight,
-.theme-dark .cm-tag-htextblue ~ span.cm-highlight {
-	color: rgb(36, 91, 219) !important;
-	background-color: transparent !important;
-	font-weight: 500;
-}
-
-
-
-
-/* ----------------------------------------- 编辑模式下 带有背景颜色的文本高亮 ----------------------------------------------  */
-
-/* -- orange --  */
-.theme-light .cm-tag-hbgtextorange ~ span.cm-highlight,
-.theme-dark .cm-tag-hbgtextorange ~ span.cm-highlight {
-	background-color: rgba(254, 212, 164, 0.8) !important;
-	color: rgb(222, 120, 2) !important;
-}
-
-
-/* -- yellow --  */
-.theme-light .cm-tag-hbgtextyellow ~ span.cm-highlight,
-.theme-dark .cm-tag-hbgtextyellow ~ span.cm-highlight {
-	background-color: #fff3cd !important;
-	color: #856404 !important;
-}
-
-
-/* -- pink --  */
-.theme-light .cm-tag-hbgtextpink ~ span.cm-highlight,
-.theme-dark .cm-tag-hbgtextpink ~ span.cm-highlight {
-	background-color: #f8d7da !important;
-	color: #721c24 !important;
-}
-
-
-/* -- blue --  */
-.theme-light .cm-tag-hbgtextblue ~ span.cm-highlight,
-.theme-dark .cm-tag-hbgtextblue ~ span.cm-highlight {
-	background-color: rgba(186, 206, 253, 0.7) !important;
-	color: rgb(36, 91, 219) !important;
-}
-
-
-/* -- red --  */
-.theme-light .cm-tag-hbgtextred ~ span.cm-highlight,
-.theme-dark .cm-tag-hbgtextred ~ span.cm-highlight {
-	background-color: rgb(251, 191, 188) !important;
-	color: rgb(216, 57, 49) !important;
-}
-
-
-/* -- green --  */
-.theme-light .cm-tag-hbgtextgreen ~ span.cm-highlight,
-.theme-dark .cm-tag-hbgtextgreen ~ span.cm-highlight {
-	background-color: rgba(183, 237, 177, 0.8) !important;
-	color: rgb(46, 161, 33) !important;
-}
-
-
-/* -- skyblue --  */
-.theme-light .cm-tag-hbgtextskyblue ~ span.cm-highlight,
-.theme-dark .cm-tag-hbgtextskyblue ~ span.cm-highlight {
-	background-color: #d4edda !important;
-	color: #689ba3 !important;
-}
-
-
-/* -- purple --  */
-.theme-light .cm-tag-hbgtextpurple ~ span.cm-highlight,
-.theme-dark .cm-tag-hbgtextpurple ~ span.cm-highlight {
-	background-color: rgba(205, 178, 250, 0.7) !important;
-	color: rgb(100, 37, 208) !important;
-}
-
-
-/* -- hjblue --  */
-.theme-light .cm-tag-hbgtexthjblue ~ span.cm-highlight,
-.theme-dark .cm-tag-hbgtexthjblue ~ span.cm-highlight {
-	background-color: #d1ecf1 !important;
-	color: #35737d !important;
-}
-
-
-/* -- gray --  */
-.theme-light .cm-tag-hbgtextgray ~ span.cm-highlight,
-.theme-dark .cm-tag-hbgtextgray ~ span.cm-highlight {
-	background-color: rgba(222, 224, 227, 0.8) !important;
-	color: rgb(143, 149, 158) !important;
-}
-
-
-
-
-/* ----------------------------------------- 编辑模式下 高亮块 ----------------------------------------------  */
-
-/* -- highlight orange --  */
-.theme-light .cm-tag-hblockorange ~ span.cm-highlight,
-.theme-dark .cm-tag-hblockorange ~ span.cm-highlight {
-	background-color: rgb(254, 234, 210) !important;
-	color: rgb(222, 120, 2) !important;
-}
-
-
-/* -- highlight blue --  */
-.theme-light .cm-tag-hblockblue ~ span.cm-highlight,
-.theme-dark .cm-tag-hblockblue ~ span.cm-highlight {
-	background-color: rgb(225, 234, 255) !important;
-	color: rgb(36, 91, 219) !important;
-}
-
-
-/* -- highlight red --  */
-.theme-light .cm-tag-hblockred ~ span.cm-highlight,
-.theme-dark .cm-tag-hblockred ~ span.cm-highlight {
-	background-color: rgb(253, 226, 226) !important;
-	color: rgb(216, 57, 49) !important;
-}
-
-
-/* -- highlight green --  */
-.theme-light .cm-tag-hblockgreen ~ span.cm-highlight,
-.theme-dark .cm-tag-hblockgreen ~ span.cm-highlight {
-	background-color: rgb(217, 245, 214) !important;
-	color: rgb(46, 161, 33) !important;
-}
-
-
-/* -- highlight purple --  */
-.theme-light .cm-tag-hblockpurple ~ span.cm-highlight,
-.theme-dark .cm-tag-hblockpurple ~ span.cm-highlight {
-	background-color: rgb(236, 226, 254) !important;
-	color: rgb(100, 37, 208) !important;
-}
-
-
-
-
-/* ----------------------------------------- Preview mode ----------------------------------------------  */
-
-/* ----------------------------------------- 在此添加自定义标题（不要移动到其他位置） ----------------------------------------------  */
-
-/* 标签以 #htext 开头时，代表 “文本高亮” */
-.theme-light a[href^="#htext/"],
-.theme-dark a[href^="#htext/"] {
-	display:none !important;  
-}
-.theme-light a[href^="#htext/"] + mark,
-.theme-dark a[href^="#htext/"] + mark  {
-	color: white !important;
-	font-weight: bold;
-}
-
-
-/* 标签以 #hbgtext 开头时，代表 “带有背景颜色的文本高亮” */
-.theme-light a[href^="#hbgtext/"],
-.theme-dark a[href^="#hbgtext/"] {
-	display:none;  
-}
-.theme-light a[href^="#hbgtext/"] + mark,
-.theme-dark a[href^="#hbgtext/"] + mark {
-	color: white;
-	padding: 4px 5px;
-	font-weight: 500;
-}
-
-
-/* 标签以 #hblock 开头时，代表 “定义了一个高亮块” */
-.theme-light a[href^="#hblock/"],
-.theme-dark a[href^="#hblock/"]{
-	display:none !important;  
-}
-.theme-light a[href^="#hblock/"] + mark,
-.theme-dark a[href^="#hblock/"] + mark {
-	color: white !important;
-	border-radius: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
-	font-weight: bold;
-}
-
-
-
-
-/* ----------------------------------------- 预览模式下 文本高亮 ----------------------------------------------  */
-
-/* -- orange --  */
-.theme-light a[href^="#htext/orange"] + mark,
-.theme-dark a[href^="#htext/orange"] + mark {
-	background-color: transparent !important;
-	color: rgb(222, 120, 2) !important;
-	font-weight: 500;
-}
-
-
-/* -- gray --  */
-.theme-light a[href^="#htext/gray"] + mark,
-.theme-dark a[href^="#htext/gray"] + mark {
-	background-color: transparent !important;
-	color: rgb(143, 149, 158) !important;
-	font-weight: 500;
-}
-
-
-/* -- blue --  */
-.theme-light a[href^="#htext/blue"] + mark,
-.theme-dark a[href^="#htext/blue"] + mark {
-	background-color: transparent !important;
-	color: rgb(36, 91, 219) !important;
-	font-weight: 500;
-}
-
-
-/* -- red --  */
-.theme-light a[href^="#htext/red"] + mark,
-.theme-dark a[href^="#htext/red"] + mark {
-	background-color: transparent !important;
-	color: rgb(216, 57, 49) !important;
-	font-weight: 500;
-}
-
-
-/* -- green --  */
-.theme-light a[href^="#htext/green"] + mark,
-.theme-dark a[href^="#htext/green"] + mark {
-	background-color: transparent !important;
-	color: rgb(46, 161, 33) !important;
-	font-weight: 500;
-}
-
-
-/* -- purple --  */
-.theme-light a[href^="#htext/purple"] + mark,
-.theme-dark a[href^="#htext/purple"] + mark {
-	background-color: transparent !important;
-	color: rgb(100, 37, 208) !important;
-	font-weight: 500;
-}
-
-
-
-
-/* ----------------------------------------- 预览模式下 带有背景颜色的文本高亮 ----------------------------------------------  */
-
-/* -- orange --  */
-.theme-light a[href^="#hbgtext/orange"] + mark,
-.theme-dark a[href^="#hbgtext/orange"] + mark {
-	background-color: rgba(254, 212, 164, 0.8) !important;
-	color: rgb(222, 120, 2) !important;
-}
-
-
-/* -- yellow --  */
-.theme-light a[href^="#hbgtext/yellow"] + mark,
-.theme-dark a[href^="#hbgtext/yellow"] + mark {
-	background-color: #fff3cd !important;
-	color: #856404 !important;
-}
-
-
-/* -- red --  */
-.theme-light a[href^="#hbgtext/red"] + mark,
-.theme-dark a[href^="#hbgtext/red"] + mark {
-	background-color: rgb(251, 191, 188) !important;
-	color: rgb(216, 57, 49) !important;
-}
-
-/* -- green --  */
-.theme-light a[href^="#hbgtext/green"] + mark,
-.theme-dark a[href^="#hbgtext/green"] + mark {
-	background-color: rgba(183, 237, 177, 0.8) !important;
-	color: rgb(46, 161, 33) !important;
-}
-
-
-/* -- pink --  */
-.theme-light a[href^="#hbgtext/pink"] + mark,
-.theme-dark a[href^="#hbgtext/pink"] + mark {
-	background-color: #f8d7da !important;
-	color: #721c24 !important;
-}
-
-
-/* -- blue --  */
-.theme-light a[href^="#hbgtext/blue"] + mark,
-.theme-dark a[href^="#hbgtext/blue"] + mark {
-	background-color: rgba(186, 206, 253, 0.7) !important;
-	color: rgb(36, 91, 219) !important;
-}
-
-
-/* -- skyblue --  */
-.theme-light a[href^="#hbgtext/skyblue"] + mark,
-.theme-dark a[href^="#hbgtext/skyblue"] + mark {
-	background-color: #d4edda !important;
-	color: #689ba3 !important;
-}
-
-
-/* -- hjblue --  */
-.theme-light a[href^="#hbgtext/hjblue"] + mark,
-.theme-dark a[href^="#hbgtext/hjblue"] + mark {
-	background-color: #d1ecf1 !important;
-	color: #35737d !important;
-}
-
-
-/* -- purple --  */
-.theme-light a[href^="#hbgtext/purple"] + mark,
-.theme-dark a[href^="#hbgtext/purple"] + mark {
-	background-color: rgba(205, 178, 250, 0.7) !important;
-	color: rgb(100, 37, 208) !important;
-}
-
-
-/* -- gray --  */
-.theme-light a[href^="#hbgtext/gray"] + mark,
-.theme-dark a[href^="#hbgtext/gray"] + mark {
-	background-color: rgba(222, 224, 227, 0.8) !important;
-	color: rgb(143, 149, 158) !important;
-}
-
-
-/* ----------------------------------------- 预览模式下 高亮块 ----------------------------------------------  */
-
-/* -- highlight orange --  */
-.theme-light a[href^="#hblock/orange"] + mark,
-.theme-dark a[href^="#hblock/orange"] + mark {
-	background-color: rgb(254, 234, 210) !important;
-	display: block;
-	color: rgb(222, 120, 2) !important;
-	padding: 20px 10px;
+.callout[data-callout="orange"] {
 	border: 1px solid rgb(254, 212, 164);
-	font-weight: 500 !important;
+	color: rgb(222, 120, 2);
+	border-radius: 5px;
+	background-color: rgba(var(--callout-color));
+}
+
+.callout[data-callout="orange"] .callout-title {
+	display: none;
 }
 
 
-/* -- highlight blue --  */
-.theme-light a[href^="#hblock/blue"] + mark,
-.theme-dark a[href^="#hblock/blue"] + mark {
-	background-color: rgb(225, 234, 255) !important;
-	display: block;
-	color: rgb(36, 91, 219) !important;
-	padding: 20px 10px;
+.callout[data-callout="light-orange"] {
+    --callout-color: 255, 245, 235;
+}
+
+.callout[data-callout="light-orange"] {
+	border: 1px solid rgb(254, 212, 164);
+	color: rgb(222, 120, 2);
+	border-radius: 5px;
+	background-color: rgba(var(--callout-color));
+}
+
+.callout[data-callout="light-orange"] .callout-title {
+	display: none;
+}
+
+
+.callout[data-callout="blue"] {
+    --callout-color: 225, 234, 255;
+}
+
+.callout[data-callout="blue"] {
 	border: 1px solid rgb(130, 167, 252);
-	font-weight: 500 !important;
+	color: rgb(36, 91, 219);
+	border-radius: 5px;
+	background-color: rgba(var(--callout-color));
+}
+
+.callout[data-callout="blue"] .callout-title {
+	display: none;
 }
 
 
-/* -- highlight red --  */
-.theme-light a[href^="#hblock/red"] + mark,
-.theme-dark a[href^="#hblock/red"] + mark {
-	background-color: rgb(253, 226, 226) !important;
+.callout[data-callout="light-blue"] {
+    --callout-color: 240, 244, 255;
+}
+
+.callout[data-callout="light-blue"] {
+	border: 1px solid rgb(186, 206, 253);
+	color: rgb(36, 91, 219);
+	border-radius: 5px;
+	background-color: rgba(var(--callout-color));
+}
+
+.callout[data-callout="light-blue"] .callout-title {
+	display: none;
+}
+
+
+.callout[data-callout="light-red"] {
+    --callout-color: 254, 241, 241;
+}
+
+.callout[data-callout="light-red"] {
+	border: 1px solid rgb(251, 191, 188);
+	color: rgb(216, 57, 49);
+	border-radius: 5px;
+	background-color: rgba(var(--callout-color));
+}
+
+.callout[data-callout="light-red"] .callout-title {
+	display: none;
+}
+
+
+.callout[data-callout="red"] {
+    --callout-color: 253, 226, 226;
+}
+
+.callout[data-callout="red"] {
 	border: 1px solid rgb(249, 142, 139);
-	color: rgb(216, 57, 49) !important;
-	display: block;
-	padding: 20px 10px;
-	font-weight: 500 !important;
+	color: rgb(216, 57, 49);
+	border-radius: 5px;
+	background-color: rgba(var(--callout-color));
+}
+
+.callout[data-callout="red"] .callout-title {
+	display: none;
 }
 
 
-/* -- highlight green --  */
-.theme-light a[href^="#hblock/green"] + mark,
-.theme-dark a[href^="#hblock/green"] + mark {
-	background-color: rgb(217, 245, 214) !important;
+.callout[data-callout="green"] {
+    --callout-color: 217, 245, 214;
+}
+
+.callout[data-callout="green"] {
 	border: 1px solid rgb(142, 224, 133);
-	color: rgb(46, 161, 33) !important;
-	display: block;
-	padding: 20px 10px;
-	font-weight: 500 !important;
+	color: rgb(46, 161, 33);
+	border-radius: 5px;
+	background-color: rgba(var(--callout-color));
+}
+
+.callout[data-callout="green"] .callout-title {
+	display: none;
 }
 
 
-/* -- highlight purple --  */
-.theme-light a[href^="#hblock/purple"] + mark,
-.theme-dark a[href^="#hblock/purple"] + mark {
-	background-color: rgb(236, 226, 254) !important;
+.callout[data-callout="light-green"] {
+    --callout-color: 240, 251, 239;
+}
+
+.callout[data-callout="light-green"] {
+	border: 1px solid rgb(183, 237, 177);
+	color: rgb(46, 161, 33);
+	border-radius: 5px;
+	background-color: rgba(var(--callout-color));
+}
+
+.callout[data-callout="light-green"] .callout-title {
+	display: none;
+}
+
+
+.callout[data-callout="purple"] {
+    --callout-color: 236, 226, 254;
+}
+
+.callout[data-callout="purple"] {
 	border: 1px solid rgb(173, 130, 247);
-	color: rgb(100, 37, 208) !important;
-	/* color: #000 !important; */
-	display: block;
-	padding: 20px 10px;
-	font-weight: 500 !important;
+	color: rgb(100, 37, 208);
+	border-radius: 5px;
+	background-color: rgba(var(--callout-color));
+}
+
+.callout[data-callout="purple"] .callout-title {
+	display: none;
 }
 
 
+.callout[data-callout="light-purple"] {
+    --callout-color: 246, 241, 254;
+}
+
+.callout[data-callout="light-purple"] {
+	border: 1px solid rgb(205, 178, 250);
+	color: rgb(100, 37, 208);
+	border-radius: 5px;
+	background-color: rgba(var(--callout-color));
+}
+
+.callout[data-callout="light-purple"] .callout-title {
+	display: none;
+}
+
+
+.callout[data-callout="gray"] {
+    --callout-color: 245, 246, 247;
+}
+
+.callout[data-callout="gray"] {
+	border: 1px solid rgb(187, 191, 196);
+	color: rgb(143, 149, 158);
+	border-radius: 5px;
+	background-color: rgba(var(--callout-color));
+}
+
+.callout[data-callout="gray"] .callout-title {
+	display: none;
+}
+
+
+.callout[data-callout="light-gray"] {
+    --callout-color: 248, 249, 250;
+}
+
+.callout[data-callout="light-gray"] {
+	border: 1px solid rgb(222, 224, 227);
+	color: rgb(143, 149, 158);
+	border-radius: 5px;
+	background-color: rgba(var(--callout-color));
+}
+
+.callout[data-callout="light-gray"] .callout-title {
+	display: none;
+}
+
+
+/* 自定义 example callout 样式 */
+.callout[data-callout="ob-example"] {
+	--callout-color: 124,77,255; 
+	--callout-icon: ob-example;
+	--callout-icon: '<svg width="16 " height="16 " viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 4V13" stroke="#7c4dff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 13H6" stroke="#7c4dff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 27H6" stroke="#7c4dff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 19.9998C6 19.9998 9 16.9998 11 19.9998C13 22.9999 6 26.9998 6 26.9998" stroke="#7c4dff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M6.00016 34.5001C6.00016 34.5001 8.00016 31.5 11.0002 33.5C14.0002 35.5 11.0002 38 11.0002 38C11.0002 38 14.0002 40.5 11.0002 42.5C8.00015 44.5 6.00015 41.5 6.00015 41.5" stroke="#7c4dff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M11 38H9" stroke="#7c4dff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 4L6 6" stroke="#7c4dff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 24H43" stroke="#7c4dff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 38H43" stroke="#7c4dff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 10H43" stroke="#7c4dff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>'; 	
+	padding: 0;
+	border-left: 0.2rem solid rgb(124,77,255);
+	border-radius: 0.1rem;
+    box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
+}
+
+.callout[data-callout="ob-example"] .callout-title {
+	padding: 15px 0 15px 20px;
+}
+
+.callout[data-callout="ob-example"] .callout-title-inner {
+	color: #0F0F0F;
+	font-weight: 500;
+    padding-left: 5px
+}
+
+.callout[data-callout="ob-example"]  .callout-content {
+	background-color: #fff;
+	/* padding-inline-start: 2rem; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.callout[data-callout="ob-example"]  .callout-content p {
+	padding-inline-start: 20px;
+}
+
+.callout[data-callout="ob-example"]  .callout-content ul li {
+	padding-inline-start: 2rem;
+}
+
+
+/* 自定义 info callout 样式 */
+.callout[data-callout="ob-info"] {
+	--callout-color: 0, 184, 212; 
+	--callout-icon: lucide-info;
+	padding: 0;
+	border-left: 0.2rem solid rgb(0, 184, 212);
+	border-radius: 0.1rem;
+    box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
+}
+
+.callout[data-callout="ob-info"] .callout-title {
+	padding: 15px 0 15px 20px;
+}
+
+.callout[data-callout="ob-info"] .callout-title-inner {
+	color: #0F0F0F;
+	font-weight: 500;
+    padding-left: 5px
+}
+
+.callout[data-callout="ob-info"]  .callout-content {
+	background-color: #fff;
+	/* padding-inline-start: 2rem; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.callout[data-callout="ob-info"]  .callout-content p {
+	padding-inline-start: 20px;
+}
+
+.callout[data-callout="ob-info"]  .callout-content ul li {
+	padding-inline-start: 2rem;
+}
+
+
+/* 自定义 note callout 样式 */
+.callout[data-callout="ob-note"] {
+	--callout-color: 68, 138, 255; 
+	--callout-icon: lucide-pencil;
+	padding: 0;
+	border-left: 0.2rem solid rgb(68, 138, 255);
+	border-radius: 0.1rem;
+    box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
+}
+
+.callout[data-callout="ob-note"] .callout-title {
+	padding: 15px 0 15px 20px;
+}
+
+.callout[data-callout="ob-note"] .callout-title-inner {
+	color: #0F0F0F;
+	font-weight: 500;
+    padding-left: 5px
+}
+
+.callout[data-callout="ob-note"]  .callout-content {
+	background-color: #fff;
+	/* padding-inline-start: 2rem; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.callout[data-callout="ob-note"]  .callout-content p {
+	padding-inline-start: 20px;
+}
+
+.callout[data-callout="ob-note"]  .callout-content ul li {
+	padding-inline-start: 2rem;
+}
+
+
+/* 自定义 tip callout 样式 */
+.callout[data-callout="ob-tip"] {
+	--callout-color: 0, 191, 165; 
+	--callout-icon: lucide-flame;
+	padding: 0;
+	border-left: 0.2rem solid rgb(0, 191, 165);
+	border-radius: 0.1rem;
+    box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
+}
+
+.callout[data-callout="ob-tip"] .callout-title {
+	padding: 15px 0 15px 20px;
+}
+
+.callout[data-callout="ob-tip"] .callout-title-inner {
+	color: #0F0F0F;
+	font-weight: 500;
+    padding-left: 5px
+}
+
+.callout[data-callout="ob-tip"]  .callout-content {
+	background-color: #fff;
+	/* padding-inline-start: 2rem; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.callout[data-callout="ob-tip"]  .callout-content p {
+	padding-inline-start: 20px;
+}
+
+.callout[data-callout="ob-tip"]  .callout-content ul li {
+	padding-inline-start: 2rem;
+}
+
+
+/* 自定义 success callout 样式 */
+.callout[data-callout="ob-success"] {
+	--callout-color: 0, 200, 83; 
+	--callout-icon: lucide-check;
+	padding: 0;
+	border-left: 0.2rem solid rgb(0, 200, 83);
+	border-radius: 0.1rem;
+    box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
+}
+
+.callout[data-callout="ob-success"] .callout-title {
+	padding: 15px 0 15px 20px;
+}
+
+.callout[data-callout="ob-success"] .callout-title-inner {
+	color: #0F0F0F;
+	font-weight: 500;
+    padding-left: 5px
+}
+
+.callout[data-callout="ob-success"]  .callout-content {
+	background-color: #fff;
+	/* padding-inline-start: 2rem; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.callout[data-callout="ob-success"]  .callout-content p {
+	padding-inline-start: 20px;
+}
+
+.callout[data-callout="ob-success"]  .callout-content ul li {
+	padding-inline-start: 2rem;
+}
+
+
+/* 自定义 question callout 样式 */
+.callout[data-callout="ob-question"] {
+	--callout-color: 100, 221, 23; 
+	--callout-icon: help-circle;
+	padding: 0;
+	border-left: 0.2rem solid rgb(100, 221, 23);
+	border-radius: 0.1rem;
+    box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
+}
+
+.callout[data-callout="ob-question"] .callout-title {
+	padding: 15px 0 15px 20px;
+}
+
+.callout[data-callout="ob-question"] .callout-title-inner {
+	color: #0F0F0F;
+	font-weight: 500;
+    padding-left: 5px
+}
+
+.callout[data-callout="ob-question"]  .callout-content {
+	background-color: #fff;
+	/* padding-inline-start: 2rem; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.callout[data-callout="ob-question"]  .callout-content p {
+	padding-inline-start: 20px;
+}
+
+.callout[data-callout="ob-question"]  .callout-content ul li {
+	padding-inline-start: 2rem;
+}
+
+
+/* 自定义 warning callout 样式 */
+.callout[data-callout="ob-warning"] {
+	--callout-color: 255, 145, 0; 
+	--callout-icon: lucide-alert-triangle;
+	padding: 0;
+	border-left: 0.2rem solid rgb(255, 145, 0);
+	border-radius: 0.1rem;
+    box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
+}
+
+.callout[data-callout="ob-warning"] .callout-title {
+	padding: 15px 0 15px 20px;
+}
+
+.callout[data-callout="ob-warning"] .callout-title-inner {
+	color: #0F0F0F;
+	font-weight: 500;
+    padding-left: 5px
+}
+
+.callout[data-callout="ob-warning"]  .callout-content {
+	background-color: #fff;
+	/* padding-inline-start: 2rem; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.callout[data-callout="ob-warning"]  .callout-content p {
+	padding-inline-start: 20px;
+}
+
+.callout[data-callout="ob-warning"]  .callout-content ul li {
+	padding-inline-start: 2rem;
+}
+
+
+/* 自定义 failure callout 样式 */
+.callout[data-callout="ob-failure"] {
+	--callout-color: 255, 82, 82; 
+	--callout-icon: lucide-x;
+	padding: 0;
+	border-left: 0.2rem solid rgb(255, 82, 82);
+	border-radius: 0.1rem;
+    box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
+}
+
+.callout[data-callout="ob-failure"] .callout-title {
+	padding: 15px 0 15px 20px;
+}
+
+.callout[data-callout="ob-failure"] .callout-title-inner {
+	color: #0F0F0F;
+	font-weight: 500;
+    padding-left: 5px
+}
+
+.callout[data-callout="ob-failure"]  .callout-content {
+	background-color: #fff;
+	/* padding-inline-start: 2rem; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.callout[data-callout="ob-failure"]  .callout-content p {
+	padding-inline-start: 20px;
+}
+
+.callout[data-callout="ob-failure"]  .callout-content ul li {
+	padding-inline-start: 2rem;
+}
+
+
+/* 自定义 quote callout 样式 */
+.callout[data-callout="ob-quote"] {
+	--callout-color: 158, 158, 158; 
+	--callout-icon: quote-glyph;
+	padding: 0;
+	border-left: 0.2rem solid rgb(158, 158, 158);
+	border-radius: 0.1rem;
+    box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
+}
+
+.callout[data-callout="ob-quote"] .callout-title {
+	padding: 15px 0 15px 20px;
+}
+
+.callout[data-callout="ob-quote"] .callout-title-inner {
+	color: #0F0F0F;
+	font-weight: 500;
+    padding-left: 5px
+}
+
+.callout[data-callout="ob-quote"]  .callout-content {
+	background-color: #fff;
+	/* padding-inline-start: 2rem; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.callout[data-callout="ob-quote"]  .callout-content p {
+	padding-inline-start: 20px;
+}
+
+.callout[data-callout="ob-quote"]  .callout-content ul li {
+	padding-inline-start: 2rem;
+}
+
+
+/* 实时预览模式下自定义的　callout 中的 ur li 之间的距离 */
+.callout[data-callout^="ob-"] .callout-content ul li {
+    padding-inline-start: 0 !important;
+}
+
+.callout .callout-content ul {
+    padding-inline-start: 42px !important;
+}
+
+
+/* 给自定义的 callout 类型添加右边距 */
+.callout .callout-content {
+    padding-right: 20px;
+}
+
+
+/* 暗黑模式下的 content 背景调整 */
+
+.theme-dark .callout[data-callout="ob-quote"],
+.theme-dark .callout[data-callout="ob-failure"],
+.theme-dark .callout[data-callout="ob-warning"],
+.theme-dark .callout[data-callout="ob-question"],
+.theme-dark .callout[data-callout="ob-success"],
+.theme-dark .callout[data-callout="ob-tip"],
+.theme-dark .callout[data-callout="ob-note"],
+.theme-dark .callout[data-callout="ob-info"],
+.theme-dark .callout[data-callout="ob-example"] {
+	box-shadow: 0 0.2rem 0.5rem rgba(54,54,54,0.7);
+}
+
+
+.theme-dark .callout[data-callout="ob-quote"]  .callout-content,
+.theme-dark .callout[data-callout="ob-failure"]  .callout-content,
+.theme-dark .callout[data-callout="ob-warning"]  .callout-content,
+.theme-dark .callout[data-callout="ob-question"]  .callout-content,
+.theme-dark .callout[data-callout="ob-success"]  .callout-content,
+.theme-dark .callout[data-callout="ob-tip"]  .callout-content,
+.theme-dark .callout[data-callout="ob-note"]  .callout-content,
+.theme-dark .callout[data-callout="ob-info"]  .callout-content,
+.theme-dark .callout[data-callout="ob-example"]  .callout-content {
+	background-color: hsl(0,0%,15%);
+}
+
+.theme-dark .callout[data-callout="ob-quote"] .callout-title-inner,
+.theme-dark .callout[data-callout="ob-failure"] .callout-title-inner,
+.theme-dark .callout[data-callout="ob-warning"] .callout-title-inner,
+.theme-dark .callout[data-callout="ob-question"] .callout-title-inner,
+.theme-dark .callout[data-callout="ob-success"] .callout-title-inner,
+.theme-dark .callout[data-callout="ob-tip"] .callout-title-inner,
+.theme-dark .callout[data-callout="ob-note"] .callout-title-inner,
+.theme-dark .callout[data-callout="ob-info"] .callout-title-inner,
+.theme-dark .callout[data-callout="ob-example"] .callout-title-inner {
+	color: var(--callout-title-color);
+}
+
+
+
+/* 可折叠的 callout 折叠按钮靠右 */
+.callout-fold {
+	margin-left: auto;
+    justify-content: flex-end;
+}
+
+
+/* 自定义的 callout 里的 行内代码 样式 */
+.callout .callout-content code {
+	color: #c7254e;
+	background-color: transparent;
+    /* background-color: #f8d7da; */
+}
+
+/* 自定义的 callout 里的 ul 取消缩进 */
+.callout .callout-content ul {
+	padding-inline-start: 20px;
+}
 
 
 

@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "7b339055648c599d",
+    "id": "88e98366c600db4c",
     "type": "split",
     "children": [
       {
-        "id": "34ffdb6a041bb450",
+        "id": "6b20394a72ab06fc",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "archive/obsidian/我是怎样记笔记的.md",
+            "file": "archive/obsidian/在 Obsidian 中实现分栏.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#state/to-do",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,7 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243
+    "width": 240
   },
   "right": {
     "id": "a36b553e5f43291e",
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "archive/obsidian/我是怎样记笔记的.md"
+                "file": "archive/obsidian/在 Obsidian 中实现分栏.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "archive/obsidian/我是怎样记笔记的.md",
+                "file": "archive/obsidian/在 Obsidian 中实现分栏.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "archive/obsidian/我是怎样记笔记的.md",
+                "file": "archive/obsidian/在 Obsidian 中实现分栏.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -118,7 +118,7 @@
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": true,
+                  "collapse-color-groups": false,
                   "colorGroups": [
                     {
                       "query": "path:archive",
@@ -138,7 +138,7 @@
                   "repelStrength": 3.61702127659575,
                   "linkStrength": 0.482978723404255,
                   "linkDistance": 167,
-                  "scale": 0.6554983534946924,
+                  "scale": 0.6554983534946927,
                   "close": true
                 }
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "archive/obsidian/我是怎样记笔记的.md",
+                "file": "archive/obsidian/在 Obsidian 中实现分栏.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -167,17 +167,17 @@
     "direction": "horizontal",
     "width": 285
   },
-  "active": "34ffdb6a041bb450",
+  "active": "6b20394a72ab06fc",
   "lastOpenFiles": [
-    "archive/obsidian/我是怎样记笔记的.md",
-    "archive/obsidian/Test Dataview.md",
-    "Start Here.md",
-    "archive/obsidian/在大纲笔记中添加代码块.md",
-    "README.md",
-    "archive/obsidian/ToDo List 案例演示.md",
     "archive/obsidian/在 Obsidian 中实现分栏.md",
-    "archive/obsidian/修改表格样式.md",
-    "inbox/inbox.md",
-    "inbox/ToDo.md"
+    "archive/obsidian/带有颜色高亮的笔记备注.md",
+    "archive/obsidian/我的待办.md",
+    "archive/obsidian/文本横排显示.md",
+    "archive/obsidian/健身计划.md",
+    "archive/obsidian/我的观影记录.md",
+    "archive/obsidian/给笔记添加备注.md",
+    "archive/obsidian/新年 FLAG.md",
+    "Start Here.md",
+    "archive/obsidian/文本高亮与高亮块.md"
   ]
 }

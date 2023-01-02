@@ -3,11 +3,12 @@
   "cssTheme": "obsidian-minimal",
   "theme": "moonstone",
   "enabledCssSnippets": [
-    "highlight colors",
-    "iconfont",
-    "obsidian_orange",
     "image-grid",
+    "iconfont",
+    "highlight colors",
+    "obsidian_orange",
     "column"
   ],
-  "translucency": false
+  "translucency": false,
+  "accentColor": "#0a59f7"
 }

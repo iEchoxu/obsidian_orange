@@ -1,4 +1,4 @@
->介绍如何使用“提示块”以及如何自定义“提示块”
+>介绍如何使用“提示块”以及如何自定义“提示块”，V6.9.5 在 Obsidian v1.0.3 中完美运行，但是 Admonition V9.05 在 Ob v1.0.3 中会丢失样式，需要重新添加自定义的 Admonition 类。
 ## Admonition Types
 ```ad-example
 title:此处使用的是 ad-example 类型
@@ -6,9 +6,9 @@ collapse: false
 - 正文内容
 - 正文内容
 ```
-
 ```ad-note
 title:此处使用的是 ad-note 类型
+ceshi
 - 正文内容
 - 正文内容
 ```
@@ -18,67 +18,54 @@ title:此处使用的是 ad-abstract 类型
 - 正文内容
 - 正文内容
 ```
-
 ```ad-info
 title:此处使用的是 ad-info 类型
 - 正文内容
 - 正文内容
 ```
-
 ```ad-tip
 title:此处使用的是 ad-tip 类型
 - 正文内容
 - 正文内容
 ```
-
 ```ad-success
 title:此处使用的是 ad-success 类型
 - 正文内容
 - 正文内容
 ```
-
 ```ad-question
 title:此处使用的是 ad-question 类型
 - 正文内容
 - 正文内容
 ```
-
 ```ad-warning
 title:此处使用的是 ad-warning 类型
 - 正文内容
 - 正文内容
 ```
-
 ```ad-failure
 title:此处使用的是 ad-failure 类型
 - 正文内容
 - 正文内容
 ```
-
 ```ad-danger
 title:此处使用的是 ad-danger 类型
 - 正文内容
 - 正文内容
 ```
-
 ```ad-bug
 title:此处使用的是 ad-bug 类型
 - 正文内容
 - 正文内容
 ```
-
 ```ad-quote
 title:此处使用的是 ad-quote 类型
 - 正文内容
 - 正文内容
 ```
 
-</br>
-
 ## 自定义 Admonition
 ![[add-new-admontion.png|150]] ![[admontion-type.png|150]] ![[re-admontion.png|150]] ![[w-admontion.png|150]] ![[r-admontion.png|150]]
-
-</br>
 
 ```ad-note
 title:自定义的 type

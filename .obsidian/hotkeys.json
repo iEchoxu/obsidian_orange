@@ -97,5 +97,14 @@
       ],
       "key": "ArrowLeft"
     }
+  ],
+  "editor:set-heading": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "H"
+    }
   ]
 }

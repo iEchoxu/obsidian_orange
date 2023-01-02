@@ -1,0 +1,51 @@
+---
+cssclass: column
+---
+
+```
+使用：[!content-flex] 可让文本在同一行并列显示。
+```
+## 操作演示
+> 可用此对多个 MOC 进行并列显示，可节省版面。
+
+<p></p>
+
+演示效果：
+
+> [!content-flex]
+> - <font style="color: rgb(216, 57, 49);padding: 5px 5px">Go 语言基础-MOC</font>
+> - <font style="color: rgb(222, 120, 2);padding: 5px 5px">Go 语言高级-MOC</font>
+> - <font style="color: rgb(36, 91, 219);padding: 5px 5px">Go 语言进阶-MOC</font>
+> - <font style="color: rgb(46, 161, 33);padding: 5px 5px">Go 语言实战-MOC</font>
+
+> [!content-flex]
+> - <font style="color: rgb(216, 57, 49);padding: 5px 5px">Go 语言基础-MOC</font>
+> - <font style="color: rgb(222, 120, 2);padding: 5px 5px">Go 语言高级-MOC</font>
+> - <font style="color: rgb(36, 91, 219);padding: 5px 5px">Go 语言进阶-MOC</font>
+> - <font style="color: rgb(46, 161, 33);padding: 5px 5px">Go 语言实战-MOC</font>
+
+> [!content-flex]
+> - <font style="color: rgb(216, 57, 49);padding: 5px 5px">Go 语言基础-MOC</font>
+> - <font style="color: rgb(222, 120, 2);padding: 5px 5px">Go 语言高级-MOC</font>
+> - <font style="color: rgb(36, 91, 219);padding: 5px 5px">Go 语言进阶-MOC</font>
+> - <font style="color: rgb(46, 161, 33);padding: 5px 5px">Go 语言实战-MOC</font>
+
+</br>
+
+> [!content-flex]
+> <font style="color: rgb(216, 57, 49);padding: 5px 5px">Go 语言基础-MOC</font>
+> <font style="color: rgb(222, 120, 2);padding: 5px 5px">Go 语言高级-MOC</font>
+> <font style="color: rgb(36, 91, 219);padding: 5px 5px">Go 语言进阶-MOC</font>
+> <font style="color: rgb(46, 161, 33);padding: 5px 5px">Go 语言实战-MOC</font>
+
+> [!content-flex]
+> <font style="color: rgb(216, 57, 49);padding: 5px 5px">Go 语言基础-MOC</font>
+> <font style="color: rgb(222, 120, 2);padding: 5px 5px">Go 语言高级-MOC</font>
+> <font style="color: rgb(36, 91, 219);padding: 5px 5px">Go 语言进阶-MOC</font>
+> <font style="color: rgb(46, 161, 33);padding: 5px 5px">Go 语言实战-MOC</font>
+
+> [!content-flex]
+> <font style="color: rgb(216, 57, 49);padding: 5px 5px">Go 语言基础-MOC</font>
+> <font style="color: rgb(222, 120, 2);padding: 5px 5px">Go 语言高级-MOC</font>
+> <font style="color: rgb(36, 91, 219);padding: 5px 5px">Go 语言进阶-MOC</font>
+> <font style="color: rgb(46, 161, 33);padding: 5px 5px">Go 语言实战-MOC</font>

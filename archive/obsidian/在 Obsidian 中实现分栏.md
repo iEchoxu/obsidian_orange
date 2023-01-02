@@ -2,7 +2,7 @@
 cssclass: ad-column
 ---
 
-```gray
+```
 1：需要借助 6.7.3 以上版本的 Admonition；
 
 2：在笔记开头添加 cssclass: ad-column 这样的 yaml 标记；

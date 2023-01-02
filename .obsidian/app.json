@@ -7,5 +7,13 @@
   "fileSortOrder": "alphabetical",
   "newFileLocation": "folder",
   "newFileFolderPath": "inbox",
-  "foldIndent": true
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "foldIndent": true,
+  "livePreview": false,
+  "readableLineLength": true
 }
