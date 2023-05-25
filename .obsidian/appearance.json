@@ -1,13 +1,15 @@
 {
   "baseFontSize": 30,
   "cssTheme": "obsidian-minimal",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "enabledCssSnippets": [
     "obsidian_orange",
     "MCL Wide Views",
     "MCL Multi Column",
     "image-grid",
-    "iconfont"
+    "iconfont",
+    "columns",
+    "highlight colors"
   ],
   "translucency": false,
   "accentColor": "#0a59f7"

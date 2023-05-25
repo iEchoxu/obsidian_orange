@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "archive/obsidian/多个分栏进行组合.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "archive/obsidian/多个分栏进行组合.md"
               }
             }
           },
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "archive/obsidian/多个分栏进行组合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "archive/obsidian/多个分栏进行组合.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "archive/obsidian/多个分栏进行组合.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -196,22 +196,15 @@
   },
   "active": "efa713a13a33dd06",
   "lastOpenFiles": [
-    "images/obsidianv1.3.4.png",
-    "archive/obsidian/在 Obsidian 中使用分栏.md",
-    "Start Here.md",
-    "README.md",
-    "images/obv1.3.4-2.png",
-    "images/obv1.3.4-1.png",
-    "images/obv1.3.4.png",
+    "archive/obsidian/分栏组合案例2.md",
     "archive/obsidian/多个分栏进行组合.md",
+    "archive/obsidian/分栏组合案例1.md",
+    "archive/obsidian/orange 自定义的分栏模块.md",
+    "archive/obsidian/分栏语法小 tips.md",
+    "archive/obsidian/自定义的分栏模块组合.md",
     "archive/obsidian/MCL  Column.css 语法.md",
     "archive/obsidian/obsidian callout 组合.md",
-    "archive/obsidian/orange 自定义的分栏模块.md",
-    "archive/obsidian/自定义的分栏模块组合.md",
-    "archive/obsidian/分栏组合案例1.md",
-    "Home.md",
-    "archive/obsidian/分栏组合案例2.md",
-    "archive/obsidian/分栏语法小 tips.md",
+    "archive/obsidian/在 Obsidian 中使用分栏.md",
     "archive/obsidian/文本横排显示.md",
     "archive/obsidian/健身计划.md",
     "archive/obsidian/我的观影记录.md",
@@ -219,6 +212,13 @@
     "archive/obsidian/带有颜色高亮的笔记备注.md",
     "archive/obsidian/给笔记添加备注.md",
     "archive/obsidian/新年 FLAG.md",
+    "Start Here.md",
+    "README.md",
+    "images/obsidianv1.3.4.png",
+    "images/obv1.3.4-2.png",
+    "images/obv1.3.4-1.png",
+    "images/obv1.3.4.png",
+    "Home.md",
     "archive/obsidian/常见问题列表.md",
     "archive/obsidian/插件推荐.md",
     "archive/obsidian/我是怎样记笔记的.md",

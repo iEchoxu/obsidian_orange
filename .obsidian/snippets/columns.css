@@ -9,6 +9,8 @@ body {
     --col-lightpurple: 139,65,166;
     --col-red: 255,106,106;
     --col-brown: 139,71,38;
+    --dark-col-contentbasebgcolor: transform;
+    --dark-title-color: transform;
     --callout-min-width: 150px !important;         /* 覆盖 MCL Multi Column.css 中的每个分栏宽度 */
 }
    
@@ -23,6 +25,12 @@ div[data-callout="multi-column"].callout > .callout-content > div[data-callout="
     border-bottom: 1px solid var(--col-titleborderbottomcolor);
     padding: 10px 8px;
     color: var(--col-titlebasecolor);
+}
+
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-notitlebg"] .callout-title {
+    border-bottom: 1px solid var(--background-modifier-border);
+    padding: 10px 8px;
+    color: var(--dark-title-color);
 }
 
 /* --------------------------标题没有背景色的分栏，无需区分左右，无固定大小（自适应宽度）--------------------------- */
@@ -103,6 +111,17 @@ div[data-callout="multi-column"].callout > .callout-content > div[data-callout="
     background-color: var(--col-contentbasebgcolor);
 }
 
+ 
+/* 设置深色主题下所有分栏的内容区背景色 */
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-notitlebg"],
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-pink"],
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-lightorange"],
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-lightgreen"],
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-lightpurple"],
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-red"],
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-brown"] {
+    background-color: var(--dark-col-contentbasebgcolor);
+}
 
 /* 设置分栏的标题颜色 */
 div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-pink"] .callout-title,
@@ -114,6 +133,18 @@ div[data-callout="multi-column"].callout > .callout-content > div[data-callout="
     background-color: rgba(var(--callout-color),0.06);
     padding: 10px 8px;
     color: var(--col-titlebasecolor);
+}
+
+/* 设置分栏的标题颜色 */
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-pink"] .callout-title,
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-lightorange"] .callout-title,
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-lightgreen"] .callout-title,
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-lightpurple"] .callout-title,
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-red"] .callout-title,
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-brown"] .callout-title {
+    background-color: rgba(var(--callout-color),0.06);
+    padding: 10px 8px;
+    color: var(--dark-title-color);
 }
 
 
@@ -372,6 +403,17 @@ div[data-callout="multi-column"].callout > .callout-content > div[data-callout="
     padding-inline-start: 0 !important;
 }
 
+
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-notitlebg"] .callout-content ul > li:not(.task-list-item) blockquote,
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-pink"] .callout-content ul > li:not(.task-list-item) blockquote,
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-lightorange"] .callout-content ul > li:not(.task-list-item) blockquote,
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-lightgreen"] .callout-content ul > li:not(.task-list-item) blockquote,
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-lightpurple"] .callout-content ul > li:not(.task-list-item) blockquote,
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-red"] .callout-content ul > li:not(.task-list-item) blockquote,
+.theme-dark div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-brown"] .callout-content ul > li:not(.task-list-item) blockquote {
+    color: #D1D1D1;
+}
+
 /* 预览模式下取消所有分栏里的 todo list 左边距 */
 .markdown-preview-view.markdown-rendered div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-notitlebg"] .callout-content ul.contains-task-list,
 .markdown-preview-view.markdown-rendered div[data-callout="multi-column"].callout > .callout-content > div[data-callout="col-pink"] .callout-content ul.contains-task-list,
@@ -415,6 +457,11 @@ div[data-callout="multi-column"].callout > .callout-content > div[data-callout="
     margin: 0 0;
     background-color: #fff;
     padding: 0;
+
+}
+
+.theme-dark .callout[data-callout="content-flex"] {
+    background-color: transparent;
 
 }
 
