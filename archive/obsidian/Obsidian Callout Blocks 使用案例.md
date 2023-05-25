@@ -92,6 +92,7 @@
 > - 测试 ur list
 > - test ur list
 
+
 > [!ob-tip]- ob-tip
 > 我是 ob-tip
 > 
@@ -187,4 +188,3 @@
 > 测试内容
 ## 参考
 - [callout blocks 官方介绍](https://help.obsidian.md/How+to/Use+callouts)
-- Related：[[Admonition 如何使用]]~~不再推荐~~

@@ -310,7 +310,9 @@
 	padding: 0;
 	border-left: 0.2rem solid rgb(124,77,255);
 	border-radius: 0.1rem;
-    box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
+	border-bottom: 3px solid #f7f7f7;
+	box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1);
+	margin-left: 3px !important;
 }
 
 .callout[data-callout="ob-example"] .callout-title {
@@ -346,7 +348,8 @@
 	padding: 0;
 	border-left: 0.2rem solid rgb(0, 184, 212);
 	border-radius: 0.1rem;
-    box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
+	border-bottom: 2px solid #f7f7f7;
+	box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
 }
 
 .callout[data-callout="ob-info"] .callout-title {
@@ -382,6 +385,7 @@
 	padding: 0;
 	border-left: 0.2rem solid rgb(68, 138, 255);
 	border-radius: 0.1rem;
+	border-bottom: 2px solid #f7f7f7;
     box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
 }
 
@@ -418,6 +422,7 @@
 	padding: 0;
 	border-left: 0.2rem solid rgb(0, 191, 165);
 	border-radius: 0.1rem;
+	border-bottom: 2px solid #f7f7f7;
     box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
 }
 
@@ -454,6 +459,7 @@
 	padding: 0;
 	border-left: 0.2rem solid rgb(0, 200, 83);
 	border-radius: 0.1rem;
+	border-bottom: 2px solid #f7f7f7;
     box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
 }
 
@@ -490,6 +496,7 @@
 	padding: 0;
 	border-left: 0.2rem solid rgb(100, 221, 23);
 	border-radius: 0.1rem;
+	border-bottom: 2px solid #f7f7f7;
     box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
 }
 
@@ -526,6 +533,7 @@
 	padding: 0;
 	border-left: 0.2rem solid rgb(255, 145, 0);
 	border-radius: 0.1rem;
+	border-bottom: 2px solid #f7f7f7;
     box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
 }
 
@@ -562,6 +570,7 @@
 	padding: 0;
 	border-left: 0.2rem solid rgb(255, 82, 82);
 	border-radius: 0.1rem;
+	border-bottom: 2px solid #f7f7f7;
     box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
 }
 
@@ -598,6 +607,7 @@
 	padding: 0;
 	border-left: 0.2rem solid rgb(158, 158, 158);
 	border-radius: 0.1rem;
+	border-bottom: 2px solid #f7f7f7;
     box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0,0.1)
 }
 
@@ -655,6 +665,7 @@
 .theme-dark .callout[data-callout="ob-info"],
 .theme-dark .callout[data-callout="ob-example"] {
 	box-shadow: 0 0.2rem 0.5rem rgba(54,54,54,0.7);
+	border-bottom: 2px solid rgba(54,54,54,0.7);
 }
 
 
@@ -699,11 +710,14 @@
 }
 
 /* 自定义的 callout 里的 ul 取消缩进 */
-.callout .callout-content ul {
+/* .callout .callout-content ul {
 	padding-inline-start: 20px;
+} */
+
+/* 去除实时编辑模式下的 border-left 颜色 */
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before, .markdown-source-view.mod-cm6 .cm-blockquote-border:before {
+	border-left: unset !important;
 }
-
-
 
 
 

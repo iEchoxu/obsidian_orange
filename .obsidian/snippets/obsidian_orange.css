@@ -20,6 +20,7 @@ body {
 
 
 
+
 /* 添加本地字体 */
 @font-face {
   font-family: 'HarmonyOS Sans Light';
@@ -117,7 +118,7 @@ html[lang=cn] body {
 /* 编辑和预览模式下文字间距与文字对齐 */
 .markdown-preview-view {
   letter-spacing: .02em;
-  text-align: justify;
+  /* text-align: justify; */
   hyphens: auto;
 }
 .cm-s-obsidian .CodeMirror-line * {
@@ -300,9 +301,10 @@ a, .markdown-preview-view .internal-link {
 .theme-light ul ul::before,
 .theme-light ol ul::before,
 .theme-light ul ol::before,
-.theme-light ol ol::before,
-.theme-light ul > li blockquote::before,
-.theme-light ul > li blockquote::after {
+.theme-light ol ol::before
+/* .theme-light ul > li blockquote::before,
+.theme-light ul > li blockquote::after  */
+{
   content:'';
   border-left: 1px solid #dee0e3;
   position: absolute;
@@ -358,6 +360,33 @@ ul ol::before {
 }
 
 
+/* 实时编辑模式下自定义的 callout 里的编辑按钮移动至右侧 */
+.markdown-source-view.mod-cm6.is-live-preview.is-readable-line-width .cm-embed-block>.edit-block-button {
+  padding-left: 0!important;
+  margin-left: 0!important;
+  transform: none!important;
+  /* right: 85px; */
+  left: auto;
+  top: 13px;
+  right: 30px;
+  padding: 4px;
+}
+
+.markdown-source-view.mod-cm6 .edit-block-button {
+  background-color: unset;
+}
+
+/* 去除 inbox 里的引用前面的 icon */
+.markdown-rendered .cute-card-band  .internal-link::before {
+  background-image: none;
+}
+
+/* 实时编辑模式下默认高亮的颜色 */
+.cm-s-obsidian span.cm-highlight {
+  color: #000 !important;
+  font-weight: 600;
+}
+
 /* todo list 颜色 */
 .checklist-plugin-main .group .compact > .toggle .checked, .is-flashing input[type=checkbox]:checked, input[type=checkbox]:checked {
   background-color: unset !important;
@@ -381,7 +410,8 @@ ul ol::before {
   background-color: #fff !important;
 }
 
-.markdown-preview-view ul > li.task-list-item:hover {
+/* todo list hover 时的状态 */
+/* .markdown-preview-view ul > li.task-list-item:hover {
   background-color: rgba(149,157,165,.1);
 }
 
@@ -389,7 +419,7 @@ ul ol::before {
   text-decoration: line-through;
   color: rgb(143, 149, 158);
   margin: 10px 0;
-}
+} */
 
 .markdown-preview-view ul > li.task-list-item {
   margin: 10px 0;
@@ -1135,7 +1165,104 @@ a[href*="obsidian://search"] {
 
 
 /* 暗黑模式下高亮样式 */
-.theme-dark .cm-s-obsidian span.cm-formatting-highlight, .cm-s-obsidian span.cm-highlight {
+.theme-dark .cm-s-obsidian span.cm-formatting-highlight{
   color: #fff !important;
   font-weight: 600;
 }
+
+/* 暗黑模式下实时编辑模式默认高亮的颜色 */
+.theme-dark .cm-s-obsidian span.cm-highlight {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+
+/* 新添加的 */
+
+/* todo list 文字与标题对齐 */
+/* .markdown-rendered ul, .markdown-rendered ol {
+  padding-inline-start: 3rem;
+} */
+
+/* 实时编辑模式下显示 >  字符 */
+.markdown-source-view.mod-cm6 .cm-transparent {
+  color: unset;
+}
+
+/* 引用样式与标题对齐 */
+.markdown-preview-view blockquote {
+  padding: 0 0 0 9px;
+  margin-left: 3px;
+}
+
+
+/* todo list 选中时的状态 */
+.markdown-rendered div >ul.has-list-bullet >li[data-task="x"] {
+  text-decoration: line-through;
+  color: rgb(143, 149, 158);
+  margin: 10px 0;
+}
+
+/* todo list 选中时其下面的子选项的状态 */
+.markdown-preview-view .contains-task-list .contains-task-list li.task-list-item.is-checked{
+  color: rgb(143, 149, 158);
+  text-decoration: line-through;
+}
+
+/* 实时编辑模式下 todo list 选中时的状态 */
+.markdown-source-view.mod-cm6 .cm-content > .cm-line.HyperMD-list-line[data-task="x"] {
+  text-decoration: line-through;
+  color: rgb(143, 149, 158);
+}
+
+
+/* todo list hover 时的状态 */
+/* .markdown-preview-view ul > li.task-list-item:hover {
+  background-color: rgba(149,157,165,.1);
+}
+
+.markdown-preview-view .contains-task-list .contains-task-list li.task-list-item.is-checked:hover {
+  background-color: rgba(149,157,165,.1);
+} */
+
+
+/* 左侧文件夹栏各文件之间的间距 也可调整右侧大纲各标题的间距 */
+.tree-item-inner, .search-result-file-title {
+  padding: 6px;
+}
+
+/* 左侧文件夹栏展开 icon 与文本内容对齐 */
+.tree-item-self .tree-item-icon {
+  margin-top: 4px;
+  align-items: end;
+}
+
+/* 嵌入双向链接时的样式 */
+.workspace .markdown-preview-view .markdown-embed {
+  border-left: unset;
+  padding-left: 0 !important;
+  margin-left: -20px;
+}
+
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-line>.internal-embed {
+  border-left: unset;
+  padding-left: 0 !important;
+  margin-left: -20px;
+} 
+
+/* 预览模式下 ul list 与标题对齐 */
+.markdown-preview-view.markdown-rendered ul.has-list-bullet{
+  padding-inline-start: 2rem;
+}
+
+/* 减小 ur li  或者 todo list 的间距 */
+.markdown-preview-view ul > li.task-list-item,
+.markdown-rendered div >ul.has-list-bullet >li[data-task="x"] {
+  margin: 5px 0;
+}
+
+/* 预览模式下 todo list 与标题对齐 */
+.markdown-preview-view ul.contains-task-list.has-list-bullet {
+  padding-inline-start: 3rem;
+}
+

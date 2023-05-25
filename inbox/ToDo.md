@@ -1,38 +1,6 @@
 > 列举我正在做的事情以及已完成的事情。
 ## 💡 Doing
-- [x] Obsidian V1 适配
-    - [x] 编辑区内容宽度
-    - [x] TodoList 样式改变
-    - [x] Inbox 卡片里的时间显示排版错乱修复
-    - [x] 添加默认的 callout block样式， 原有的 admonition 保持不变
-    - [x] 更新 admonition 版本，测试分栏效果（不再使用 Admonition，需求废弃）
-    - [x] 使用 callout blocks 实现 ad-example  ad-note ad-question功能
-    - [x] 自定义的 callout 在暗黑模式下的样式调整
-    - [x] 健身计划  多个分栏进行组合  分栏组合案例1 文章里排版混乱
-    - [x] 重新整理 文本高亮与高亮块 文章 里的内容，删除非必要部分并将其相关代码移动到 css snipet 中，然后在文章中通过双向链接指出。
-    - [x] Obsidian 同步方案 实时预览时排版混乱
-    - [x] 增加介绍了callout block 的文章
-    - [x] 测试 callout block 是否实现分栏功能
-    - [x] 三栏还缺一种颜色
-    - [x] 替换所有文章中的 admonition 语法
-    - [x] 删除废弃代码
-    - [x] 删除 admonition hbgtext 相关操作并将其放到 css snipet 文件中
-    - [x] 移除修改菜单的代码到 css snipet 文件中
-    - [x] css 按类划分将相关的代码放在一起
-    - [x] 有没有必要将 明亮模式 与 暗黑模式的代码拆分开？
-    - [x] 测试自定义的 callout blocks 各项(li 文本 行内代码)显示是否正常
-    - [x] 分栏里的 checkbox 太靠左导致不能显示出来
-    - [x] 编辑模式时 ad-block 编辑按钮位置显示不正确
-    - [x] 编辑模式下 todo list 样式不正确
-    - [x] 图片并列显示时图片不对齐
-    - [x] ur li 竖线显示位置靠左偏移
-    - [x] 编辑模式下行与行之间距离太近
-    - [x] 编辑模式下双向链接添加 icon
-    - [x] admontion 介绍的文章里可展开的 ad 宽度太长了
-    - [x] a 链接取消下划线
-    - [x] a 链接取消 icon
-    - [x] Test Dataview 文章中 dataview path query 样式修改
-
+- [ ] Obsidian orange V1.3.4 bug fix
 ## 🎉 Done
 - [x] obsidian 笔记 ---> html，部署到服务器，实现多端查看  🤦‍♂️
 - [x] 整理飞书中待整理的文档  😭📙
