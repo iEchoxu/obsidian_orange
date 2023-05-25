@@ -14,6 +14,6 @@
     "downscalePercent": 100
   },
   "foldIndent": true,
-  "livePreview": false,
+  "livePreview": true,
   "readableLineLength": true
 }

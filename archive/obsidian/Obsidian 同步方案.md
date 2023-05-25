@@ -23,31 +23,34 @@ cssclass: column
 ## 📲  如何选择同步方案
 > 下面列举出不同设备之间的同步方案，请根据需要进行选择。
 
-> [!col2-left-lightorange] PC To PC（Windows、Mac、Linux）
-> - 最简单的方法就是复制粘贴。
-> - Mac to Windows 可在 Windows 上安装 iCloud 进行同步，Linux 上的 iCloud 只能查看不能进行同步。
-> - 在 PC 上都可安装 Git 客户端，用 Git 同步最安全，因为它带有版本控制。(推荐)
-> - Syncthing 提供 Linux、Windows、Mac 客户端，也可通过它进行同步。
-> - 在 Windows 上开启文件共享，然后在 Mac、Linux 安装对应的支持 samba 协议的软件也可进行同步，配置麻烦，对权限控制比较严格。
-
-> [!col2-right-pink] PC（Windows、Mac、Linux） To Android
-> - 在 PC 和 Android 上都安装 Syncthing，通过它进行同步。
-> - 在 PC 和 Android 上都安装 Git 客户端，通过它进行同步，Android 设备上的 Git 客户端推荐使用：MGit
-> - 利用手机厂商的软件。如：huawei cloud、huawei share 等，未测试。
-> - Windows 上开启局域网共享，Android 设备上通过自带的文件管理器利用webDAV 进行连接，未测试。
+> [!multi-column]
+> 
+>> [!col-lightorange] PC To PC（Windows、Mac、Linux）
+>> - 最简单的方法就是复制粘贴。
+>> - Mac to Windows 可在 Windows 上安装 iCloud 进行同步，Linux 上的 iCloud 只能查看不能进行同步。
+>> - 在 PC 上都可安装 Git 客户端，用 Git 同步最安全，因为它带有版本控制。(推荐)
+>> - Syncthing 提供 Linux、Windows、Mac 客户端，也可通过它进行同步。
+>> - 在 Windows 上开启文件共享，然后在 Mac、Linux 安装对应的支持 samba 协议的软件也可进行同步，配置麻烦，对权限控制比较严格。
+>
+>> [!col-pink] PC（Windows、Mac、Linux） To Android
+>> - 在 PC 和 Android 上都安装 Syncthing，通过它进行同步。
+>> - 在 PC 和 Android 上都安装 Git 客户端，通过它进行同步，Android 设备上的 Git 客户端推荐使用：MGit
+>> - 利用手机厂商的软件。如：huawei cloud、huawei share 等，未测试。
+>> - Windows 上开启局域网共享，Android 设备上通过自带的文件管理器利用webDAV 进行连接，未测试。
 
 <p></p>
-
-> [!col2-left-lightorange] PC（Windows、Mac、Linux） To ios
-> - windows/Mac 与 ios之间同步，可在 Windows/Mac 上安装 iCloud 进行同步，Linux 上的 iCloud 只能查看不能进行同步。
-> - Linux 与 ios 之间同步，只能通过 Git 同步，ios 上的 Git 客户端推荐使用：working copy。
-> - ios 上只能安装第三方的 Syncthing 软件 (Möbius Sync)，但它和 Obsidian 是不同的应用文件夹。
-> - Windows 上开启局域网共享，ios 设备上安装 Docements 软件，并使用 webDAV 进行连接
-
-> [!col2-right-pink] ios To Android
-> - 移动端设备之间进行文件同步需要借助 PC 作为中转。
-> - 在 windows/Mac 上安装 iCloud 与 Syncthing，ios 设备通过 iCloud 同步文件到 PC，PC 通过 Syncthing 同步到安卓。
-> - 需自建 Git 仓库或者使用 Gitee 等提供的私有仓库，Android 设备安装 MGit，ios 设备安装 working copy,然后通过 git pull 进行拉取更新，git push 推送更新。
+> [!multi-column]
+> 
+>> [!col-lightorange] PC（Windows、Mac、Linux） To ios
+>> - windows/Mac 与 ios之间同步，可在 Windows/Mac 上安装 iCloud 进行同步，Linux 上的 iCloud 只能查看不能进行同步。
+>> - Linux 与 ios 之间同步，只能通过 Git 同步，ios 上的 Git 客户端推荐使用：working copy。
+>> - ios 上只能安装第三方的 Syncthing 软件 (Möbius Sync)，但它和 Obsidian 是不同的应用文件夹。
+>> - Windows 上开启局域网共享，ios 设备上安装 Docements 软件，并使用 webDAV 进行连接
+>
+>> [!col-pink] ios To Android
+>> - 移动端设备之间进行文件同步需要借助 PC 作为中转。
+>> - 在 windows/Mac 上安装 iCloud 与 Syncthing，ios 设备通过 iCloud 同步文件到 PC，PC 通过 Syncthing 同步到安卓。
+>> - 需自建 Git 仓库或者使用 Gitee 等提供的私有仓库，Android 设备安装 MGit，ios 设备安装 working copy,然后通过 git pull 进行拉取更新，git push 推送更新。
 
 ## 📎  参考
 - [官方提供的同步方案](https://help.obsidian.md/Obsidian/iOS+app)

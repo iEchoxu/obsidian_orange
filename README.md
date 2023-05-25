@@ -1,5 +1,6 @@
 ##  🎉  obsidian_orange 是什么？
 - obsidian_orange 是一款基于 `minimal theme ` 定制的主题。
+
 ##  📝  obsidian_orange 实现了什么功能？
 - 多样式“提示块”
 - 图片并列显示
@@ -7,9 +8,11 @@
 - 徽章（Badge）：在标题或文本的右上角添加状态信息
 - 自动 fetch url 标题并填充为 markdown 格式
 - 以卡片形式显示 inbox 中待整理的笔记
-- 笔记分栏
+- 笔记分栏：在 [obsidian-modular-css-layout](https://github.com/efemkay/obsidian-modular-css-layout) 基础上添加了自定义分栏模块
+
 ## 🧩  推荐安装的插件
 - [obsidian-dataview](https://github.com/blacksmithgu/obsidian-dataview) （推荐安装）
+- [obsidian-style-settings](https://github.com/mgmeyers/obsidian-style-settings) （非必须）
 - [obsidian-folder-note-plugin](https://github.com/xpgo/obsidian-folder-note-plugin)  （inbox 视图需要此插件，非必须）
 - [obsidian-admonition](https://github.com/valentine195/obsidian-admonition) （Obsidian 的 callout blocks 可替代此插件，不再推荐）
 - [obsidian-auto-link-title](https://github.com/zolrath/obsidian-auto-link-title)  （非必须）
@@ -26,7 +29,29 @@
 - 关闭 obsidian 0.13.14 所见即所得：选中 **设置---> 编辑器---> use legecy editor**。
 - 修改默认内容区宽度：不选中 **设置---> 编辑器---> 显示---> 缩减栏宽**，本主题已修改内容区宽度。
 - 不显示主标题：不选中 **设置--->外观--->Advanced---> Show inline title**。
+
 ## 🎨  效果预览
+
+obsidian v1.3.4 效果图：
+
+![[obv1.3.4.png]]
+
+
+![[obsidianv1.3.4.png]]
+
+![[obv1.3.4-1.png]]
+
+
+
+
+
+
+![[obv1.3.4-2.png]]
+
+
+
+
+
 
 ob v1.0.9 效果图：
 ![obsidian_orange_home](./images/ob-home.png)

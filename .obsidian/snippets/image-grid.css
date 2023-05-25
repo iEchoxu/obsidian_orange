@@ -72,3 +72,18 @@ http://github.com/lithou/sandbox
     width: calc((100% - 120px) * 0.2);
     height: auto;
 }
+
+
+
+/* 实时编辑模式下的图片并列显示 */
+.img-grid .cm-line {
+    display: flex;
+    justify-content: space-between;
+}
+.markdown-source-view.img-grid .image-embed.is-loaded img {
+  max-width: 20%;
+  padding-right: 30px;
+}
+
+
+/* 也可用 callout 来实现 */
