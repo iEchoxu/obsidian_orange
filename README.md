@@ -34,11 +34,13 @@
 
 obsidian v1.3.4 效果图：
 
+![obsidian_backlinks](./images/obsidiannewdesing.png)
+
+
 ![obsidian_orange_pic](./images/obv1.3.4.png)
 ![obsidian_orange_pic](./images/obsidianv1.3.4.png)
 ![obsidian_orange_pic](./images/obv1.3.4-1.png)
 ![obsidian_orange_pic](./images/obv1.3.4-2.png)
-
 
 ob v1.0.9 效果图：
 ![obsidian_orange_home](./images/ob-home.png)
