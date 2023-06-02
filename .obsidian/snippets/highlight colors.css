@@ -11,12 +11,44 @@
 	font-weight: bold;
 }
 
+.theme-light {
+	--c-success: #2ba471;
+	--c-success-light: #e3f9e9;
+	--c-error: #d54941;
+	--c-error-light: #fff0ed;
+	--c-warning-color: #e37318;
+	--c-warning-light: #fff1e9;
+
+	--c-badge-tip-bg: var(--c-success-light);
+	--c-badge-tip: var(--c-success);
+	--c-badge-warning-bg: var(--c-warning-light);
+	--c-badge-warning: var(--c-warning-color);
+	--c-badge-danger-bg: var(--c-error-light);
+	--c-badge-danger: var(--c-error);
+}
+
+.theme-dark {
+	--c-success: #059465;
+	--c-success-light: #193a2a;
+	--c-error: #c64751;
+	--c-error-light: #472324;
+	--c-warning-color: #cf6e2d;
+	--c-warning-light: #4f2a1d;
+	
+
+	--c-badge-tip-bg: var(--c-success-light);
+	--c-badge-tip: var(--c-success);
+	--c-badge-warning-bg: var(--c-warning-light);
+	--c-badge-warning: var(--c-warning-color);
+	--c-badge-danger-bg: var(--c-error-light);
+	--c-badge-danger: var(--c-error);
+}
+
 
 /* 更改默认的 删除线、斜体颜色 实现“在标题右上角添加”上标的功能*/
 .markdown-preview-view del {
-	background-color: #fff1e9;
-	/* color: #fff; */
-	color: #e37318;
+	background-color: var(--c-badge-warning-bg);
+  color: var(--c-badge-warning);
 	vertical-align: top;
 	border-radius: 3px;
 	padding: 1px 6px;
@@ -31,10 +63,8 @@
 }
 
 .markdown-source-view.mod-cm6 del {
-	/* background-color: #e7c000; */
-	background-color: #fff1e9;
-	/* color: #fff; */
-	color: #e37318;
+	background-color: var(--c-badge-warning-bg);
+  color: var(--c-badge-warning);
 	vertical-align: top;
 	border-radius: 3px;
 	padding: 1px 6px;
@@ -49,10 +79,8 @@
 }
 
 .cm-s-obsidian span.cm-strikethrough {
-	/* background-color: #e7c000; */
-	background-color: #fff1e9;
-	/* color: #fff; */
-	color: #e37318;
+	background-color: var(--c-badge-warning-bg);
+  color: var(--c-badge-warning);
 	vertical-align: top;
 	border-radius: 3px;
 	padding: 1px 6px;
@@ -65,10 +93,8 @@
 }
 
 .markdown-source-view.mod-cm6 span.cm-strikethrough {
-	background-color: #e7c000;
-	background-color: #fff1e9;
-	color: #fff;
-	color: #e37318;
+	background-color: var(--c-badge-warning-bg);
+  color: var(--c-badge-warning);
 	vertical-align: top;
 	border-radius: 3px;
 	padding: 1px 6px;
@@ -81,8 +107,8 @@
 }
 
 .markdown-preview-view em {
-	background-color: #e3f9e9;
-	color: #2ba471;
+	background-color: var(--c-badge-tip-bg);
+  color: var(--c-badge-tip);
 	font-style:normal;
 	vertical-align: top;
 	border-radius: 3px;
@@ -96,8 +122,8 @@
 }
 
 .cm-s-obsidian span.cm-em {
-	background-color: #e3f9e9;
-	color: #2ba471;
+	background-color: var(--c-badge-tip-bg);
+  color: var(--c-badge-tip);
 	font-style:normal;
 	vertical-align: top;
 	border-radius: 3px;
@@ -109,8 +135,8 @@
 }
 
 .markdown-source-view.mod-cm6 em {
-	background-color: #e3f9e9;
-	color: #2ba471;
+	background-color: var(--c-badge-tip-bg);
+  color: var(--c-badge-tip);
 	font-style:normal;
 	vertical-align: top;
 	border-radius: 3px;
@@ -122,8 +148,8 @@
 }
 
 .markdown-source-view.mod-cm6 .cm-html-embed u {
-	background-color: #fff0ed;
-	color: #d54941;
+	background-color: var(--c-badge-danger-bg);
+  color: var(--c-badge-danger);
 	font-style:normal;
 	vertical-align: top;
 	border-radius: 3px;
@@ -136,9 +162,8 @@
 }
 
 .markdown-preview-view div u {
-	background-color: #fff0ed;
-	/* color: #fff; */
-	color: #d54941;
+	background-color: var(--c-badge-danger-bg);
+  color: var(--c-badge-danger);
 	font-style:normal;
 	vertical-align: top;
 	border-radius: 3px;
