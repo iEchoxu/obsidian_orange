@@ -14,94 +14,145 @@
 
 /* 更改默认的 删除线、斜体颜色 实现“在标题右上角添加”上标的功能*/
 .markdown-preview-view del {
-	background-color: #e7c000;
-	color: #fff;
+	background-color: #fff1e9;
+	/* color: #fff; */
+	color: #e37318;
 	vertical-align: top;
 	border-radius: 3px;
 	padding: 1px 6px;
 	font-size: 12px;
-	height: 14px;
-	line-height: 14px;
+	height: 18px;
+	line-height: 18px;
 	text-decoration:none;
 	/* font-weight: 600; */
 	letter-spacing: .1em;
+	border: 1px solid transparent;
+	padding: 2px 8px;
 }
 
 .markdown-source-view.mod-cm6 del {
-	background-color: #e7c000;
-	color: #fff;
+	/* background-color: #e7c000; */
+	background-color: #fff1e9;
+	/* color: #fff; */
+	color: #e37318;
 	vertical-align: top;
 	border-radius: 3px;
 	padding: 1px 6px;
 	font-size: 12px;
-	height: 14px;
-	line-height: 14px;
+	height: 18px;
+	line-height: 18px;
 	text-decoration:none;
 	/* font-weight: 600; */
 	letter-spacing: .1em;
+	border: 1px solid transparent;
+	padding: 2px 8px;
+}
+
+.cm-s-obsidian span.cm-strikethrough {
+	/* background-color: #e7c000; */
+	background-color: #fff1e9;
+	/* color: #fff; */
+	color: #e37318;
+	vertical-align: top;
+	border-radius: 3px;
+	padding: 1px 6px;
+	font-size: 12px;
+	height: 18px;
+	line-height: 18px;
+	text-decoration:none;
+	border: 1px solid transparent;
+	padding: 2px 8px;
+}
+
+.markdown-source-view.mod-cm6 span.cm-strikethrough {
+	background-color: #e7c000;
+	background-color: #fff1e9;
+	color: #fff;
+	color: #e37318;
+	vertical-align: top;
+	border-radius: 3px;
+	padding: 1px 6px;
+	font-size: 12px;
+	height: 18px;
+	line-height: 18px;
+	text-decoration:none;
+	border: 1px solid transparent;
+	padding: 2px 8px;
 }
 
 .markdown-preview-view em {
-	background-color: #42b983;
-	color: #fff;
+	background-color: #e3f9e9;
+	color: #2ba471;
 	font-style:normal;
 	vertical-align: top;
 	border-radius: 3px;
 	padding: 1px 6px;
 	font-size: 12px;
-	height: 14px;
-	line-height: 14px;
-	/* font-weight: bold; */
+	height: 18px;
+	line-height: 18px;
 	letter-spacing: .1em;
+	border: 1px solid transparent;
+	padding: 2px 8px;
 }
 
 .cm-s-obsidian span.cm-em {
-	background-color: #42b983;
-	color: #fff;
+	background-color: #e3f9e9;
+	color: #2ba471;
 	font-style:normal;
 	vertical-align: top;
 	border-radius: 3px;
-	padding: 1px 6px;
-	font-size: 14px;
+	font-size: 12px;
 	height: 18px;
 	line-height: 18px;
+	border: 1px solid transparent;
+	padding: 2px 8px;
 }
 
 .markdown-source-view.mod-cm6 em {
-	background-color: #42b983;
-	color: #fff;
+	background-color: #e3f9e9;
+	color: #2ba471;
 	font-style:normal;
 	vertical-align: top;
 	border-radius: 3px;
-	padding: 1px 6px;
-	font-size: 14px;
+	font-size: 12px;
 	height: 18px;
 	line-height: 18px;
+	border: 1px solid transparent;
+	padding: 2px 8px;
 }
 
-.cm-s-obsidian span.cm-strikethrough {
-	background-color: #e7c000;
-	color: #fff;
+.markdown-source-view.mod-cm6 .cm-html-embed u {
+	background-color: #fff0ed;
+	color: #d54941;
+	font-style:normal;
 	vertical-align: top;
 	border-radius: 3px;
-	padding: 1px 6px;
-	font-size: 14px;
+	font-size: 12px;
 	height: 18px;
 	line-height: 18px;
-	text-decoration:none;
+	text-decoration: none;
+	border: 1px solid transparent;
+	padding: 2px 8px;
 }
 
-.markdown-source-view.mod-cm6 cm-strikethrough {
-	background-color: #e7c000;
-	color: #fff;
+.markdown-preview-view div u {
+	background-color: #fff0ed;
+	/* color: #fff; */
+	color: #d54941;
+	font-style:normal;
 	vertical-align: top;
 	border-radius: 3px;
-	padding: 1px 6px;
-	font-size: 14px;
+	/* padding: 1px 6px; */
+	/* font-size: 14px; */
+	font-size: 12px;
 	height: 18px;
 	line-height: 18px;
-	text-decoration:none;
+	text-decoration: none;
+	border: 1px solid transparent;
+	padding: 2px 8px;
 }
+
+
   
 
 
