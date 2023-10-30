@@ -1415,3 +1415,13 @@ a[href*="obsidian://search"] {
   padding-inline-start: 3rem;
 }
 
+
+/* v1.4.6 add  */
+
+/* 在添加了 yaml 标签时样式显示错位 */
+.markdown-source-view.is-live-preview.show-properties .metadata-container {
+  width: calc(var(--line-width-adaptive) - var(--folding-offset));
+  max-width: calc(var(--max-width) - var(--folding-offset));
+  margin-right: auto;
+  margin-left: max(calc(50% + var(--folding-offset) - var(--line-width-adaptive)/ 2),calc(50% + var(--folding-offset) - var(--max-width)/ 2))!important;
+}
