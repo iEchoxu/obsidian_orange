@@ -12,7 +12,7 @@
 
 ## 🧩  推荐安装的插件
 - [obsidian-dataview](https://github.com/blacksmithgu/obsidian-dataview) （推荐安装）
-- [obsidian-excalidraw]([GitHub - zsviczian/obsidian-excalidraw-plugin: A plugin to edit and view Excalidraw drawings in Obsidian](https://github.com/zsviczian/obsidian-excalidraw-plugin))  (推荐安装)
+- [obsidian-excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)  (推荐安装)
 - [obsidian-style-settings](https://github.com/mgmeyers/obsidian-style-settings) （非必须）
 - [obsidian-folder-note-plugin](https://github.com/xpgo/obsidian-folder-note-plugin)  （inbox 视图需要此插件，非必须）
 - [obsidian-admonition](https://github.com/valentine195/obsidian-admonition) （Obsidian 的 callout blocks 可替代此插件，不再推荐）
