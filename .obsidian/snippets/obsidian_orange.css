@@ -1425,3 +1425,40 @@ a[href*="obsidian://search"] {
   margin-right: auto;
   margin-left: max(calc(50% + var(--folding-offset) - var(--line-width-adaptive)/ 2),calc(50% + var(--folding-offset) - var(--max-width)/ 2))!important;
 }
+
+
+/* 表格在实时编辑模式下样式不显示 */
+.markdown-source-view.mod-cm6 .cm-table-widget table {
+  border: 1px solid #ebeef5;
+  border-radius: 3px;
+  transition: .2s;
+  background-color: #fff;
+  color: #606266;
+  text-indent: 1em;
+  width: 100%;
+}
+
+.markdown-source-view.mod-cm6 .cm-table-widget table thead tr th {
+  padding: 30px 0 15px 0;
+}
+
+.markdown-source-view.mod-cm6 .cm-table-widget th, .markdown-source-view.mod-cm6 .cm-table-widget td {
+  border: unset;
+  border-bottom: 1px solid #ebeef5;
+}
+
+.markdown-source-view.mod-cm6 .cm-table-widget table tbody tr td {
+  padding: 10px 0;
+}
+
+.markdown-source-view.mod-cm6 .cm-table-widget table tbody tr td mark {
+  padding: 0;
+}
+
+.markdown-source-view.mod-cm6 .cm-table-widget table tbody tr:nth-child(2n) {
+  background: #fafafa;
+}
+
+.markdown-source-view.mod-cm6 .cm-table-widget table tbody tr:hover {
+  background: #f2f6fc;
+}
