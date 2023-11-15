@@ -1462,3 +1462,8 @@ a[href*="obsidian://search"] {
 .markdown-source-view.mod-cm6 .cm-table-widget table tbody tr:hover {
   background: #f2f6fc;
 }
+
+/* fix callout icon 与标题没有对齐 */
+.callout-title {
+  align-items: center;
+}
