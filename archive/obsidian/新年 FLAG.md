@@ -1,5 +1,4 @@
 
-
 ```gray
 使用 > [!multi-column] 启用分栏功能
 

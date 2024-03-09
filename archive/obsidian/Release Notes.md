@@ -1,5 +1,6 @@
 未发布的功能与需求，了解更多详情请查阅:  [[CSS code snippets]]  ~~beta~~
 ## 👏 新增功能
+
 > [!ob-example] 已实现的功能  *stable*
 > - 多样式“提示块”
 > - 图片并列显示
@@ -8,7 +9,9 @@
 > - 自动 fetch url 标题并填充为 markdown 格式
 > - 以卡片形式显示 inbox 中待整理的笔记
 > - 笔记分栏布局
+
 ## ✍ 个性化修改
+
 > [!purple]
 >下面的需求已全部实现并添加进主题中，详见：obsidian_orange.css
 

@@ -12,11 +12,9 @@ orange 分栏功能是在 [obsidian-modular-css-layout](https://github.com/efemk
 - `MCL Multi Column.css` 以及 `MCL Wide Views.css` 代码片段。
 - columns.css（orange 自定义分栏模块）
 
-
 > [!warning] 注意
 > - 默认模式下每行最多有 5 个分栏模块（可通过 `--callout-min-width` 进行修改）且是响应式的
 >- 超过将继续按每行 5 个分栏模块进行自适应
-
 
 ## ✍  分栏案例演示
 > 想知道更多分栏实现细节请参考：`.obsidian/snippets/columns.css`

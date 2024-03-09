@@ -1,16 +1,19 @@
 {
-  "baseFontSize": 30,
-  "cssTheme": "obsidian-minimal",
-  "theme": "obsidian",
+  "baseFontSize": 27,
+  "cssTheme": "Minimal",
+  "theme": "moonstone",
   "enabledCssSnippets": [
-    "obsidian_orange",
-    "MCL Wide Views",
     "MCL Multi Column",
-    "image-grid",
-    "iconfont",
     "columns",
-    "highlight colors"
+    "highlight colors",
+    "iconfont",
+    "obsidian_orange"
   ],
   "translucency": false,
-  "accentColor": "#0a59f7"
+  "accentColor": "#0a59f6",
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Inter",
+  "monospaceFontFamily": "Inter",
+  "baseFontSizeAction": true,
+  "nativeMenus": true
 }

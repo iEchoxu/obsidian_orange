@@ -1,5 +1,5 @@
 ##  🎉  obsidian_orange 是什么？
-- obsidian_orange 是一款基于 `minimal theme ` 定制的主题（**已适配 Obsidian V1.4.16**）。
+- obsidian_orange 是一款基于 [obsidian_minimal](https://github.com/kepano/obsidian-minimal) 定制的主题。
 
 ##  📝  obsidian_orange 实现了什么功能？
 - 多样式“提示块”
@@ -12,16 +12,23 @@
 
 ## 🧩  推荐安装的插件
 - [obsidian-dataview](https://github.com/blacksmithgu/obsidian-dataview) （推荐安装）
-- [obsidian-excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)  (推荐安装)
 - [obsidian-style-settings](https://github.com/mgmeyers/obsidian-style-settings) （非必须）
 - [obsidian-folder-note-plugin](https://github.com/xpgo/obsidian-folder-note-plugin)  （inbox 视图需要此插件，非必须）
-- [obsidian-admonition](https://github.com/valentine195/obsidian-admonition) （Obsidian 的 callout blocks 可替代此插件，不再推荐）
 
 ## ⁉  如何使用 ?
-- 下载本项目
-- 用 obsidian 打开 obsidian_orange
-- 仔细阅读 `Start Here` 文件，想查看具体语法如何使用可打开 `编辑模式`，这样就可查看完整的语法使用技巧。
-- **本主题已不再使用 Admonition 插件，请谨慎升级**。
+- 先去下载 [obsidian_minimal](https://github.com/kepano/obsidian-minimal) 主题
+- 再下载本库 `.obsidian/snippets` 里的 `obsidian_orange.css` 并启用
+- 接下来就可以使用了
+- 具体语法请通过如下操作进行查看: 
+	- 下载本项目
+	- 用 obsidian 打开本项目
+	- 仔细阅读 `Start Here` 文件，想查看具体语法如何使用可打开 `编辑模式`，这样就可查看完整的语法使用技巧。
+##  更新日志
+- 2024/3/9 
+	- 去除了 ` img-grid.css` 以及 `MCL Wide Views.css` ，功能依然可以使用
+	- 将多个 CSS 片段合并为 `0bsidian_orange.css`
+	- 支持 Obsidian V1.5.8 以及 Obsidian_minimal V7.5.2
+	- 修复了一些样式 bug，如：字体样式、表格样式、标题样式、暗黑模式下的配色重定义等
 ## FAQ
 - Admonition v9.05 无法适配 Obsidian v1.0.3？
 	- 本主题已放弃使用 Admonition 插件，转而使用 Ob 自带的 Callout Blocks 来实现分栏以及高亮块等功能，如果非要使用 Admonition 请选择 v6.9.5 版本并开启 `column-ad` 代码片段。
@@ -31,6 +38,10 @@
 - 不显示主标题：不选中 **设置--->外观--->Advanced---> Show inline title**。
 
 ## 🎨  效果预览
+
+Obsidian V1.5.8 效果图如下:
+
+![obv1.5.8](./images/obv1.5.8.png)
 
 obsidian v1.3.4 效果图：
 

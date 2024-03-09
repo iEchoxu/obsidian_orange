@@ -15,5 +15,7 @@
   },
   "foldIndent": true,
   "livePreview": true,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "showIndentGuide": true,
+  "tabSize": 4
 }

@@ -1,6 +1,5 @@
 > 在 `obsidian_orange.css` 中可找到修改菜单 icon 的代码，下面的只是示例代码。
 
-</br>
 
 > [!ob-note] 修改菜单操作步骤
 > - 去 [iconpark](https://iconpark.oceanengine.com/official) 找到自己喜欢的图标,然后“复制为 svg 代码”

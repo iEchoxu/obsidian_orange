@@ -1,4 +1,6 @@
 [
+  "dataview",
+  "obsidian-excalidraw-plugin",
   "folder-note-plugin",
-  "dataview"
+  "obsidian-hider"
 ]

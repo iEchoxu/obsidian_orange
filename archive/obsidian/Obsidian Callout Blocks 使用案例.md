@@ -6,6 +6,7 @@
 - note、abstract、info、todo、tip、success、question
 - warning、failure、danger、bug、example、quote
 ## callout 默认显示效果
+
 > [!INFO]
 > 这是 callout blocks
 
@@ -92,7 +93,6 @@
 > - 测试 ur list
 > - test ur list
 
-
 > [!ob-tip]- ob-tip
 > 我是 ob-tip
 > 
@@ -140,6 +140,7 @@
 > 
 > - 测试 ur list
 > - test ur list
+
 ### 使用 callout 实现高亮块功能
 > [!orange]
 > 测试内容*重要*

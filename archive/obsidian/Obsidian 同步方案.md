@@ -1,5 +1,6 @@
 ---
-cssclass: column
+cssclasses:
+  - column
 ---
 
 > 本文介绍的是除官方的 obsidian sync 以外的同步方案，本文只提供思路，不会提供具体的操作步骤。
@@ -39,6 +40,7 @@ cssclass: column
 >> - Windows 上开启局域网共享，Android 设备上通过自带的文件管理器利用webDAV 进行连接，未测试。
 
 <p></p>
+
 > [!multi-column]
 > 
 >> [!col-lightorange] PC（Windows、Mac、Linux） To ios
