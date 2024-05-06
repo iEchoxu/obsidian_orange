@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Home.md"
               }
             }
           },
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "Home.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,18 +197,18 @@
   },
   "active": "b5dfb7271374b8b6",
   "lastOpenFiles": [
-    "inbox/inbox.md",
-    "inbox/ToDo.md",
     "README.md",
-    "inbox/().md",
     "Start Here.md",
-    "images/obv1.5.8.png",
     "Home.md",
     "archive/obsidian/在 Obsidian 中使用分栏.md",
-    "archive/obsidian/让图片排版更加美观.md",
-    "archive/obsidian/并列显示多个图片.md",
-    "archive/obsidian/我是怎样记笔记的.md",
     "archive/obsidian/Obsidian Callout Blocks 使用案例.md",
+    "inbox/inbox.md",
+    "archive/obsidian/并列显示多个图片.md",
+    "archive/obsidian/让图片排版更加美观.md",
+    "inbox/ToDo.md",
+    "inbox/().md",
+    "images/obv1.5.8.png",
+    "archive/obsidian/我是怎样记笔记的.md",
     "archive/obsidian/文本高亮与高亮块.md",
     "archive/obsidian/标签设计.md",
     "archive/obsidian/直观显示待整理的笔记.md",
