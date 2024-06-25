@@ -1,12 +1,13 @@
 {
-  "baseFontSize": 27,
+  "baseFontSize": 30,
   "cssTheme": "Minimal",
   "theme": "moonstone",
   "enabledCssSnippets": [
     "MCL Multi Column",
     "columns",
     "highlight colors",
-    "iconfont"
+    "iconfont",
+    "theme"
   ],
   "translucency": false,
   "accentColor": "#0a59f6",

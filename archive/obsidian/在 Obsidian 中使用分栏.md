@@ -1,16 +1,14 @@
 
 ```
 1：分栏功能需要 callout blocks 才能实现，要求 Obsidian 版本大于 v0.14；
-2：开启 MCL Multi Column.css 以及 MCL Wide Views.css 代码片段；
-3: 开启 columns.css（orange 自定义分栏模块）；
-4: 不需要在文章开头添加 yaml 语法 cssclass: column；
+2: 不需要在文章开头添加 yaml 语法 cssclass: column；
 ```
 
 ## 📙 分栏介绍
 orange 分栏功能是在 [obsidian-modular-css-layout](https://github.com/efemkay/obsidian-modular-css-layout) 基础上添加的，所以需要开启 ：
 
-- `MCL Multi Column.css` 以及 `MCL Wide Views.css` 代码片段。
-- columns.css（orange 自定义分栏模块）
+- `MCL Multi Column.css` 以及 `MCL Wide Views.css` 代码片段 (已将相关代码合并到了 obsidian_orange.css 中)。
+
 
 > [!warning] 注意
 > - 默认模式下每行最多有 5 个分栏模块（可通过 `--callout-min-width` 进行修改）且是响应式的
@@ -47,6 +45,8 @@ orange 分栏功能是在 [obsidian-modular-css-layout](https://github.com/efemk
 > >> 展示用五栏实现的案例
 > >
 >>案例1：[[健身计划]]
+
+
 
 <hr>
 

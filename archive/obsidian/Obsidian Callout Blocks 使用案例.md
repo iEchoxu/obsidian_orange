@@ -3,6 +3,7 @@
 用 `> [! 类型]` 即可使用 callout blocks 功能，**注意：每行内容前面都必须添加 `>`**
 
 **有如下类型可供使用：**
+
 - note、abstract、info、todo、tip、success、question
 - warning、failure、danger、bug、example、quote
 ## callout 默认显示效果
