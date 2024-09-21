@@ -15,7 +15,7 @@ orange 分栏功能是在 [obsidian-modular-css-layout](https://github.com/efemk
 
 ## ✍  分栏案例演示
 
-> 想知道更多分栏实现细节请参考：`.obsidian/snippets/columns.css` 修改此处为源码路径
+> 想知道更多分栏实现细节请参考：[columns.scss](https://github.com/iEchoxu/obsidian_orange_src/blob/main/src/scss/features/columns.scss)
 
 
 > [!multi-column]
