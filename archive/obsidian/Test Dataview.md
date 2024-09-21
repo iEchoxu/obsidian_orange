@@ -1,9 +1,9 @@
-
-<br>
+---
+cssclasses: []
+---
 
 
 下面是用 dataview 查询 inbox 文件夹下所有文件用 list 显示：
-
 ```dataview
 list from "inbox"
 ```

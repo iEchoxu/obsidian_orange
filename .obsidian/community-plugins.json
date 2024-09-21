@@ -1,6 +1,7 @@
 [
   "dataview",
+  "obsidian-hider",
   "obsidian-excalidraw-plugin",
-  "folder-note-plugin",
-  "obsidian-hider"
+  "obsidian-minimal-settings",
+  "obsidian-style-settings"
 ]

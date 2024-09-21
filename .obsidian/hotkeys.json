@@ -1,110 +1,20 @@
 {
-  "editor:toggle-code": [
+  "graph:open-local": [
     {
       "modifiers": [
         "Mod",
         "Shift"
       ],
-      "key": "C"
+      "key": "G"
     }
   ],
-  "editor:toggle-strikethrough": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "D"
-    }
-  ],
-  "editor:insert-tag": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "T"
-    }
-  ],
-  "editor:swap-line-down": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "ArrowDown"
-    }
-  ],
-  "editor:swap-line-up": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "ArrowUp"
-    }
-  ],
-  "editor:toggle-highlight": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "H"
-    }
-  ],
-  "obsidian-admonition:insert-mypurple-with-title": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "M"
-    }
-  ],
-  "zk-prefixer": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "Z"
-    }
-  ],
-  "editor:insert-wikilink": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "L"
-    }
-  ],
-  "app:go-forward": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "ArrowRight"
-    }
-  ],
-  "app:go-back": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "ArrowLeft"
-    }
-  ],
-  "editor:set-heading": [
+  "canvas:new-file": [
     {
       "modifiers": [
         "Alt",
         "Mod"
       ],
-      "key": "H"
+      "key": "W"
     }
   ]
 }

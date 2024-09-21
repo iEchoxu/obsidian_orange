@@ -1,64 +1,39 @@
 {
   "main": {
-    "id": "88e98366c600db4c",
+    "id": "e903d1d285ad469d",
     "type": "split",
     "children": [
       {
-        "id": "d5205978d5485dd5",
+        "id": "2d3034dcef381604",
         "type": "tabs",
         "children": [
           {
-            "id": "f0b7dbe083c27b42",
+            "id": "5a29e04f0fbdad23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Start Here.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b91d803a69e5d649",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "6f66c9f70e90c2fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "archive/obsidian/ToDo List 案例演示.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "7d11dcab7c85335c",
+    "id": "b0f31576ae8999c9",
     "type": "split",
     "children": [
       {
-        "id": "891220373de3d4b3",
+        "id": "3e2f33a89d1dd3d9",
         "type": "tabs",
         "children": [
           {
-            "id": "57a103ed41c77638",
+            "id": "c650db5cc2967385",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -68,12 +43,12 @@
             }
           },
           {
-            "id": "bb7740d5f5747fa8",
+            "id": "c9d707fad790f1cf",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#state/done🎉",
+                "query": "tag:#state/to-do✨",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,18 +58,7 @@
             }
           },
           {
-            "id": "6f7aed654ef2c31e",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "aa0be7d6a23a69d2",
+            "id": "40e073d146af7bcf",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -105,51 +69,62 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 278.5
   },
   "right": {
-    "id": "a36b553e5f43291e",
+    "id": "59d94a599fe9437c",
     "type": "split",
     "children": [
       {
-        "id": "e71e363dba595f1c",
+        "id": "729992a13359de40",
         "type": "tabs",
         "children": [
           {
-            "id": "fc2938739d2177ef",
+            "id": "c1520bc9228da19a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "README.md"
               }
             }
           },
           {
-            "id": "0e4e512d95f0947f",
+            "id": "cd849516fc9a65cf",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
+              "type": "tag",
               "state": {
-                "file": "Home.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ad1d9e49eab6cb30",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
         ]
       },
       {
-        "id": "19ca144d9848a3f0",
+        "id": "bb57dd1da39690f9",
         "type": "tabs",
         "children": [
           {
-            "id": "34c5e4c33b333d4e",
+            "id": "3b9a37829e3ef537",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Home.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -163,43 +138,62 @@
                   "collapse-color-groups": false,
                   "colorGroups": [
                     {
-                      "query": "path:archive",
+                      "query": "path:V1/archive  ",
                       "color": {
                         "a": 1,
                         "rgb": 3189583
                       }
+                    },
+                    {
+                      "query": "path:专栏  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14069084
+                      }
                     }
                   ],
-                  "collapse-display": true,
+                  "collapse-display": false,
                   "showArrow": true,
-                  "textFadeMultiplier": -0.3,
-                  "nodeSizeMultiplier": 1.13444444444444,
-                  "lineSizeMultiplier": 0.894548611111111,
-                  "collapse-forces": true,
-                  "centerStrength": 0.304255319148936,
-                  "repelStrength": 3.61702127659575,
-                  "linkStrength": 0.482978723404255,
-                  "linkDistance": 167,
-                  "scale": 0.7455258372398913,
+                  "textFadeMultiplier": -2.3,
+                  "nodeSizeMultiplier": 1.00709342560554,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.6316921590654506,
                   "close": true
                 }
               }
             }
           },
           {
-            "id": "78268fa8d82b644c",
+            "id": "5716e56cab1e0316",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
-                "collapseAll": false,
+                "file": "README.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "80293abbc369d0db",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -207,66 +201,70 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:新建白板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
       "zk-prefixer:创建时间戳笔记": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "b91d803a69e5d649",
+  "active": "5a29e04f0fbdad23",
   "lastOpenFiles": [
+    "images/ob_highlight_code.png",
     "README.md",
-    "Start Here.md",
-    "images/v1.6.3_start.png",
-    "images/v1.6.3_column_dark.png",
-    "images/v1.6.3-column.png",
+    "images/ob_img_grid_dark.png",
+    "images/ob_img_grid.png",
+    "images/ob_column_1.png",
+    "images/ob_column-light.png",
+    "images/ob_temp.png",
+    "images/ob_temp_dark.png",
+    "images/ob_github_badge.png",
+    "images/ob_note.png",
+    "images/ob_badge.png",
+    "archive/obsidian/多个分栏进行组合.md",
+    "archive/obsidian/MCL  Column.css 语法.md",
+    "archive/obsidian/在 Obsidian 中使用分栏.md",
+    "archive/obsidian/Start Here.md",
+    "Home.md",
+    "archive/obsidian/我的待办.md",
+    "archive/obsidian/新年 FLAG.md",
+    "archive/obsidian/我的观影记录.md",
+    "archive/obsidian/确定写作风格，封装笔记模板.md",
+    "archive/obsidian/ToDo List 案例演示.md",
     "archive/obsidian/让图片排版更加美观.md",
     "archive/obsidian/并列显示多个图片.md",
-    "archive/obsidian/分栏语法小 tips.md",
-    "Home.md",
-    "archive/obsidian/多个分栏进行组合.md",
-    "archive/obsidian/分栏组合案例2.md",
-    "archive/obsidian/分栏组合案例1.md",
+    "archive/obsidian/常见问题列表.md",
+    "archive/obsidian/插件推荐.md",
+    "archive/obsidian/我是怎样记笔记的.md",
+    "archive/obsidian/跨终端查看 Obsidian 笔记.md",
+    "archive/obsidian/Obsidian 同步方案.md",
     "archive/obsidian/orange 自定义的分栏模块.md",
+    "archive/obsidian/分栏语法小 tips.md",
     "archive/obsidian/自定义的分栏模块组合.md",
-    "archive/obsidian/MCL  Column.css 语法.md",
     "archive/obsidian/obsidian callout 组合.md",
-    "archive/obsidian/在 Obsidian 中使用分栏.md",
     "archive/obsidian/文本横排显示.md",
     "archive/obsidian/健身计划.md",
-    "archive/obsidian/我的观影记录.md",
-    "archive/obsidian/我的待办.md",
     "archive/obsidian/带有颜色高亮的笔记备注.md",
-    "archive/obsidian/给笔记添加备注.md",
-    "archive/obsidian/新年 FLAG.md",
-    "archive/obsidian/ToDo List 案例演示.md",
-    "archive/obsidian/确定写作风格，封装笔记模板.md",
-    "archive/obsidian/我是怎样记笔记的.md",
-    "archive/obsidian/Obsidian Callout Blocks 使用案例.md",
-    "images/obv1.5.8.png",
-    "css_back/src/orange/color/variables.scss",
-    "css_back/src/orange/color/light.scss",
-    "css_back/src/orange/back/theme.scss",
-    "css_back/src/orange/color/dark.scss",
-    "css_back/src/orange/back/root.scss",
-    "css_back/src/orange/back/adaptive-font-size.scss",
-    "css_back/src/orange/back/dynamic-color.scss",
-    "css_back/src/ienote/color/variables.scss",
-    "css_back/src/ienote/color/light.scss",
-    "css_back/src/ienote/color/dark.scss",
-    "docs/favicon-128x128.png",
-    "docs/Images/dev-mode.gif",
-    "docs/Images/cover.png",
-    "docs/Images/minimal-tab-underline.png",
-    "docs/Images/minimal-tab-square.png",
-    "docs/Images/minimal-tab-modern.png",
-    "inbox/测试白板功能.canvas"
+    "inbox/TODO.canvas",
+    "images/release-img",
+    "images/新建文件夹",
+    "images/settings",
+    "config/style-settings",
+    "config/image",
+    "Test",
+    "config",
+    "Tests.canvas",
+    "Test.canvas",
+    "Minimal Docs/Publish",
+    "Minimal Docs/Plugins",
+    "Minimal Docs/Images"
   ]
 }

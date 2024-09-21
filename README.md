@@ -1,29 +1,55 @@
 ##  🎉  obsidian_orange 是什么？
+
 - obsidian_orange 是一款基于 [obsidian_minimal](https://github.com/kepano/obsidian-minimal) 定制的主题。
 
 ##  📝  obsidian_orange 实现了什么功能？
+
 - 多样式“提示块”
 - 图片并列显示
 - 高亮块 & 文本多颜色高亮
 - 徽章（Badge）：在标题或文本的右上角添加状态信息
-- 自动 fetch url 标题并填充为 markdown 格式
-- 以卡片形式显示 inbox 中待整理的笔记
-- 笔记分栏：在 [obsidian-modular-css-layout](https://github.com/efemkay/obsidian-modular-css-layout) 基础上添加了自定义分栏模块
-
-## 🧩  推荐安装的插件
-- [obsidian-dataview](https://github.com/blacksmithgu/obsidian-dataview) （推荐安装）
-- [obsidian-style-settings](https://github.com/mgmeyers/obsidian-style-settings) （非必须）
-- [obsidian-folder-note-plugin](https://github.com/xpgo/obsidian-folder-note-plugin)  （inbox 视图需要此插件，非必须）
+- 分栏：在 [obsidian-modular-css-layout](https://github.com/efemkay/obsidian-modular-css-layout) 基础上添加了自定义分栏模块
 
 ## ⁉  如何使用 ?
-- 先去下载 [obsidian_minimal](https://github.com/kepano/obsidian-minimal) 主题
-- 再下载本库 `.obsidian/snippets` 里的 `obsidian_orange.css` 并启用
-- 接下来就可以使用了
-- 具体语法请通过如下操作进行查看: 
-	- 下载本项目
-	- 用 obsidian 打开本项目
-	- 仔细阅读 `Start Here` 文件，想查看具体语法如何使用可打开 `编辑模式`，这样就可查看完整的语法使用技巧。
-##  更新日志
+
+- 先去下载 [obsidian_minimal](https://github.com/kepano/obsidian-minimal) 主题并启用该主题
+- 下载如下插件:
+	- [obsidian-style-settings](https://github.com/mgmeyers/obsidian-style-settings) （必须）
+	- obsidian-hider （必须）
+	- obsidian-minimal-settings （必须）
+	- 可选插件：
+		- [obsidian-dataview](https://github.com/blacksmithgu/obsidian-dataview) （推荐安装）
+		- Excalidraw （推荐安装）
+- 下载 obsidian_orange 示例库并启用该示例库 `.obsidian/snippets` 里的 `obsidian_orange.css` 代码片段
+
+
+> [!info] 用 obsidian 打开本项目， 仔细阅读 `Start Here` 文件，想查看具体语法可打开 `编辑模式`。
+
+
+##  📅 更新日志
+
+- 2024/9/21：<span style="color: rgb(216, 57, 49);padding: 5px 5px">注意：此次更新可能会导致一些样式无法显示，请谨慎更新。</span>
+	- **适配了 Obsidian V1.6.7**
+	- 插件及主题更新：
+		- 升级 Minimal 主题为: 8.1.1
+		- MCL Multi Column.css 更新到了 0.10.0
+	- 源码优化:  
+		- 目录结构：依照 Minimal 主题目录结构进行调整
+		- **代码精简：删除了重复的样式定义（主要涉及分栏、高亮块以及 callout）以及非必须的代码**
+		- 颜色系统：使用 TDesign 新增了 Design Token 来适配 Light 以及 Dark 下的样式
+	- bugFix:
+		- table 选中时无法显示表格内容
+		- Github Badge 样式错误
+		- 编辑视图下 callout 中的 > 符号不显示
+		- 文本并列显示样式错误
+	- 样式修改：
+		- **使用 Style Settings 插件管理主题配色**:  配置文件路径:  `config/style_settings.json` ,可在 Style Settings 插件中导入
+		- 界面布局调整：tabs 以及目录树等样式修改
+		- callout 精简与样式设计：
+			- 重新设计了  `success、info、warning、error、tip`  等默认 Callout 样式
+			- **新增了 border callout**
+			- **删除了所有以 ob- 开头的 callout**
+			- 精简高亮块样式：**删除了所有以 ob-light 开头的高亮块**
 - 2024/6/25
 	- 支持 Obsidian V1.6.3 及 Obsidian_minimal V7.7.3
 	- MCL Multi Column.css 更新到了 0.9.9
@@ -32,94 +58,100 @@
 	- 将多个 CSS 片段合并为 `0bsidian_orange.css`
 	- 支持 Obsidian V1.5.8 以及 Obsidian_minimal V7.5.2
 	- 修复了一些样式 bug，如：字体样式、表格样式、标题样式、暗黑模式下的配色重定义等
-## FAQ
-- Admonition v9.05 无法适配 Obsidian v1.0.3？
-	- 本主题已放弃使用 Admonition 插件，转而使用 Ob 自带的 Callout Blocks 来实现分栏以及高亮块等功能，如果非要使用 Admonition 请选择 v6.9.5 版本并开启 `column-ad` 代码片段。
-- 关闭 obsidian 1.0.3 所见即所得：**设置---> 编辑器---> 通用--->默认编辑模式** 选择 **源码模式**。
-- 关闭 obsidian 0.13.14 所见即所得：选中 **设置---> 编辑器---> use legecy editor**。
-- 修改默认内容区宽度：不选中 **设置---> 编辑器---> 显示---> 缩减栏宽**，本主题已修改内容区宽度。
-- 不显示主标题：不选中 **设置--->外观--->Advanced---> Show inline title**。
+
+##  ❓ FAQ
+
+- 无法实现与 obsidian_orange 相同的显示效果: 
+	- 检查 `.obsidian/snippets` 里的 `obsidian_orange.css` 代码片段是否启用
+	- 检查 `config/style_settings.json` 是否导入到 style settings 插件中
+	- 参考 `config/image` 文件夹中的图片对 obsidian 进行配置
+	- 检查 `.obsidian/plugins` 里的插件配置信息是否复制到 `.obsidian/plugins` 下
+	- 是否下载 HarmonyOS Sans SC 以及 JetBrains Mono 字体（非必须）。
+	-  **Quick Start: 先下载 obsidian_orange 示例库，再在该库中添加笔记文件。**
+
+## Links
+
+如果你想修改 obsidian_orange 样式，请移步 **[源码地址](https://github.com/iEchoxu/obsidian_orange_src)** ，然后自行编译。
 
 ## 🎨  效果预览
 
-Obsidian V1.6.3 效果图如下:
+Obsidian V1.6.7 效果预览:
 
-![obv1.5.8](./images/v1.6.3_start.png)
+### 主页
 
-![obv1.5.8](./images/v1.6.3-column.png)
+![ob_home](images/ob_home.png)
 
-![obv1.5.8](./images/v1.6.3_column_dark.png)
+![ob_home_dark](images/ob_home_dark.png)
 
-Obsidian V1.5.8 效果图如下:
+![ob_starthere](images/ob_starthere.png)
 
-![obv1.5.8](./images/obv1.5.8.png)
-
-obsidian v1.3.4 效果图：
-
-![obsidian_backlinks](./images/obsidiannewdesing.png)
+![ob_starthere_dark](images/ob_starthere_dark.png)
 
 
-![obsidian_orange_pic](./images/obv1.3.4.png)
-![obsidian_orange_pic](./images/obsidianv1.3.4.png)
-![obsidian_orange_pic](./images/obv1.3.4-1.png)
-![obsidian_orange_pic](./images/obv1.3.4-2.png)
+### 提醒
 
-ob v1.0.9 效果图：
-![obsidian_orange_home](./images/ob-home.png)
-![obsidian_orange_home](./images/ob-inbox.png)
-![obsidian_orange_home](./images/ob-starthere.png)
-![obsidian_orange_home](./images/ob-fenlan.png)
-![obsidian_orange_home](./images/ob-fenlan-dark.png)
+![ob_callout](images/ob_callouts.png)
 
-ob v0.15 效果图：
-![obsidian_orange_home](./images/obsidian-home.png)
+![ob_highlight_code](images/ob_highlight_code.png)
 
-![obsidian_darktheme](./images/darktheme.png)
+![ob_badge](images/ob_badge.png)
 
-![obsidian_orange_startHere](./images/obsidian_starthere.png)
+![ob_github_badge](images/ob_github_badge.png)
 
-![obsidian_orange-Release_Notes](./images/obsidian-release.png)
+### 分栏
 
-![obsidian_release1](./images/obsidian-release1.png)
+![ob-column](images/ob_column-light.png)
 
-![obsidian_inbox](./images/inbox.png)
+![ob-column](images/ob_column_1.png)
 
-![obsidian_badge](./images/obsidian-badge.png)
+![ob-column](images/ob_column_2.png)
 
-![obsidian_hbgtext](./images/obsidian-hbgtext.png)
+![ob-column](images/ob_column_3.png)
 
-![obsidian_hblock](./images/obsidian-hblock.png)
+![ob-column](images/ob_column_4.png)
 
-![obsidian_img](./images/obsidian-img.png)
+![ob-column](images/ob_column_5.png)
 
-![obsidian_img1](./images/obsidian-img1.png)
+![ob-column](images/ob_column_6.png)
 
-![obsidian_table](./images/obsidian-table.png)
+![ob-column](images/ob_column_7.png)
 
-![obsidian_todo](./images/obsidian-todo.png)
+![ob-column](images/ob_column_8.png)
 
-![obsidian_column](./images/fenlan.png)
+![ob-column](images/ob_column_9.png)
 
-![obsidian_column1](./images/fenlan1.png)
+![ob-column_dark](images/ob_column_dark.png)
 
-![obsidian_column2](./images/fenlan2.png)
+![ob-column_dark](images/ob_column_dark1.png)
 
-![obsidian_column3](./images/fenlan3.png)
+![ob-column_dark](images/ob_column_dark2.png)
 
-![obsidian_column4](./images/fenlan4.png)
+![ob-column_dark](images/ob_column_dark3.png)
 
-![obsidian_column5](./images/fenlan5.png)
+### 表格
 
-![obsidian_column6](./images/fenlan6.png)
+![ob_table](images/ob_table.png)
 
-![obsidian_column7](./images/fenlan7.png)
+### TODO
 
-![obsidian_column8](./images/fenlan8.png)
+![ob_todo](images/ob_todo.png)
 
-![obsidian_column9](./images/fenlan9.png)
+![ob_todo_dark](images/ob_todo_dark.png)
 
-![obsidian_column10](./images/fenlan10.png)
+### img-grid
 
-![obsidian_darktheme-column11](./images/fenlan11.png)
+![ob_img_grid](images/ob_img_grid.png)
 
+![ob_img_grid_dark](images/ob_img_grid_dark.png)
 
+### 其它
+
+![how to note](images/ob_note.png)
+
+![key](images/ob_quick.png)
+
+![ob_sync](images/ob_sync.png)
+
+![template](images/ob_temp.png)
+
+![template](images/ob_temp_dark.png)

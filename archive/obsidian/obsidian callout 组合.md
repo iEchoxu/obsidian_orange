@@ -47,17 +47,14 @@
 >
 >> [!note]+ Work
 >> your notes or lists here. using markdown formatting
->> 
 >> 我是个平常的人，我不能盼望在人海中值得你一转眼的注意。
 > 
 >> [!warning]+ Personal
 >> your notes or lists here. using markdown formatting
->> 
 >> 我是个平常的人，我不能盼望在人海中值得你一转眼的注意。
 >
 >> [!summary]+ Charity
 >> your notes or lists here. using markdown formatting
->> 
 >> 我是个平常的人，我不能盼望在人海中值得你一转眼的注意。
 
 > [!multi-column]

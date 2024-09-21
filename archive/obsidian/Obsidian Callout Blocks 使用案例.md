@@ -1,63 +1,167 @@
+
 >  从 Obsidian 0.14 开始支持 callout blocks ，通过此语法可实现类似 Admonition 提示块功能。
+
 ## callout blocks 语法介绍
+
 用 `> [! 类型]` 即可使用 callout blocks 功能，**注意：每行内容前面都必须添加 `>`**
 
 **有如下类型可供使用：**
 
 - note、abstract、info、todo、tip、success、question
 - warning、failure、danger、bug、example、quote
-## callout 默认显示效果
 
-> [!INFO]
-> 这是 callout blocks
+## 自定义 callout 默认样式
 
-> [!Note]
-> 这是 callout blocks
 
-> [!abstract]
-> 这是 callout blocks
+> [!info] 用 obsidian 打开本项目， 仔细阅读 `Start Here` 文件，想查看具体语法可打开 `编辑模式`，这样就可查看完整的语法==使用技巧==，内部链接：[[Obsidian Callout Blocks 使用案例]]，外部链接：[Obsidian_Orange](https://github.com/iEchoxu/obsidian_orange) 
 
-> [!todo]
-> 这是 callout blocks
+> [!info]+ info | note
+> 用 obsidian 打开本项目， 仔细阅读 `Start Here` 文件，想查看具体语法可打开 `编辑模式`，这样就可查看完整的语法==使用技巧==，内部链接：[[Obsidian Callout Blocks 使用案例]]，外部链接：[Obsidian_Orange](https://github.com/iEchoxu/obsidian_orange)
+> - 测试无序列表
+> - 继续测试无序列表
+>> - 测试二级菜单
+> 
+> 测试段落内容
+> `测试行内代码`
+> 又是一个段落测试内容 <span class="tip">tip: 重要</span>  <span class="info">info: 重要</span>  <span class="warning">warning: 重要</span> <span class="danger">danger: 重要</span>
+> 1. 测试有序列表
+> 2. 继续测试有序列表
+> 3. ==测试高亮==
+>
+>> 测试引用
 
-> [!tip]
-> 这是 callout blocks
 
-> [!success]
-> 这是 callout blocks
+> [!tip] 用 obsidian 打开本项目， 仔细阅读 `Start Here` 文件，想查看具体语法可打开 `编辑模式`，这样就可查看完整的语法==使用技巧==，内部链接：[[Obsidian Callout Blocks 使用案例]]，外部链接：[Obsidian_Orange](https://github.com/iEchoxu/obsidian_orange) 
 
-> [!question]
-> 这是 callout blocks
+> [!tip]- Tips
+> 用 obsidian 打开本项目， 仔细阅读 `Start Here` 文件，想查看具体语法可打开 `编辑模式`，这样就可查看完整的语法==使用技巧==，内部链接：[[Obsidian Callout Blocks 使用案例]]，外部链接：[Obsidian_Orange](https://github.com/iEchoxu/obsidian_orange)
+> - 测试无序列表
+> - 继续测试无序列表
+> 
+> 测试段落内容
+> `测试行内代码`
+> 又是一个段落测试内容
+> 1. 测试有序列表
+> 2. 继续测试有序列表
+> 3. ==测试高亮==
+> 4. **测试文字粗体**
 
-> [!warning]
-> 这是 callout blocks
+> [!success] 用 obsidian 打开本项目， 仔细阅读 `Start Here` 文件，想查看具体语法可打开 `编辑模式`，这样就可查看完整的语法==使用技巧==，内部链接：[[Obsidian Callout Blocks 使用案例]]，外部链接：[Obsidian_Orange](https://github.com/iEchoxu/obsidian_orange)
 
-> [!failure]
-> 这是 callout blocks
+> [!success]+
+> 用 obsidian 打开本项目， 仔细阅读 `Start Here` 文件，想查看具体语法可打开 `编辑模式`，这样就可查看完整的语法==使用技巧==，内部链接：[[Obsidian Callout Blocks 使用案例]]，外部链接：[Obsidian_Orange](https://github.com/iEchoxu/obsidian_orange)
+> - 测试无序列表
+> - 继续测试无序列表
+> 
+> 测试段落内容
+> `测试行内代码`
+> 又是一个段落测试内容
+> 1. 测试有序列表
+> 2. 继续测试有序列表
+> 3. ==测试高亮==
 
-> [!danger]
-> 这是 callout blocks
+> [!warning]-
+> 用 obsidian 打开本项目， 仔细阅读 `Start Here` 文件，想查看具体语法可打开 `编辑模式`，这样就可查看完整的语法==使用技巧==，内部链接：[[Obsidian Callout Blocks 使用案例]]，外部链接：[Obsidian_Orange](https://github.com/iEchoxu/obsidian_orange)
+> - 测试无序列表
+> - 继续测试无序列表
+> 
+> 测试段落内容
+> `测试行内代码`
+> 又是一个段落测试内容
+> 1. 测试有序列表
+> 2. 继续测试有序列表
+> 3. ==测试高亮==
 
-> [!bug]
-> 这是 callout blocks
+> [!error]-
+> 用 obsidian 打开本项目， 仔细阅读 `Start Here` 文件，想查看具体语法可打开 `编辑模式`，这样就可查看完整的语法==使用技巧==，内部链接：[[Obsidian Callout Blocks 使用案例]]，外部链接：[Obsidian_Orange](https://github.com/iEchoxu/obsidian_orange)
+> - 测试无序列表
+> - 继续测试无序列表
+> 
+> 测试段落内容
+> `测试行内代码`
+> 又是一个段落测试内容
+> 1. 测试有序列表
+> 2. 继续测试有序列表
+> 3. ==测试高亮==
 
-> [!example]
-> 这是 callout blocks
 
-> [!quote]
-> 这是 callout blocks
+> [!multi-column]
+> 
+>> [!border] 我的待办 <span class="tip">tip: 重要</span>
+>> 这是一个测试内容
+> >案例1：[[新年 FLAG]]
+> >案例2：[[给笔记添加备注]]
+>> 案例3：[[带有颜色高亮的笔记备注]]
+>> 另外的测试信息
+>> [测试链接](https://www.baidu.com)
+>> - 这是一条测试信息
+>> - 还是一条测试信息   <span class="info">info: 重要</span> 
+>>> - 测试二级菜单
+>> 
+>> 这是一个测试内容
+>>> 测试引用
+>> `This is a inline code`
+>> ==测试文字高亮==
+>
+>> [!border] TODO  <span class="warning">warning: 重要</span>
+>> 这是一个测试内容
+>> 案例1：[[我的待办]]
+>> 案例2：[[健身计划]]
+>> 案例3：[[ToDo]]
+>> 另外的测试信息
+>> [测试链接](https://www.baidu.com)
+>> - 这是一条测试信息  <span class="danger">danger: 重要</span>
+>> - 还是一条测试信息
+>> 
+>> 这是一个测试内容
+>> `This is a inline code`
+>> **测试文字粗体**
+
+
+
+> [!example] 我的待办 <span class="tip">tip: 重要</span> 
+> 这是一个测试内容
+> 案例1：[[新年 FLAG]]
+> 案例2：[[给笔记添加备注]]
+> 案例3：[[带有颜色高亮的笔记备注]]
+> 另外的测试信息
+> [测试链接](https://www.baidu.com)
+> - 这是一条测试信息  <span class="info">info: 重要</span>  <span class="warning">warning: 重要</span> <span class="danger">danger: 重要</span>
+> - 还是一条测试信息
+>> - 测试二级菜单
+> 
+> 这是一个测试内容
+> `This is a inline code test`
+> ==文字高亮==
+>> 测试引用
+
+
 
 ## 使用进阶
+
+
 > [!info] Callouts Title，可修改此处标题
 > 这是 callout blocks
+
+> [!info] Callouts Title: 只写标题不写内容
 
 > [!note]- Callouts Title，可折叠展开
 > 这是 callout blocks，我可以折叠展开
 
 > [!info] Can callouts be nested? 可嵌套
-> > [!todo] Yes!, they can.
-> > > [!note] You can even use multiple layers of nesting.
+> > [!tip] Yes!, they can.
+> > > [!success] You can even use multiple layers of nesting.
+
+
+> [!info] 测试代码块
+> ```go
+> func main() {
+> 	fmt.Println("Hello")
+> }
+> ```
+
 ## 自定义 callout blocks
+
 可用如下代码对 callout 进行自定义：
 
 ```css
@@ -69,82 +173,12 @@
 }
 ```
 
-### 自定义的 callout blocks 显示效果
-> [!ob-example]- ob-example
-> 我是 ob-example
-> 
-> 我是 ob-example
-> 
-> - 测试 ur list
-> - test ur list
-
-> [!ob-info]- ob-info
-> 我是 ob-info
-> 
-> 我是 ob-info
-> 
-> - 测试 ur list
-> - test ur list
-
-> [!ob-note]- ob-note
-> 我是 ob-note
-> 
-> 我是 ob-note
-> 
-> - 测试 ur list
-> - test ur list
-
-> [!ob-tip]- ob-tip
-> 我是 ob-tip
-> 
-> 我是 ob-tip
-> 
-> - 测试 ur list
-> - test ur list
-
-> [!ob-success]- ob-success
-> 我是 ob-success
-> 
-> 我是 ob-success
-> 
-> - 测试 ur list
-> - test ur list
-
-> [!ob-question]- ob-question
-> 我是 ob-question
-> 
-> 我是 ob-question
-> 
-> - 测试 ur list
-> - test ur list
-
-> [!ob-warning]- ob-warning
-> 我是 ob-warning
-> 
-> 我是 ob-warning
-> 
-> - 测试 ur list
-> - test ur list
-
-> [!ob-failure]- ob-failure
-> 我是 ob-failure
-> 
-> 我是 ob-failure
-> 
-> - 测试 ur list
-> - test ur list
-
-> [!ob-quote] ob-quote
-> 我是 ob-quote
-> 
-> 我是 ob-quote
-> 
-> - 测试 ur list
-> - test ur list
 
 ### 使用 callout 实现高亮块功能
+
+
 > [!orange]
-> 测试内容*重要*
+> 🎁 测试内容
 > 
 > `测试行内代码`
 > 
@@ -154,39 +188,36 @@
 > - <font style="background: rgb(253, 226, 226); font-weight: 500; color: rgb(216, 57, 49)">显示有背景的文本高亮</font>
 > - [开始在 GitHub 上编写和格式化 - GitHub Docs](https://docs.github.com/cn/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)，我也可输入 URL 链接
 > - [[ToDo]]
-
-
-> [!light-orange]
-> 测试内容
+>> - 测试二级菜单
+>
+>> 测试引用
 
 > [!blue]
-> 测试内容
-
-> [!light-blue]
-> 测试内容
+> 🎇 用 obsidian 打开本项目， 仔细阅读 `Start Here` 文件，想查看具体语法可打开 `编辑模式`，这样就可查看完整的语法==使用技巧==，内部链接：[[Obsidian Callout Blocks 使用案例]]，外部链接：[Obsidian_Orange](https://github.com/iEchoxu/obsidian_orange)
+> - 测试无序列表
+> - 继续测试无序列表
+>> - 测试二级菜单
+> 
+> 测试段落内容
+> `测试行内代码`
+> 又是一个段落测试内容 <span class="tip">tip: 重要</span>  <span class="info">info: 重要</span>  <span class="warning">warning: 重要</span> <span class="danger">danger: 重要</span>
+> 1. 测试有序列表
+> 2. 继续测试有序列表
+> 3. ==测试高亮==
 
 > [!red]
-> 测试内容
-
-> [!light-red]
-> 测试内容
+> 🏅 用 obsidian 打开本项目， 仔细阅读 `Start Here` 文件，想查看具体语法可打开 `编辑模式`，这样就可查看完整的语法==使用技巧==，内部链接：[[Obsidian Callout Blocks 使用案例]]，外部链接：[Obsidian_Orange](https://github.com/iEchoxu/obsidian_orange)
 
 > [!green]
-> 测试内容
-
-> [!light-green]
-> 测试内容
+> 🎁 用 obsidian 打开本项目， 仔细阅读 `Start Here` 文件，想查看具体语法可打开 `编辑模式`，这样就可查看完整的语法==使用技巧==，内部链接：[[Obsidian Callout Blocks 使用案例]]，外部链接：[Obsidian_Orange](https://github.com/iEchoxu/obsidian_orange)
 
 > [!purple]
-> 测试内容
+> 🎀 用 obsidian 打开本项目， 仔细阅读 `Start Here` 文件，想查看具体语法可打开 `编辑模式`，这样就可查看完整的语法==使用技巧==，内部链接：[[Obsidian Callout Blocks 使用案例]]，外部链接：[Obsidian_Orange](https://github.com/iEchoxu/obsidian_orange)
 
-> [!light-purple]
-> 测试内容
+> [!normal]
+> 🏅 用 obsidian 打开本项目， 仔细阅读 `Start Here` 文件，想查看具体语法可打开 `编辑模式`，这样就可查看完整的语法==使用技巧==，内部链接：[[Obsidian Callout Blocks 使用案例]]，外部链接：[Obsidian_Orange](https://github.com/iEchoxu/obsidian_orange)
 
-> [!gray]
-> 测试内容
 
-> [!light-gray]
-> 测试内容
 ## 参考
+
 - [callout blocks 官方介绍](https://help.obsidian.md/How+to/Use+callouts)

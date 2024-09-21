@@ -1,21 +1,14 @@
 {
-  "foldHeading": true,
-  "defaultViewMode": "preview",
-  "promptDelete": false,
-  "alwaysUpdateLinks": true,
-  "strictLineBreaks": true,
-  "fileSortOrder": "alphabetical",
+  "showInlineTitle": false,
+  "strictLineBreaks": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "inbox",
-  "pdfExportSettings": {
-    "pageSize": "Letter",
-    "landscape": false,
-    "margin": "0",
-    "downscalePercent": 100
-  },
-  "foldIndent": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "showRibbon": false,
+  "showIndentGuide": true,
   "livePreview": true,
   "readableLineLength": true,
-  "showIndentGuide": true,
-  "tabSize": 4
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "images",
+  "newFileFolderPath": "inbox"
 }

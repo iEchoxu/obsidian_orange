@@ -1,19 +1,24 @@
 {
-  "baseFontSize": 30,
-  "cssTheme": "Minimal",
   "theme": "moonstone",
+  "cssTheme": "Minimal",
   "enabledCssSnippets": [
-    "MCL Multi Column",
+    "callout",
     "columns",
-    "highlight colors",
-    "iconfont",
-    "theme"
+    "highlight",
+    "links",
+    "tag",
+    "codeblock",
+    "tasklist",
+    "graph",
+    "overide",
+    "obsidian_orange"
   ],
-  "translucency": false,
-  "accentColor": "#0a59f6",
-  "interfaceFontFamily": "Inter",
-  "textFontFamily": "Inter",
-  "monospaceFontFamily": "Inter",
-  "baseFontSizeAction": true,
-  "nativeMenus": true
+  "nativeMenus": true,
+  "baseFontSizeAction": false,
+  "baseFontSize": 14,
+  "interfaceFontFamily": "HarmonyOS Sans SC",
+  "textFontFamily": "HarmonyOS Sans SC",
+  "monospaceFontFamily": "HarmonyOS Sans SC,JetBrains Mono",
+  "accentColor": "#0052d9",
+  "showViewHeader": true
 }
