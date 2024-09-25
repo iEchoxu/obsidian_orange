@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "archive/obsidian/obsidian tips.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "archive/obsidian/obsidian tips.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "archive/obsidian/obsidian tips.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -174,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "archive/obsidian/obsidian tips.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "archive/obsidian/obsidian tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,15 +218,15 @@
   },
   "active": "aa0c25128209ca3f",
   "lastOpenFiles": [
+    "archive/obsidian/我是怎样记笔记的.md",
+    "archive/obsidian/Start Here.md",
     "Home.md",
     "README.md",
     "inbox/TODO.canvas",
     "inbox/ToDo.md",
     "archive/obsidian/并列显示多个图片.md",
     "archive/obsidian/让图片排版更加美观.md",
-    "archive/obsidian/Start Here.md",
     "archive/obsidian/obsidian tips.md",
-    "archive/obsidian/我是怎样记笔记的.md",
     "archive/obsidian/在大纲笔记中添加代码块.md",
     "archive/obsidian/常见问题列表.md",
     "inbox/Bug Fix.md",

@@ -87,6 +87,9 @@ Obsidian V1.6.7 效果预览:
 
 ![ob_starthere_dark](images/ob_starthere_dark.png)
 
+### 案例
+
+![ob_example](images/ob_example.png)
 
 ### 提醒
 
